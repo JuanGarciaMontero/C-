@@ -1,0 +1,15 @@
+C:\Users\Acer\source\repos\Usos_Arrays\Usos_Arrays\bin\Debug\net6.0\Usos_Arrays.exe
+C:\Users\Acer\source\repos\Usos_Arrays\Usos_Arrays\bin\Debug\net6.0\Usos_Arrays.deps.json
+C:\Users\Acer\source\repos\Usos_Arrays\Usos_Arrays\bin\Debug\net6.0\Usos_Arrays.runtimeconfig.json
+C:\Users\Acer\source\repos\Usos_Arrays\Usos_Arrays\bin\Debug\net6.0\Usos_Arrays.dll
+C:\Users\Acer\source\repos\Usos_Arrays\Usos_Arrays\bin\Debug\net6.0\Usos_Arrays.pdb
+C:\Users\Acer\source\repos\Usos_Arrays\Usos_Arrays\obj\Debug\net6.0\Usos_Arrays.csproj.AssemblyReference.cache
+C:\Users\Acer\source\repos\Usos_Arrays\Usos_Arrays\obj\Debug\net6.0\Usos_Arrays.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Acer\source\repos\Usos_Arrays\Usos_Arrays\obj\Debug\net6.0\Usos_Arrays.AssemblyInfoInputs.cache
+C:\Users\Acer\source\repos\Usos_Arrays\Usos_Arrays\obj\Debug\net6.0\Usos_Arrays.AssemblyInfo.cs
+C:\Users\Acer\source\repos\Usos_Arrays\Usos_Arrays\obj\Debug\net6.0\Usos_Arrays.csproj.CoreCompileInputs.cache
+C:\Users\Acer\source\repos\Usos_Arrays\Usos_Arrays\obj\Debug\net6.0\Usos_Arrays.dll
+C:\Users\Acer\source\repos\Usos_Arrays\Usos_Arrays\obj\Debug\net6.0\refint\Usos_Arrays.dll
+C:\Users\Acer\source\repos\Usos_Arrays\Usos_Arrays\obj\Debug\net6.0\Usos_Arrays.pdb
+C:\Users\Acer\source\repos\Usos_Arrays\Usos_Arrays\obj\Debug\net6.0\Usos_Arrays.genruntimeconfig.cache
+C:\Users\Acer\source\repos\Usos_Arrays\Usos_Arrays\obj\Debug\net6.0\ref\Usos_Arrays.dll
