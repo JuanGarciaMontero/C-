@@ -1,0 +1,15 @@
+C:\Users\Acer\source\repos\OPP_Ejercicio\bin\Debug\net6.0\OPP_Ejercicio.exe
+C:\Users\Acer\source\repos\OPP_Ejercicio\bin\Debug\net6.0\OPP_Ejercicio.deps.json
+C:\Users\Acer\source\repos\OPP_Ejercicio\bin\Debug\net6.0\OPP_Ejercicio.runtimeconfig.json
+C:\Users\Acer\source\repos\OPP_Ejercicio\bin\Debug\net6.0\OPP_Ejercicio.dll
+C:\Users\Acer\source\repos\OPP_Ejercicio\bin\Debug\net6.0\OPP_Ejercicio.pdb
+C:\Users\Acer\source\repos\OPP_Ejercicio\obj\Debug\net6.0\OPP_Ejercicio.csproj.AssemblyReference.cache
+C:\Users\Acer\source\repos\OPP_Ejercicio\obj\Debug\net6.0\OPP_Ejercicio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Acer\source\repos\OPP_Ejercicio\obj\Debug\net6.0\OPP_Ejercicio.AssemblyInfoInputs.cache
+C:\Users\Acer\source\repos\OPP_Ejercicio\obj\Debug\net6.0\OPP_Ejercicio.AssemblyInfo.cs
+C:\Users\Acer\source\repos\OPP_Ejercicio\obj\Debug\net6.0\OPP_Ejercicio.csproj.CoreCompileInputs.cache
+C:\Users\Acer\source\repos\OPP_Ejercicio\obj\Debug\net6.0\OPP_Ejercicio.dll
+C:\Users\Acer\source\repos\OPP_Ejercicio\obj\Debug\net6.0\refint\OPP_Ejercicio.dll
+C:\Users\Acer\source\repos\OPP_Ejercicio\obj\Debug\net6.0\OPP_Ejercicio.pdb
+C:\Users\Acer\source\repos\OPP_Ejercicio\obj\Debug\net6.0\OPP_Ejercicio.genruntimeconfig.cache
+C:\Users\Acer\source\repos\OPP_Ejercicio\obj\Debug\net6.0\ref\OPP_Ejercicio.dll

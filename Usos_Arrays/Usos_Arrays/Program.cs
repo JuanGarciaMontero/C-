@@ -41,7 +41,7 @@ namespace Usos_Arrays
 
             Empleados Ana = new Empleados("Ana", 27);
 
-            Empleados[] arrayEmpleados = new Empleados[3];
+            Empleados [] arrayEmpleados = new Empleados[3];
 
             arrayEmpleados[0] = new Empleados("Sara", 37);
 
@@ -50,7 +50,7 @@ namespace Usos_Arrays
             arrayEmpleados[2] = new Empleados("Manuel", 22);
 
 
-            // arrays de tipos o clases anónimos
+            // arrays de tipos o clases anónimas
 
             var personas = new[]
             {
