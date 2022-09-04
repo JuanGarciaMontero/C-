@@ -1,0 +1,15 @@
+C:\Users\Acer\source\CS\Clases_Abstractas\bin\Debug\net6.0\Clases_Abstractas.exe
+C:\Users\Acer\source\CS\Clases_Abstractas\bin\Debug\net6.0\Clases_Abstractas.deps.json
+C:\Users\Acer\source\CS\Clases_Abstractas\bin\Debug\net6.0\Clases_Abstractas.runtimeconfig.json
+C:\Users\Acer\source\CS\Clases_Abstractas\bin\Debug\net6.0\Clases_Abstractas.dll
+C:\Users\Acer\source\CS\Clases_Abstractas\bin\Debug\net6.0\Clases_Abstractas.pdb
+C:\Users\Acer\source\CS\Clases_Abstractas\obj\Debug\net6.0\Clases_Abstractas.csproj.AssemblyReference.cache
+C:\Users\Acer\source\CS\Clases_Abstractas\obj\Debug\net6.0\Clases_Abstractas.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Acer\source\CS\Clases_Abstractas\obj\Debug\net6.0\Clases_Abstractas.AssemblyInfoInputs.cache
+C:\Users\Acer\source\CS\Clases_Abstractas\obj\Debug\net6.0\Clases_Abstractas.AssemblyInfo.cs
+C:\Users\Acer\source\CS\Clases_Abstractas\obj\Debug\net6.0\Clases_Abstractas.csproj.CoreCompileInputs.cache
+C:\Users\Acer\source\CS\Clases_Abstractas\obj\Debug\net6.0\Clases_Abstractas.dll
+C:\Users\Acer\source\CS\Clases_Abstractas\obj\Debug\net6.0\refint\Clases_Abstractas.dll
+C:\Users\Acer\source\CS\Clases_Abstractas\obj\Debug\net6.0\Clases_Abstractas.pdb
+C:\Users\Acer\source\CS\Clases_Abstractas\obj\Debug\net6.0\Clases_Abstractas.genruntimeconfig.cache
+C:\Users\Acer\source\CS\Clases_Abstractas\obj\Debug\net6.0\ref\Clases_Abstractas.dll
