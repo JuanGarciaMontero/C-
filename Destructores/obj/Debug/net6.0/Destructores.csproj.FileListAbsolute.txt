@@ -1,0 +1,15 @@
+C:\Users\Acer\source\repos\Destructores\bin\Debug\net6.0\Destructores.exe
+C:\Users\Acer\source\repos\Destructores\bin\Debug\net6.0\Destructores.deps.json
+C:\Users\Acer\source\repos\Destructores\bin\Debug\net6.0\Destructores.runtimeconfig.json
+C:\Users\Acer\source\repos\Destructores\bin\Debug\net6.0\Destructores.dll
+C:\Users\Acer\source\repos\Destructores\bin\Debug\net6.0\Destructores.pdb
+C:\Users\Acer\source\repos\Destructores\obj\Debug\net6.0\Destructores.csproj.AssemblyReference.cache
+C:\Users\Acer\source\repos\Destructores\obj\Debug\net6.0\Destructores.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Acer\source\repos\Destructores\obj\Debug\net6.0\Destructores.AssemblyInfoInputs.cache
+C:\Users\Acer\source\repos\Destructores\obj\Debug\net6.0\Destructores.AssemblyInfo.cs
+C:\Users\Acer\source\repos\Destructores\obj\Debug\net6.0\Destructores.csproj.CoreCompileInputs.cache
+C:\Users\Acer\source\repos\Destructores\obj\Debug\net6.0\Destructores.dll
+C:\Users\Acer\source\repos\Destructores\obj\Debug\net6.0\refint\Destructores.dll
+C:\Users\Acer\source\repos\Destructores\obj\Debug\net6.0\Destructores.pdb
+C:\Users\Acer\source\repos\Destructores\obj\Debug\net6.0\Destructores.genruntimeconfig.cache
+C:\Users\Acer\source\repos\Destructores\obj\Debug\net6.0\ref\Destructores.dll
