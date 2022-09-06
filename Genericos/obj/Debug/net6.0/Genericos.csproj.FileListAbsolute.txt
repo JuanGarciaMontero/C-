@@ -1,0 +1,15 @@
+C:\Users\Acer\source\repos\Genericos\bin\Debug\net6.0\Genericos.exe
+C:\Users\Acer\source\repos\Genericos\bin\Debug\net6.0\Genericos.deps.json
+C:\Users\Acer\source\repos\Genericos\bin\Debug\net6.0\Genericos.runtimeconfig.json
+C:\Users\Acer\source\repos\Genericos\bin\Debug\net6.0\Genericos.dll
+C:\Users\Acer\source\repos\Genericos\bin\Debug\net6.0\Genericos.pdb
+C:\Users\Acer\source\repos\Genericos\obj\Debug\net6.0\Genericos.csproj.AssemblyReference.cache
+C:\Users\Acer\source\repos\Genericos\obj\Debug\net6.0\Genericos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Acer\source\repos\Genericos\obj\Debug\net6.0\Genericos.AssemblyInfoInputs.cache
+C:\Users\Acer\source\repos\Genericos\obj\Debug\net6.0\Genericos.AssemblyInfo.cs
+C:\Users\Acer\source\repos\Genericos\obj\Debug\net6.0\Genericos.csproj.CoreCompileInputs.cache
+C:\Users\Acer\source\repos\Genericos\obj\Debug\net6.0\Genericos.dll
+C:\Users\Acer\source\repos\Genericos\obj\Debug\net6.0\refint\Genericos.dll
+C:\Users\Acer\source\repos\Genericos\obj\Debug\net6.0\Genericos.pdb
+C:\Users\Acer\source\repos\Genericos\obj\Debug\net6.0\Genericos.genruntimeconfig.cache
+C:\Users\Acer\source\repos\Genericos\obj\Debug\net6.0\ref\Genericos.dll
