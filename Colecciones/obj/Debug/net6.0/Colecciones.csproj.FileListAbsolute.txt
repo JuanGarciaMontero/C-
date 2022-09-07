@@ -1,0 +1,15 @@
+C:\Users\Acer\source\repos\Colecciones\bin\Debug\net6.0\Colecciones.exe
+C:\Users\Acer\source\repos\Colecciones\bin\Debug\net6.0\Colecciones.deps.json
+C:\Users\Acer\source\repos\Colecciones\bin\Debug\net6.0\Colecciones.runtimeconfig.json
+C:\Users\Acer\source\repos\Colecciones\bin\Debug\net6.0\Colecciones.dll
+C:\Users\Acer\source\repos\Colecciones\bin\Debug\net6.0\Colecciones.pdb
+C:\Users\Acer\source\repos\Colecciones\obj\Debug\net6.0\Colecciones.csproj.AssemblyReference.cache
+C:\Users\Acer\source\repos\Colecciones\obj\Debug\net6.0\Colecciones.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Acer\source\repos\Colecciones\obj\Debug\net6.0\Colecciones.AssemblyInfoInputs.cache
+C:\Users\Acer\source\repos\Colecciones\obj\Debug\net6.0\Colecciones.AssemblyInfo.cs
+C:\Users\Acer\source\repos\Colecciones\obj\Debug\net6.0\Colecciones.csproj.CoreCompileInputs.cache
+C:\Users\Acer\source\repos\Colecciones\obj\Debug\net6.0\Colecciones.dll
+C:\Users\Acer\source\repos\Colecciones\obj\Debug\net6.0\refint\Colecciones.dll
+C:\Users\Acer\source\repos\Colecciones\obj\Debug\net6.0\Colecciones.pdb
+C:\Users\Acer\source\repos\Colecciones\obj\Debug\net6.0\Colecciones.genruntimeconfig.cache
+C:\Users\Acer\source\repos\Colecciones\obj\Debug\net6.0\ref\Colecciones.dll
