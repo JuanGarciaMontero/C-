@@ -1,0 +1,15 @@
+C:\Users\Acer\source\repos\ExpresionesRegulares\bin\Debug\net6.0\ExpresionesRegulares.exe
+C:\Users\Acer\source\repos\ExpresionesRegulares\bin\Debug\net6.0\ExpresionesRegulares.deps.json
+C:\Users\Acer\source\repos\ExpresionesRegulares\bin\Debug\net6.0\ExpresionesRegulares.runtimeconfig.json
+C:\Users\Acer\source\repos\ExpresionesRegulares\bin\Debug\net6.0\ExpresionesRegulares.dll
+C:\Users\Acer\source\repos\ExpresionesRegulares\bin\Debug\net6.0\ExpresionesRegulares.pdb
+C:\Users\Acer\source\repos\ExpresionesRegulares\obj\Debug\net6.0\ExpresionesRegulares.csproj.AssemblyReference.cache
+C:\Users\Acer\source\repos\ExpresionesRegulares\obj\Debug\net6.0\ExpresionesRegulares.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Acer\source\repos\ExpresionesRegulares\obj\Debug\net6.0\ExpresionesRegulares.AssemblyInfoInputs.cache
+C:\Users\Acer\source\repos\ExpresionesRegulares\obj\Debug\net6.0\ExpresionesRegulares.AssemblyInfo.cs
+C:\Users\Acer\source\repos\ExpresionesRegulares\obj\Debug\net6.0\ExpresionesRegulares.csproj.CoreCompileInputs.cache
+C:\Users\Acer\source\repos\ExpresionesRegulares\obj\Debug\net6.0\ExpresionesRegulares.dll
+C:\Users\Acer\source\repos\ExpresionesRegulares\obj\Debug\net6.0\refint\ExpresionesRegulares.dll
+C:\Users\Acer\source\repos\ExpresionesRegulares\obj\Debug\net6.0\ExpresionesRegulares.pdb
+C:\Users\Acer\source\repos\ExpresionesRegulares\obj\Debug\net6.0\ExpresionesRegulares.genruntimeconfig.cache
+C:\Users\Acer\source\repos\ExpresionesRegulares\obj\Debug\net6.0\ref\ExpresionesRegulares.dll

@@ -1,0 +1,15 @@
+C:\Users\Acer\source\repos\Delegados\bin\Debug\net6.0\Delegados.exe
+C:\Users\Acer\source\repos\Delegados\bin\Debug\net6.0\Delegados.deps.json
+C:\Users\Acer\source\repos\Delegados\bin\Debug\net6.0\Delegados.runtimeconfig.json
+C:\Users\Acer\source\repos\Delegados\bin\Debug\net6.0\Delegados.dll
+C:\Users\Acer\source\repos\Delegados\bin\Debug\net6.0\Delegados.pdb
+C:\Users\Acer\source\repos\Delegados\obj\Debug\net6.0\Delegados.csproj.AssemblyReference.cache
+C:\Users\Acer\source\repos\Delegados\obj\Debug\net6.0\Delegados.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Acer\source\repos\Delegados\obj\Debug\net6.0\Delegados.AssemblyInfoInputs.cache
+C:\Users\Acer\source\repos\Delegados\obj\Debug\net6.0\Delegados.AssemblyInfo.cs
+C:\Users\Acer\source\repos\Delegados\obj\Debug\net6.0\Delegados.csproj.CoreCompileInputs.cache
+C:\Users\Acer\source\repos\Delegados\obj\Debug\net6.0\Delegados.dll
+C:\Users\Acer\source\repos\Delegados\obj\Debug\net6.0\refint\Delegados.dll
+C:\Users\Acer\source\repos\Delegados\obj\Debug\net6.0\Delegados.pdb
+C:\Users\Acer\source\repos\Delegados\obj\Debug\net6.0\Delegados.genruntimeconfig.cache
+C:\Users\Acer\source\repos\Delegados\obj\Debug\net6.0\ref\Delegados.dll
