@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using System.Diagnostics;
 
 namespace Primera_Interface
 {
@@ -86,8 +87,21 @@ namespace Primera_Interface
         {
             //Console.WriteLine("Le has dado al botón!");
 
-            MessageBox.Show("Le has dado al botón de nuevo!");
+            //MessageBox.Show("Le has dado al botón de nuevo!");
 
+            Console.WriteLine("Le has dado al boton 2");
+
+        }
+
+       /* private void Panel_Click(object sender, RoutedEventArgs e)
+        { 
+            Console.WriteLine("Le has dado al panel");
+        }*/
+
+
+        private void Panel_PreviewMouseLeftButtonDown(object sender, MouseButtonEventArgs e)
+        {
+            Console.WriteLine("Le has dado al panel");
         }
     }
 }

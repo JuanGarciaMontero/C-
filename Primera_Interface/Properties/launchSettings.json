@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "Primera_Interface": {
+      "commandName": "Project",
+      "hotReloadEnabled": true,
+      "nativeDebugging": false,
+      "jsWebView2Debugging": false
+    }
+  }
+}
