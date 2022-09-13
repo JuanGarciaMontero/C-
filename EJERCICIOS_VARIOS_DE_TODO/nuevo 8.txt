@@ -1,0 +1,11 @@
+Explica con tus palabras en qué consiste el proceso de overclocking y qué ventajas e inconvenientes tiene.
+
+
+El Overclocking es aumentar la frecuencia del reloj del microprocesador para obtener mayor velocidad en realizar operaciones. Este aumento en la frecuencia del reloj del microprocesador daria mayores prestaciones tanto en CPU como en GPU y demás componentes. Generalmente se usa para no tener que cambiar el microprocesador de ordenador y asi poder usar el mismo en determinados programas o juegos que necesitan muchos recursos. El microprocesador tiene un numero de ciclos del reloj que el fabricante certifica para un funcionamiento equilibrado del mismo. El fabricante tambien nos dá el máximo valor de la velocidad del reloj del microprocesador que puede soportor el componente (microprocesador). La ventajas serían tener mayor de rapidez en operaciones de programas y en cuanto a la tarjeta gráfica poderla utilizar con programas o juegos que requieran mayor solicitud de procesamiento. El inconveniente de realizar overclocking es la perdida de garantia del producto, ya que el fabricante no se responsabiliza de un mal funcionamiento del componente si se sobrepasa la frecuencia de reloj recomendada, además tendríamos mayor temperatura en la CPU y GPU, por lo que tendríamos que aumentar los mecanismos de disipación de calor o disminucion de temperatura.
+
+
+
+
+Describe los elementos principales de un procesador.
+
+Se compone de la unidad Aritmético-lógica o ALU encargada de realizar los cálculos y decisiones lógicas; y la Únidad de Control o UC, que organizan las intrucciones mandadas a la memoria principal a través de distintos buses por donde fluye la información. La combinacion de la unidad Aritmético-Lógica y la Únidad de Control forma el CPU o microprocesador. 

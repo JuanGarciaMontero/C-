@@ -1,0 +1,8 @@
+Imagina que en tu empresa de desarrollo de aplicaciones web te solicitan un servicio. Detalla cuáles serían los documentos que intervendrían en todo el proceso y que posibles medios ofrecerías a tu cliente para que te realizaran el pago de tus servicios.
+
+Habría que prepara un documento de pedido de servicios. En el podríamos los datos identificativos de la empresa,(en este caso al ser autónomo indicaría mi nombre, dirección de mi casa, tlf, DNI, etc) los datos del comprador(en este caso el nombre de la empresa que me solicita realizar una página web en el que incluimos la dirección de la empresa, teléfono, CIF, etc...), fecha actual, la relación de los productos que se venden (en nuestro caso seria una breve explicación de la realización de la página web que me ha solicitado la empresa), número de pedido, precio y forma de pago.
+
+Una vez tramitada la página web realizaríamos un documento mercantil llamado albarán donde se acredita la entrega de la página web a la empresa que la ha solicitado.(Numero albarán, pedido al que se relaciona, datos de la empresa, fecha, unidades, etc...)
+
+Posteriormente tendríamos que realizar su correspondiente factura que es un documenta que acredita el pago total por la realización de la página web. (número de factura, referencia con el pedido o albarán, mis datos como autónomo, datos completos de la empresa, fecha, detalle de la página web, importe bruto, descuento e impuestos aplicados (impuesto IVA 21%) y total de la factura.
+

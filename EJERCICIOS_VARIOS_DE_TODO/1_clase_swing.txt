@@ -1,0 +1,57 @@
+Si quieres mas información sobre swing: https://elvex.ugr.es/decsai/java/pdf/D1-swing.pdf
+
+package Clase21Abril;
+import java.awt.*;
+import javax.swing.*;
+import javax.swing.JFrame;
+
+public class MiPrimeraVentana extends JFrame {
+
+    //Creamos el constructor
+      MiPrimeraVentana(){
+      mostrarGUI();
+
+     }
+     
+     private void mostrarGUI() {
+      //fijando posición x,y
+      setLocation(500,100);
+      //fijando tamaño
+      setSize(600,300);
+      //Estableciendo título
+      setTitle("Hola Programador@");
+      
+     }
+     
+         
+     
+
+     public static void main(String[] args) {
+     
+       MiPrimeraVentana v= new MiPrimeraVentana();
+       v.setVisible(true);
+       
+       /*Para crear directamente otro Frame desde la superclase(JFrame)
+       JFrame v2 = new JFrame("hola");
+       v2.setLocation(1000,700);
+       v2.setSize(600,300);
+       v2.setVisible(true);*/
+       
+       
+       MiPrimeraVentana r= new MiPrimeraVentana();
+       r.setLocation(1000,700);
+       r.setSize(600,300);
+       //r.setBackground(Color.BLUE); Para colores ya fijados
+       r.getContentPane().setBackground(new Color(204,204,204));//Colores que queramos
+       r.setVisible(true);
+       r.setLayout(null);
+       
+       JButton bton = new JButton("Dale!");
+           bton.setSize(200,50);
+           r.add(bton);       
+           
+       JButton bton2 = new JButton("aupa");
+        //bton2.setSize(600,300);
+           bton2.setBounds(0,100,60,30);//Asi añadimos la localización y el tamaño
+           r.add(bton2);
+           }     

@@ -1,0 +1,725 @@
+TEMA 1: RECONOCIMIENTO DE LAS CARACTERÍSTICAS DEL LENGUAJE DE MARCAS.
+
+El lenguaje de marcado o de marcas es una forma de codificar un documento que, junto con el
+texto, incorpora etiquetas o marcas que contienen información adicional acerca de la estructura
+del texto o su presentación.
+
+Los documentos formados mediante estos lenguajes de marcas pueden ser entonces visualiza-
+dos por un navegador web (o web browser en inglés). Los navegadores son aplicativos de soft-
+ware que se instalan en nuestros entornos para entrar en la red de redes y para poder muestrear
+la información que se encuentra en las diferentes páginas webs.
+
+Un ejemplo de etiqueta sería el siguiente:
+<h1 alingn="left"> Hola caracola </h1>
+etiqueta atributo elemento etiqueta
+
+Reglas que no deben saltarse:
+- La inmensa mayoría de todas las etiquetas deben abrirse y cerrarse con la información
+del elemento. 
+- Si se utilizan varias etiquetas, estas deben cerrarse en el orden en que se abrieron.
+
+Años 60.IBM desarrolló un nuevo lenguaje de marcas que pasó a
+denominar como GML. la información pudiera ser visualizada en cualquier dispositivo sin perder su formato original.
+
+Años 80.GML pasó a las manos de ISO (International Standard Organization)
+y sufrió la evolución a lo que se conoce como SGML.
+SGML es de software libre y su código es abierto. Es un metalenguaje.
+
+Un ejemplo de SGML muy famoso sería el válido para HTML, pero acortándolo a un
+vocabulario de etiquetas menor:
+<html>
+<head><title>Mi página de caracolas</title></head>
+<body>
+<p>Hola caracola</p>
+<p>Aquí tienes mi caracola</p>
+</body>
+</html>
+Dado este ejemplo validamos un sistema de reglas y un vocabulario específico para ser usado dicho SGML.
+
+W3C es una comunidad y organismo internacional no lucrativo que se encarga de desarrollar los estándares
+para asegurar el crecimiento de la Web 2.0 y las aplicaciones Web a largo plazo.
+
+Los lenguajes de marcas se suelen clasificar en tres tipos:
+
+a. De presentación. Indican el formato que puede tener el texto. Ejemplos: RTF, TeX, Docbook.
+
+b. Descriptivo, estructural o semántico. Indica las partes en las que se estructura un
+documento, muchas veces sin realizar la especificación de cómo se deben representar o en el orden específico en que se muestren. Ejemplos:
+• YAML
+• XML
+• ASN.1
+
+c. Híbrido. Una mezcla de los dos tipos vistos anteriormente. Ejemplos: HTML, XHTML.
+
+▶ Tecnologías de la red de redes:
+• HTML, XHTML -> Páginas web
+• RSS, Atom -> Sindicación de contenidos
+• WSDL, SOAP, UDDI -> Servicios web
+▶ Documentación electrónica:
+• YAML
+• ASN.1
+• DocBook
+• TeX
+▶ De propósito específico:
+• SVG, VML, X3D -> Gráficos vectoriales
+• XSLT -> Transformación de documentos
+• GML -> Información geográfica
+• XTM -> Mapas conceptuales
+
+Los ficheros en texto plano son aquellos formados exclusivamente por caracteres o bloques
+de texto.
+
+Hay una clara diferencia con los archivos binarios, que pueden contener otros elementos mul-
+timedia como pueden ser imágenes, programas,etc...
+
+El lenguaje o código de caracteres según el idioma, encoding. 
+▶ UTF-8
+▶ ASCII
+▶ ISO-8859-15
+
+Los documentos son interpretados de diferentes maneras dependiendo del dispositivo final que vaya a interpretarlos.
+
+
+2 LENGUAJES PARA LA VISUALIZACIÓN DE INFORMACIÓN.
+
+DOM es el acrónimo de Document Object Model o Modelo de Objetos de Documento. Se trata
+de una API (Application Programming Interfaces o Interfaz de Programación de Aplicaciones), capaz de acceder, gestionar y manipular los ficheros XML.
+
+La interfaz Node es el elemento principal y representa el nodo de un árbol.
+
+Node nunca se instancia directamente, pero como es la interfaz de la que todas
+heredan, es la que permite extraer información de cualquier otro objeto que se encuentre en
+el árbol sin necesidad de que se conozca su tipo.
+
+Los atributos principales que se pueden encontrar en un Node son los siguientes:
+- nodeName: Texto que contiene el nombre del nodo.
+- nodeValue: Texto que contiene el valor del nodo.
+- parentNode: El objeto que contiene la referencia al que sería el nodo padre.
+- childNodes: Objeto que contiene las referencias a todos los nodos hijos.
+- firstChild: Objeto que contiene la referencia al primer hijo.
+- lastChild: Objeto que contiene la referencia al último hijo.
+- previousSibling: Objeto que contiene la referencia al hermano anterior.
+- nextSibling: Objeto que contiene la referencia al hermano posterior.
+- attributes: La lista de los atributos con sus respectivos valores.
+- namespaceURI: Texto que contiene la URI con el espacio de nombres.
+- prefix: Texto que contiene el prefijo del espacio de nombres.
+- localName: Texto que contiene el nombre local del nodo
+
+Los métodos principales que se pueden encontrar en un Node son los siguientes:
+- hasAttributes: Booleano (cuyo valor oscila entre verdadero o falso) que indica
+si el nodo tiene atributos (verdadero) o no (falso).
+- insertBefore: Inserta otro nodo antes del actual.
+- newChild: Añade un hijo al nodo actual.
+- removeChild: Elimina el hijo específico del nodo actual.
+- cloneNode: Clona un nodo.
+
+Inicialmente HTML (Hyper Text Markup Language) se creó con el objetivo de ser usado para la
+formación de páginas web. Dentro de cada página web se puede encontrar, entre otras cosas,
+lo siguiente:
+▶ Texto
+▶ Contenido multimedia
+▶ Enlaces o hipervínculos a otras páginas
+▶ Imágenes
+
+Por eso se puede definir una página web también como:
+El resultado de un navegador al interpretar un documento HTML concreto.
+
+▶ <html>. Raíz del documento. Todas las demás están contenidas dentro de ella.
+▶ <head>. Etiqueta que representa y contiene la información de cabecera del documento.
+▶ <body>. Etiqueta que representa al “cuerpo” del HTML, donde estará estructurada toda
+la información correspondiente a la página y que se deberá visualizar correctamente dentro del navegador web.
+
+La cabecera consta de los siguientes contenidos:
+▶ <title>. Indica el sitio web en la barra del navegador.
+▶ <base>. Indica la dirección que se considera raíz del sitio web.
+▶ <meta>. Indica otras propiedades que puede tener el documento como pudieran ser:
+• Autor
+• Tipo de contenido
+• Descripción
+• Herramientas usadas
+• Otros
+▶ <link>. Define un link o enlace a otro documento mediante el atributo href.
+▶ <script>. Inserta un código de script dentro del documento, habitualmente para añadir
+ciertas funcionalidades.
+▶ <style>. Inserta una hoja de estilos dentro del documento.
+
+Elementos en HTML:
+De línea
+De bloque
+
+Títulos (<h1>, <h2>, <h3>,
+<h4>, <h5>, <h6>)
+
+Párrafos (<p>)
+	<br/> Retorno de carro.
+
+Negrita <strong></strong>
+Cursiva <i></i>
+
+Listas (<ul>, <ol>, <li>,
+<dl>, <dt>, <dd>)
+
+División (<div>)
+
+Span (<span>)
+
+Imágenes (<img>) atributo src
+
+Un FORMULARIO es un área del documento con diferentes elementos de entrada de datos (in-
+formación a rellenar por el usuario) cuya información será enviada directamente al servidor
+mediante algún tipo de evento que se produzca en el frontal web.<form>
+
+• <input>. Sirve para insertar un elemento cuyo tipo está definido en el atributo “type”.
+No tiene etiqueta de cierre.
+• <button>. Sirve para insertar un botón. Las etiquetas de apertura y cierre son obliga-
+torias. Hay tres tipos de botones:
+	a. Submit. Envía la información al servidor cuando se presiona.
+	b. Reset. Borra el contenido del formulario.
+	c. Button. Botón genérico al que hay que acoplar alguna funcionalidad.
+• <select>. Inserta un menú con varias opciones.
+• <option>. Cada opción del menú nombrado anteriormente.
+• <optgroup>. Define un grupo de opciones.
+• <textarea>. Inserta un cuadro para escribir muchas líneas de información.
+
+Tablas
+(<table>,<tr>fila,<td>columna,<th>columna_cabecera)
+
+Marcos
+(<frameset>,<frame>)
+
+
+La idea de XHTML es que funcione en todos los navegadores de la misma manera.
+
+
+Tim Berners Lee creó HTML a principios de los noventa.
+
+XHTML se ha convertido en un estándar aceptado por toda la comunidad de desarrolladores
+web debido a que puede funcionar como un HTML, pero a su vez es conforme a XML.
+
+La idea fundamental de este lenguaje CSS es separar la creación de componentes (de la que se
+encarga HTML) de la mejora del aspecto de estos (de la que se encarga, principalmente, CSS).
+
+3
+LENGUAJES PARA EL
+ALMACENAMIENTO
+Y TRANSMISIÓN DE
+INFORMACIÓN 
+
+XML es un formato de almacenamiento de datos, basado en las diferentes etiquetas que son
+definidas por la empresa o el usuario que lo vaya a usar.
+
+Adicionalmente se aprenderán mecanismos para validar este formato de almacenamiento de
+datos:
+
+▶ DTD. Una técnica prácticamente obsoleta a día de hoy pero muy extendida durante los
+primeros años del siglo XXI.
+
+▶ Los esquemas de XML: XSD. Una técnica más sofisticada usada más frecuentemente a día de hoy y que permite ciertos niveles de precisión mucho mayores frente a su ante-cesor.
+
+Tipos de lenguajes:
+▶ De marcas (cuyo ejemplo claro será el XML).
+▶ De listas (cuyo ejemplo será JSON).
+
+XML no tan solo se usa en Internet, sino que se está convirtiendo desde sus inicios en un estándar de transmisión de datos a todos los niveles.
+
+EJ: <?xml version=”1.0” encoding=”ISO-8859-1”?>
+<!DOCTYPE matricula SYSTEM “matricula.dtd”>......
+
+JSON es el acrónimo de JavaScript Object Notation.
+JSON se usa habitualmente en sustitución del XML, sobre todo en el envío de datos mediante
+AJAX (Asynchronous JavaScript And XML).
+
+Dos tipos de estructuras de datos:
+▶ Una colección de duplas de claves-valores. También es conocida como un array asociativo.
+▶ Una lista ordenada de diferentes valores, a modo de array, o vector o lista.
+
+Un ejemplo de JSON sería el siguiente:
+[ { “usuario” : “Pepe”, “id “ : 3993817, “nacionalidades” : [“Española”, “Francesa”] }, {
+“usuario” : “Tomás”, “id “ : 3993818, “nacionalidades” : [“Española”] } ]
+
+Un documento XML la información siempre se estructura de una manera jerárquica.
+
+Cabe destacar también los distintos tipos de componentes o nodos que podemos encontrar
+en nuestro documento:
+▶ Raíz. Es el principal nodo o punto de partida de nuestro árbol. Gracias a él se pueden
+ubicar el resto de nodos.
+▶ Elementos. Constituyen la unidad o el componente básico de un documento. Contie-
+nen la información o son delimitadores de ella.
+▶ Atributos. Como lo atributos anteriormente vistos en HTML. Son duplas de clave-valor
+para transferir más información de un nodo o elemento.
+▶ Texto. Puede aparecer como hoja o como contenido de valor de un atributo. Es la infor-
+mación en sí misma. Hay cuatro tipos de caracteres de espaciado que se pueden usar
+con él:
+• Tabulador: \t
+• Nueva línea: \n
+• Retorno de carro: \r
+• Espacio: \s
+▶ Comentarios. Como los anteriormente vistos en HTML, empiezan por los caracteres
+“< ! - -“ y terminan por “- - >”. Se pueden encontrar en cualquier parte del documento,
+exceptuando dentro de una misma etiqueta de apertura o de cierre.
+▶ Espacio de nombres. Mecanismo para diferenciar diferentes vocabularios dentro de las
+distintas etiquetas que se van a usar.
+▶ Instrucciones de procesamiento. Son instrucciones que sirven para el procesador de
+XML y para procesar, por tanto, correctamente el documento. No contienen información
+de transferencia alguna. Un ejemplo claro sería para codificar y advertir del “encoding”
+del documento, por ejemplo:
+<?xml versión=”1.0” encoding=”UTF-8”?>
+
+Los XML sirven a unas reglas de formación para considerarse “válidos”
+
+Para ello se usan los DTD y los XSD como se verá en los siguientes apartados.
+
+Se puede decir que un documento XML está bien formado si cumple las reglas establecidas por
+el convenio de la W3C.
+
+▶ En cuanto al nombre de los elementos:
+• Hay distinción entre minúsculas y mayúsculas.
+• Deben comenzar por guion bajo o por una letra.
+• No pueden contener espacios.
+• Pueden contener letras, dígitos, guiones, guiones bajos y puntos.
+• No pueden comenzar por las letras xml, ya que son las únicas reservadas.
+
+▶ En cuanto a mejores prácticas:
+• Es mejor crear nombres cortos y sencillos.
+• La codificación de letras en otro idioma es válida; sin embargo, hay que tener cuidado con el procesador que lo procese.
+• Evitar en la medida de lo posible los dos puntos “:”, que se usan frecuentemente para los espacios de nombres.
+• Evitar el punto “.”, debido a que algunos softwares de procesamiento no lo soportan
+o le dan una funcionalidad mayor.
+• Evitar el guion “-“, debido a que algunos softwares de procesamiento no lo soportan
+o le dan una funcionalidad mayor.
+
+DTD es el acrónimo de Document Type Definition o Definición de Tipo de Documento.
+Se trata de una descripción de la estructura que se debe validar de uno o varios documentos
+XML.
+
+Los DTDs tienen ciertas limitaciones:
+▶ No soportan espacios de nombres.
+▶ Existe un control bastante limitado sobre el número de veces que los elementos pueden
+aparecer.
+▶ Solo se puede delimitar la lista de valores válidos para los atributos, pero no para los
+elementos.
+▶ Solo se puede dar valores por defecto a los atributos, pero no a los elementos.
+▶ Un DTD no es un documento XML, por lo que la verificación de si está bien formado debe
+hacerse mediante herramientas de terceros (o editores).
+▶ No se puede hacer uso de diferentes restricciones posibles, como tipo de los datos, tamaño de algunos elementos o atributos, etc.
+
+XSD (Xml Schema Definition) es una técnica más novedosa que los DTD y sirve también para
+comprobar la validez de un documento XML.
+
+La única característica negativa que pudiera ser remarcable es que el documento XSD es más
+complicado de ver y entender bajo la vista simple de un ser humano, sin ninguna herramienta.
+
+Los elementos  del XSD  puede ser primitivos (primitive) y no primitivos (derived). Todos los primitivos vienen de la herencia del tipo xs:anySimpleType. En cambio, los no primitivos heredan de los propios primitivos.
+Los tipos de datos predefinidos se dividen en cinco categorías:
+1. Booleanos.
+2. De texto.
+3. Numéricos.
+4. Binarios.
+5. De fecha y hora.
+
+
+
+4
+DEFINICIÓN
+DE ESQUEMAS
+Y VOCABULARIOS
+EN XML
+
+DTD es un archivo que está formado por una relación precisa sobre los elementos que pueden
+o no pueden aparecer dentro de un documento, en qué lugar aparecen y los atributos y el con-
+tenido del mismo.
+
+Los DTD garantizan que absolutamente todos los datos del XML cumplen
+todas las restricciones que se le hayan impuesto.
+Es un motivo extra de seguridad sobre los XML que trabajemos en la empresa.
+
+Inconvenientes DTD:
+▶ Sintaxis distinta a la de los XML.
+▶ Sin espacios de nombres.
+▶ Una vez creado un DTD es imposible añadir nuevos vocabularios.
+▶ No es posible formar claves a partir de un conjunto de atributos o elementos.
+▶ No permite secuencias no ordenadas.
+▶ No se definen los tipos en los datos. Solo un tipo de elementos que son terminales: los
+datos textuales.
+
+Elementos terminale se corresponden con una serie de hojas dentro de la estructura de árbol de un
+documento XML y que se asocian con los datos que contiene para ser validados.
+
+La declaración de este tipo de elementos viene dada por la cadena: “<!ELEMENT”, que se en-
+contrará separada por un espacio del nombre del elemento que declara, seguido de la decla-
+ración de su contenido.
+
+▶ ANY. El contenido del elemento puede ser, como su nombre indica, cualquier cosa.
+<!ELEMENT A ANY>
+▶ (#PCDATA). El elemento no puede contener elementos, pero sí datos.
+<!ELEMENT A (#PCDATA)>
+▶ EMPTY. El elemento no es un contenedor, es decir, no contiene o no puede contener nada.
+<!ELEMENT A EMPTY>
+
+
+▶ Operador ?
+También denominado operador opcional. Indica un elemento no obligatorio.
+<!ELEMENT teléfono (trabajo?, casa)>
+▶ Operador *
+También denominado “cero o más”. Indica que un elemento puede aparecer cero, una o
+varias veces.
+<!ELEMENT provincia (nombre, (cp, ciudad)*)>
+▶ Operador +
+También denominado “uno o más”. Indica que un elemento puede aparecer una o varias
+veces.
+<!ELEMENT provincia (nombre, (cp, ciudad)+)>
+▶ Operador |
+También denominado operador de elección. Se usa en sustitución de las comas en la
+declaración de grupos. Da como opción uno de los elementos que forman la elección
+para que sean válidos.
+<!ELEMENT provincia (nombre, (cp | ciudad))>
+
+Para realizar dicha validación, debemos usar la cadena: “<!ATTLIST”. A continuación, se declara
+el nombre del elemento asociado al atributo, luego el nombre del atributo con su tipo y el mo-
+dificador.
+
+Los tipos de atributos son los siguientes:
+▶ CDATA. Cuando el atributo es una cadena de texto.
+▶ ID. Atributo identificador de un elemento.
+▶ IDREF. Hace referencias entre los identificadores.
+▶ NMTOKEN. El valor del atributo tiene que ser una sola palabra compuesta por caracteres
+permitidos dentro del XML.
+▶ Enumeración. El atributo solo puede tomar uno de los valores determinados por el operador de elección.
+Ej: <ATTLIST fecha dia_semana(lunes|martes|miércoles|jueves|viernes|sábado|domingo)
+#REQUIERED>
+
+Los modificadores de los atributos pueden ser los siguientes:
+▶ Literal. Se asigna al atributo un valor dado entrecomillado.
+▶ #IMPLIED. Atributo opcional.
+▶ #FIXED. Se define un valor fijo al atributo.
+▶ #REQUIRED. Atributo obligatorio
+
+Las entidades permiten definir constantes dentro del documento XML. Se limitan con “&” y “;”.
+Un ejemplo válido sería “&entidad;”
+
+Para definir una entidad se usa el elemento: “<!ENTITY>”.
+
+<!ENTITY nombre_entidad “valor de la entidad”>
+
+▶ Externas.
+Establecen una referencia entre el documento y otro documento a través de su URL.
+<!ENTITY nombre_entidad SYSTEM http://localhost/docsxml/fichero_entidad.xml>
+
+▶ De parámetro.
+Dan nombres a las diferentes partes de un DTD, haciendo referencia a ellas. Útiles para
+reaprovechar validaciones dentro de nuestro código.
+<!ENTITY %direccion “calle, numero?, ciudad, cp”>
+<!ENTITY alumno (dni, %direccion;)>
+<!ENTITY ies (nombre, %direccion;)>
+▶ De parámetro externas.
+Incluyen en un DTD elementos externos. Por ello, se divide la definición del tipo de docu-
+mento en varios documentos.
+<!ENTITY persona SYSTEM “persona.dtd”>
+
+<!NOTATION gif SYSTEM “gifEditor.exe”>
+Sin embargo, para asociar una entidad externa no analizada se puede hacer del siguiente modo:
+<!ENTITY dibujo SYSTEM “imagen.gif” NDATA gif>
+
+Permiten incluir o ignorar parte de las declaraciones del DTD. Para ello se usan dos tokens:
+▶ INCLUDE. Permite la visualización de esa parte de la declaración del DTD.
+<![INCLUDE [Declaraciones visibles] ] >
+▶ IGNORE. Permite la ocultación de esa parte de la declaración del DTD.
+<![IGNORE [Declaraciones ocultas] ] >
+
+
+Ejemplo asociacion XSD a XML.
+
+<?xml version=”1.0” encoding=”ISO-8859-1”? >
+<tienda xmlns:xsi=”http://www.w3.org/2001/XMLSchema-instance” xsi:SchemaLoca-
+tion=”file:/C:/Users/Fer_Desktop/productos.xsd>
+
+Asociacion DTD a XML.
+
+▶ La DTD puede incluirse en el propio documento, con la siguiente sintaxis:
+<!DOCTYPE nombre [
+... declaraciones ...
+]>
+▶ La DTD puede estar en un documento externo y, si solo va a ser utilizada por una única
+aplicación, la sintaxis es la siguiente:
+<!DOCTYPE nombre SYSTEM “URI”>
+▶ Se puede combinar una DTD externa con una DTD interna, con la siguiente sintaxis:
+<!DOCTYPE nombre SYSTEM “uri” [
+... declaraciones ...
+]>
+▶ La DTD puede estar en un documento externo y, si va a ser utilizada por varias aplicacio-
+nes, la sintaxis es la siguiente:
+<!DOCTYPE nombre PUBLIC “fpi” “uri”>
+▶ Se puede combinar una DTD externa con una DTD interna, con la siguiente sintaxis:
+<!DOCTYPE nombre PUBLIC “fpi” “uri” [
+... declaraciones ...
+]>
+
+Validacion XLM: El denominado cuerpo del documento tiene formada una estructura de elementos o una su-
+cesión de ellos, compatible con el lenguaje de marcado correspondiente.
+
+Sin embargo, no hay que confundir los términos “válido” con “bien formado”.
+Todos los documentos XML válidos deben estar bien formados, pero no ocurre
+de manera contraria. Es decir, pueden existir documentos bien formados que no
+necesariamente deben ser considerados como válidos para nuestra transferencia de
+información o nuestros sistemas.
+
+Los procesadores de XML pueden rechazar cualquier documento que no esté
+bien formado, pero inicialmente nunca rechazarán un documento no válido.
+Esta es otra de las claras diferencias que se deben tener en cuenta y es por ello que
+se agilizó el uso de DTD y XSD.
+
+Hay dos tipos de especificaciones que usan dichos analizadores:
+
+a. Especificación del tipo de contenido por identificador de tipo de contenido.
+Se identifica el tipo de contenido existente que se encuentra dentro del XML y se puede comprobar si dichos tipos son válidos según dicha especificación.
+Para aclararlo mejor se puede ver el siguiente ejemplo:
+En este caso, los campos “dni” y “letra” están validados a un tipo “string” (cadena).
+b. Especificación del tipo de contenido por plantilla de documento.
+El XML es validado por una plantilla de documento y se puede comprobar si los elementos necesarios aparecen, en qué orden, el tipo correspondiente (por lo que incluye la anterior especificación, pero de manera más global) y en qué número. Para esta
+especificación es necesario el uso de la plantilla.
+
+
+5
+CONVERSIÓN
+Y ADAPTACIÓN
+DE DOCUMENTOS
+XML.
+
+XSL es el acrónimo de eXtensible Stylesheet Language. Pertenece a una
+familia de lenguajes, basados en XML, que tiene como derivados:
+
+▶ XSLT. Lenguaje para transformar un documento XML en otro formato distinto.
+XSLT permite también las transformaciones de XML en otros XML derivados, por lo que no sirve tan solo para cambios de formato.
+
+▶ XPath. Lenguaje que nos permite acceder a distintas secciones de nuestro documento XML.
+
+▶ XSL-FO. Se trata de un vocabulario XML que especifica semánticas para el formateo de
+documentos.
+
+Una transformación XSL se puede llevar a cabo en tres lugares diferentes:
+▶ En el cliente web. Dentro de nuestro propio navegador se realiza la transformación, usualmente mediante el lenguaje JavaScript. Muchos navegadores tienen extensiones instaladas por defecto o descargables para hacerlo. Aparte, dichas extensiones suelen incluir un mayor número de funcionalidades, como el uso de XPath.
+▶ En el servidor web. Dentro de nuestro propio servidor, mediante un lenguaje o librería de este que permita dicha transformación.
+▶ En una aplicación diferente. Existen diferentes tipos de aplicativos, sobre todo en la actualidad con la llegada de la nube, que permiten transformar dichos documentos mediante servicios externos que pueden ser llamados por nuestros sistemas.
+
+Pasos para la transformación:
+1. Se analiza la hoja de transformaciones y se trata con la estructura de árbol correspon-
+diente.
+2. Se procesa y se convierte el documento XML en el árbol de nodos.
+3. Se sitúa el procesador XSLT sobre la raíz del documento XML. Es lo que se denomina el contexto original.
+4. Se comprueba el espacio de nombres para excluir aquellos elementos que no forman parte de este. Dichos elementos saldrán sin modificarse en el documento trans-
+formado. Estos elementos se denominan elementos de resultado literal.
+5. El procesador aplica una regla sobre cada uno de los elementos, los nodos
+
+
+Si hay dos reglas que aplican a un mismo nodo, el procesador solo aplica a una de ellas, que siempre es la última en aparecer.
+
+El orden en el que aparecen las plantillas en la hoja de transformaciones no es representativo. Lo que marca el orden es el recorrido, por parte del procesador, del árbol de nodos.
+
+XSLT permite generar otros documentos que, a la postre, pueden estar en diferentes formatos de salida, como pueden ser entre los más importantes:
+▶ PDF (Portable Document Format)
+▶ Texto
+▶ HTML
+▶ RTF
+▶ Otro XML
+
+Estructura XSL:
+▶ Es un XML y, por tanto, debe empezar por: <?xml version=”1.0”?>
+▶ Consta de un elemento raíz:
+<xsl:stylesheet version=”1.0”
+xmlns:xsl= “http://www.w3.org/1999/XSL/Transform”>
+... </xsl:stylesheet>
+▶ Consta de un espacio de nombres con xsl como prefijo:
+http://www.w3.org/1999/XSL/Transform
+▶ Consta de diferentes elementos, denominados de nivel superior, que aparecen en dicha hoja de transformaciones y siempre lo hacen como hijos de la raíz:
+• <xsl:import>
+• <xsl:include>
+• <xsl:namespace-alias>
+• <xsl:output>
+• <xsl:strip-space>
+• <xsl:preserve-space>
+• <xsl:attribute-set>
+• <xsl:key>
+• <xsl:param>
+• <xsl:variable>
+• <xsl:template>
+
+Sintasis XSL:
+Mediante el uso de pocas instrucciones de transformación se puede conseguir la mayor parte
+de las salidas posibles.
+
+***VER TABLA EN APUNTES***
+
+Familia de normas de la W3C.
+
+La W3C ha definido dos grandes familias de normas para las denominadas hojas de estilo:
+▶ CSS. Es la más antigua de las dos y permite, grosso modo, definir propiedades para los elementos del marcado . Sin embargo, hay ciertas posibilidades y deficiencias dentro del CSS:
+	• No se pueden combinar múltiples elementos. Por ejemplo, sumar todos los gastos en un supermercado durante un mes a fin de sacar el gasto total de compras.
+	• No se pueden realizar operaciones dentro de esta misma plantilla. Como, porejemplo, sumar todos los precios de todos los productos comprados en un mes en el supermercado.
+	• No se puede cambiar el orden de los elementos, ya que no se visualizaría correctamente dentro del navegador mediante HTML. Por tanto, tampoco se puede filtrar o variar el orden de dichos elementos.
+▶ XSLT. Elimina las limitaciones anteriormente vistas y permite realizar operaciones sobre los elementos del documento, así como filtrajes. Sin embargo, XSLT no tiene la posibilidad que nos da CSS para mostrar la información de forma elegante.
+
+Algunas herramientas de autor nos permiten generar documentación de los esquemas. Para ello, se usan una serie de etiquetas extras:
+▶ xs:annotation. Nos permite especificar comentarios acerca del sistema.
+▶ xs:documentation. Crea comentarios textuales sobre nuestro esquema.
+▶ xs:appinfo. Nos da información que va a ser usada por nuestra aplicación.
+
+6
+ALMACENAMIENTO
+DE INFORMACIÓN.
+
+Un sistema de información es aquel formado por un grupo o conjunto de datos que interactúan entre sí con un objetivo en común.
+
+Junto con XSLT y XSL-FO, XPath forma una familia de lenguajes denominada XSL. Dichos lenguajes están diseñados para transformar, acceder y ofrecer documentos de salida XML.
+
+XPath nos ofrece entonces la posibilidad de recorrer nuestros documentos XML y extraer toda su información.
+
+Las expresiones XPath pueden ser:
+▶ Absolutas. Comienzan desde la raíz /.
+▶ Relativas. Comienzan respecto al denominado nodo de contexto.
+
+Los tipos de nodos que se pueden encontrar son:
+▶ Raíz del documento. Solo existe uno y contiene todo el documento. Se representa por el símbolo /. No tiene nodo padre y tiene al menos un nodo hijo: el nodo documento.
+▶ Elemento. Todo elemento de un documento XML es un nodo de XPath.
+▶ Atributo. Todo atributo de un documento XML es un nodo de XPath.
+▶ Texto. Todo contenido textual de un elemento es un nodo de XPath.
+▶ Comentario.
+▶ Instrucciones de procesamiento.
+▶ Espacios de nombres.
+
+Y los tipos de datos básicos son:
+▶ String o cadenas.
+▶ Number o números.
+▶ Node-set o conjunto de nodos.
+
+XQuery es otro lenguaje de consulta para extraer y procesar las diferentes informaciones integradas en un XML, habitualmente en bases de datos nativas XML, así como en tablas o campos existentes en las bases de datos relacionales.
+
+Sus características son las siguientes:
+▶ Guarda cierto parecido con SQL, con algunas cláusulas existentes en ambos lenguajes.
+▶ Se asemeja a XPath, con quien comparte modelo de datos, operadores y funciones.
+▶ Usa un lenguaje de expresiones que se evalúa a un valor.
+• Un ejemplo sería 1+2 que es una expresión válida en XQuery y se evalúa como un 3.
+• Otro ejemplo válido sería mediante expresiones condicionales: if(1<2) then “Cierto”
+else “Incierto”.
+▶ Los tipos de datos son los mismos que los de los esquemas XML.
+▶ Existen las secuencias que son listas de valores simples.
+
+7
+APLICACIÓN DE
+LOS LENGUAJES
+DE MARCAS A
+LA SINDICACIÓN
+DE CONTENIDOS.
+
+La sindicación de contenidos se da cuando uno o más sitios de terceros sacan o publican una copia idéntica del contenido que inicialmente estaba en otro lugar.
+
+El uso múltiple de diferente tipo de información en forma de texto, software o audiovisual por diferentes sitios web.
+
+Grandes portales webs, noticiarios o periódicos tienen derechos de emisión por un cierto precio, aunque también existen bases de datos de contenido libre.
+
+Prácticamente estaríamos hablando de que cualquier web que proporcione algún tipo de información sobre algún tema que se pueda considerar como relevante se convierte en un proveedor de contenido y dicho contenido puede exponerse mediante pago o de manera completamente gratuita.
+
+Usar la sindicación de contenidos aporta una serie de ventajas:
+▶ Fomenta la reutilización.
+▶ Enriquece la red de redes, impulsando la denominada tecnología semántica.
+▶ Ayuda a establecer relaciones entre diferentes sitios web.
+▶ Ayuda a los usuarios.
+▶ Permite a otros usuarios o entidades añadir nuevas características a los sitios webs(como pudieran ser notificaciones de mensajes instantáneos), aunque para ello se necesite de tecnologías más novedosas.
+▶ Favorece el posicionamiento.
+
+Nos aporta ciertos riesgos:
+▶ Problemas legales. El problema suele radicar en los derechos de autor, ya que estamos hablando de contenidos externos que no son los propios realizados por la empresa o corporación del sitio web. Nunca es recomendable integrar nuevos contenidos de esta manera sin preguntar previamente al propietario o a quién tenga los derechos de dicho contenido.
+▶ Doble contenido. Siempre se está duplicando contenido de otra web, por lo que perjudica a ciertos buscadores. Esto se puede remediar marcando siempre los enlaces de salida con el atributo rel=”nofollow”.
+▶ Uniformidad del contenido. Mucho contenido sindicado acaba por considerarse spam por parte de Google u otros buscadores.
+
+RSS es el acrónimo de Really Simple Syndication (Sindicación Realmente Simple).
+Se trata de una familia de formatos en relación a las semillas web que suelen usarse para publicar información que se suele actualizar con frecuencia.
+
+Atom es el acrónimo de Atom Syndication Format (Formato Atómico de Sindicación).
+
+Al igual que en el ejemplo de RSS, la primera línea de definición sería la declaración del XML y la definición de codificación del documento. Tras ella, se definiría el canal, el estándar de Atom yel lenguaje que usaría el fichero con un elemento feed de esta manera:
+<feed xmlns=”http://www.w3.org/2005/Atom” xml:lang=”es-es”>
+
+BRL es el acrónimo de Extensible Business Reporting Language (Lenguaje Extensible de Infor-mes Financieros).
+Se usa, como su propio nombre indica, para informes financieros y representan la información y toda su expresión semántica relacionada.
+
+DocBook. Se trata de un lenguaje con el cuál se definen los documentos.
+
+WML es el acrónimo de Wireless Mark-up Language (Lenguaje de Marcado Inalámbrico). Es un lenguaje para dispositivos móviles que representan la información del protocolo WPA y que se visualiza en sus pantallas.
+
+SVG es el acrónimo de Scalable Vector Graphics (Gráficos Vectoriales Escalables).
+
+Por ejemplo, si se tratara de RSS, el fichero tendría de extensión .rss.
+En cambio, si se tratara de Atom, el fichero tendría de extensión .atom
+
+La estructura es la siguiente:
+▶ Declaración del documento XML.
+▶ La definición de la codificación empleada en el documento (preferentemente UTF-8).
+▶ Un canal en el que se determina el sitio web asociado a la fuente web a la que hace referencia el fichero. Aparte, dicho canal estará formado por:
+• Secciones. Cada una de las cuales es una referencia a la web que contiene uno de los servicios que se van a ofrecer.
+
+Los estándares usados se dividen en dos grupos:
+▶ RSS. Como parte de la familia de los formatos válidos de XML, fue desarrollado para compartir la información que habitualmente se actualiza con cierta frecuencia en las webs. Aparte, se usa conjunto a sistemas de mensajería instantánea, correo electrónico o transformación de enlaces al navegador. A partir de aquí se encuentran diferentes versiones:
+• RSS 0.90. Estándar de Netscape creado a finales del siglo XX. Se basa en una especificación RDF de metadatos.
+• RSS 0.91. Versión simplificada de la anterior.
+• RSS 1.0. Fue creado a partir del estándar 0.90. Más estable y permite definir una mayor cantidad de datos.
+• RSS 2.0. Versiones anteriores no cumplen todas las normas de XML y su sintaxis está incompleta. Esta versión nació para subsanar dichos problemas.
+
+▶ Atom. Publicado como un estándar. Se desarrolló como una alternativa a RSS, con el fin de evitar toda la confusión propuesta por RSS y sus diferentes versiones. Su característica principal es su flexibilidad. Atom permite de una mejor manera controlar la información que representan los diferentes agregadores.
+
+Para validarlos, solo tenemos que dar la dirección del fichero donde se encuentra alojado(su servidor) y comprobar toda la información a la que hace referencia. Por ejemplo, comprobar que la URI es válida y que el documento no contiene errores.
+Una vez el documento haya sido validado, se suele ofrecer una imagen que varía de tipo pero que frecuentemente suele ser de tipo XML o RSS. Se puede incluir en la página principal para enlazar a la dirección del fichero que se encuentra alojado en dicho dominio. De esta manera, cuando cualquier cliente acceda a este icono (clicando en él), le redirigirá al contenido actual de la fuente y, a partir de ahí, podrá navegar por todas las páginas que le puedan interesar.
+
+Un directorio de canales de contenidos permite que un fichero de sindicación esté disponible para cualquiera, facilitando a los distintos clientes la búsqueda de información. También es una herramienta poderosa para la clasificación de los diferentes canales de manera óptima.
+
+Una agregación es una aplicación de software que permite subscribirse a fuentes que se encuentren en formatos Atom o RSS. De escritorio: FeedDemon, Newsgator. Web: Bloglines, Google Reader, Netvibes,...
+
+
+8
+SISTEMAS
+DE GESTIÓN
+EMPRESARIAL.
+
+Los ERP (Enterprise Resource Planning) son sistemas que gestionan la información de una corporación conformada mediante un aplicativo con diferentes partes integradas.
+
+Las partes mencionadas en la definición bien pudieran ser:
+▶ Nóminas.
+▶ Producción.
+▶ Compras/ventas.
+▶ Pedidos.
+▶ Y así un largo etcétera
+
+Si se tienen que enumerar los objetivos de dichos sistemas, serían los siguientes:
+▶ Eliminar datos innecesarios.
+▶ Eliminar operaciones también innecesarias.
+▶ Acceder a la información de forma confiable y precisa.
+▶ Optimizar toda serie de procesos empresariales.
+▶ Permitir la compartición de información entre los diferentes componentes de la corporación.
+
+La principal ventaja es que contar con un sistema ERP personalizado permite a la corporación tener diferentes utilidades integradas que facilitan en cierto grado la gestión de la información.
+Aparte, la seguridad de los equipos está incluida dentro del sistema, y protege a la corporación contra diferentes tipos de espionajes industriales y malversación.
+Como desventaja se podría hablar de la inversión inadecuada que frecuentemente se realiza durante la formación del personal, aparte de las distintas políticas corporativas que afectan al uso de dichos sistemas ERP.
+
+Muchas veces, para facilitar los flujos de información, se hace necesario el uso de algún sistema de información, que son subsistemas que facilitan, en todo caso, la transferencia de información.
+Los elementos en los que se suelen dividir estos sistemas de información son:
+▶ Humanos.
+▶ Físicos.
+▶ Normas
+▶ Protocolos.
+
+Que los datos estén alojados una única vez favorece a la denominada “filosofía de
+dato único”.
+Esta filosofía marca que un dato solo puede estar guardando en un único lugar para favorecer la no aparición de incongruencias pues, cuando se edita, solo se edita una vez y no nos “olvidamos” de editarlo en otros lugares donde pudiera estar alojado.
+Esto, por tanto, nos evita las peligrosas duplicidades.
+
+En la actualidad casi todos los sistemas ERP incluyen dentro de su instalación un módulo CRM que se encuentra integrado.
+No es de extrañar que, en los que no se encuentra, se pueda añadir como un módulo extra a incorporar e instalar.
+
+anto los sistemas ERP como cualquier tipo de aplicación cuentan con la necesidad de generar y crear formularios para el correcto uso de sus aplicativos.
+
+Disponer de informes a medida, que se encuentren completamente adaptados a todas lasnecesidades de nuestra corporación y que puedan ejecutarse en cualquier momento sobre todos los datos que se encuentren disponibles en tiempo real (sin claras dependencias con
+las tareas manuales), aparte del hecho de que pueden ejecutarse en cualquier instante y con cualquier dispositivo (como pudieran ser tablets o dispositivos móviles), son algunas de las características que hacen tan potentes los informes dentro de los sistemas ERP.
+
+Un ejemplo de sistema ERP que incorpora ciertas herramientas para generar todo tipo de informes personalizados es SAP Business One, que permite conocer aparte la estructura de la base de datos mediante sus funcionalidades.
+
+Se denomina como sistema CRM (Customer Relationship Management) a aquel que permite gestionar la información manteniendo, en todo caso, la información de contacto orientado siempre a las ventas.
+

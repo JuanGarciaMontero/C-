@@ -1,0 +1,1152 @@
+Partido: 1
+Partido: FC Barcelona
+Partido: Valencia
+Partido: Esteban
+Partido: 1
+Partido: Real Madrid
+Partido: Valencia
+Partido: Esteban
+Partido: 1
+Partido: Sevilla
+Partido: Valencia
+Partido: Esteban
+Partido: 1
+Partido: FC Barcelona
+Partido: Valencia
+Partido: Felipe
+Partido: 1
+Partido: Real Madrid
+Partido: Valencia
+Partido: Felipe
+Partido: 1
+Partido: Sevilla
+Partido: Valencia
+Partido: Felipe
+Partido: 1
+Partido: FC Barcelona
+Partido: Valencia
+Partido: Carlos
+Partido: 1
+Partido: Real Madrid
+Partido: Valencia
+Partido: Carlos
+Partido: 1
+Partido: Sevilla
+Partido: Valencia
+Partido: Carlos
+Partido: 1
+Partido: FC Barcelona
+Partido: Valencia
+Partido: Luis
+Partido: 1
+Partido: Real Madrid
+Partido: Valencia
+Partido: Luis
+Partido: 1
+Partido: Sevilla
+Partido: Valencia
+Partido: Luis
+Partido: 1
+Partido: FC Barcelona
+Partido: Valencia
+Partido: Ruben
+Partido: 1
+Partido: Real Madrid
+Partido: Valencia
+Partido: Ruben
+Partido: 1
+Partido: Sevilla
+Partido: Valencia
+Partido: Ruben
+Partido: 1
+Partido: FC Barcelona
+Partido: Valencia
+Partido: Ruben a
+Partido: 1
+Partido: Real Madrid
+Partido: Valencia
+Partido: Ruben a
+Partido: 1
+Partido: Sevilla
+Partido: Valencia
+Partido: Ruben a
+Partido: 2
+Partido: FC Barcelona
+Partido: Valencia
+Partido: Esteban
+Partido: 2
+Partido: Real Madrid
+Partido: Valencia
+Partido: Esteban
+Partido: 2
+Partido: Sevilla
+Partido: Valencia
+Partido: Esteban
+Partido: 2
+Partido: FC Barcelona
+Partido: Valencia
+Partido: Felipe
+Partido: 2
+Partido: Real Madrid
+Partido: Valencia
+Partido: Felipe
+Partido: 2
+Partido: Sevilla
+Partido: Valencia
+Partido: Felipe
+Partido: 2
+Partido: FC Barcelona
+Partido: Valencia
+Partido: Carlos
+Partido: 2
+Partido: Real Madrid
+Partido: Valencia
+Partido: Carlos
+Partido: 2
+Partido: Sevilla
+Partido: Valencia
+Partido: Carlos
+Partido: 2
+Partido: FC Barcelona
+Partido: Valencia
+Partido: Luis
+Partido: 2
+Partido: Real Madrid
+Partido: Valencia
+Partido: Luis
+Partido: 2
+Partido: Sevilla
+Partido: Valencia
+Partido: Luis
+Partido: 2
+Partido: FC Barcelona
+Partido: Valencia
+Partido: Ruben
+Partido: 2
+Partido: Real Madrid
+Partido: Valencia
+Partido: Ruben
+Partido: 2
+Partido: Sevilla
+Partido: Valencia
+Partido: Ruben
+Partido: 2
+Partido: FC Barcelona
+Partido: Valencia
+Partido: Ruben a
+Partido: 2
+Partido: Real Madrid
+Partido: Valencia
+Partido: Ruben a
+Partido: 2
+Partido: Sevilla
+Partido: Valencia
+Partido: Ruben a
+Partido: 3
+Partido: FC Barcelona
+Partido: Valencia
+Partido: Esteban
+Partido: 3
+Partido: Real Madrid
+Partido: Valencia
+Partido: Esteban
+Partido: 3
+Partido: Sevilla
+Partido: Valencia
+Partido: Esteban
+Partido: 3
+Partido: FC Barcelona
+Partido: Valencia
+Partido: Felipe
+Partido: 3
+Partido: Real Madrid
+Partido: Valencia
+Partido: Felipe
+Partido: 3
+Partido: Sevilla
+Partido: Valencia
+Partido: Felipe
+Partido: 3
+Partido: FC Barcelona
+Partido: Valencia
+Partido: Carlos
+Partido: 3
+Partido: Real Madrid
+Partido: Valencia
+Partido: Carlos
+Partido: 3
+Partido: Sevilla
+Partido: Valencia
+Partido: Carlos
+Partido: 3
+Partido: FC Barcelona
+Partido: Valencia
+Partido: Luis
+Partido: 3
+Partido: Real Madrid
+Partido: Valencia
+Partido: Luis
+Partido: 3
+Partido: Sevilla
+Partido: Valencia
+Partido: Luis
+Partido: 3
+Partido: FC Barcelona
+Partido: Valencia
+Partido: Ruben
+Partido: 3
+Partido: Real Madrid
+Partido: Valencia
+Partido: Ruben
+Partido: 3
+Partido: Sevilla
+Partido: Valencia
+Partido: Ruben
+Partido: 3
+Partido: FC Barcelona
+Partido: Valencia
+Partido: Ruben a
+Partido: 3
+Partido: Real Madrid
+Partido: Valencia
+Partido: Ruben a
+Partido: 3
+Partido: Sevilla
+Partido: Valencia
+Partido: Ruben a
+Partido: 4
+Partido: FC Barcelona
+Partido: Valencia
+Partido: Esteban
+Partido: 4
+Partido: Real Madrid
+Partido: Valencia
+Partido: Esteban
+Partido: 4
+Partido: Sevilla
+Partido: Valencia
+Partido: Esteban
+Partido: 4
+Partido: FC Barcelona
+Partido: Valencia
+Partido: Felipe
+Partido: 4
+Partido: Real Madrid
+Partido: Valencia
+Partido: Felipe
+Partido: 4
+Partido: Sevilla
+Partido: Valencia
+Partido: Felipe
+Partido: 4
+Partido: FC Barcelona
+Partido: Valencia
+Partido: Carlos
+Partido: 4
+Partido: Real Madrid
+Partido: Valencia
+Partido: Carlos
+Partido: 4
+Partido: Sevilla
+Partido: Valencia
+Partido: Carlos
+Partido: 4
+Partido: FC Barcelona
+Partido: Valencia
+Partido: Luis
+Partido: 4
+Partido: Real Madrid
+Partido: Valencia
+Partido: Luis
+Partido: 4
+Partido: Sevilla
+Partido: Valencia
+Partido: Luis
+Partido: 4
+Partido: FC Barcelona
+Partido: Valencia
+Partido: Ruben
+Partido: 4
+Partido: Real Madrid
+Partido: Valencia
+Partido: Ruben
+Partido: 4
+Partido: Sevilla
+Partido: Valencia
+Partido: Ruben
+Partido: 4
+Partido: FC Barcelona
+Partido: Valencia
+Partido: Ruben a
+Partido: 4
+Partido: Real Madrid
+Partido: Valencia
+Partido: Ruben a
+Partido: 4
+Partido: Sevilla
+Partido: Valencia
+Partido: Ruben a
+Partido: 1
+Partido: FC Barcelona
+Partido: Sevilla
+Partido: Esteban
+Partido: 1
+Partido: Real Madrid
+Partido: Sevilla
+Partido: Esteban
+Partido: 1
+Partido: Valencia
+Partido: Sevilla
+Partido: Esteban
+Partido: 1
+Partido: FC Barcelona
+Partido: Sevilla
+Partido: Felipe
+Partido: 1
+Partido: Real Madrid
+Partido: Sevilla
+Partido: Felipe
+Partido: 1
+Partido: Valencia
+Partido: Sevilla
+Partido: Felipe
+Partido: 1
+Partido: FC Barcelona
+Partido: Sevilla
+Partido: Carlos
+Partido: 1
+Partido: Real Madrid
+Partido: Sevilla
+Partido: Carlos
+Partido: 1
+Partido: Valencia
+Partido: Sevilla
+Partido: Carlos
+Partido: 1
+Partido: FC Barcelona
+Partido: Sevilla
+Partido: Luis
+Partido: 1
+Partido: Real Madrid
+Partido: Sevilla
+Partido: Luis
+Partido: 1
+Partido: Valencia
+Partido: Sevilla
+Partido: Luis
+Partido: 1
+Partido: FC Barcelona
+Partido: Sevilla
+Partido: Ruben
+Partido: 1
+Partido: Real Madrid
+Partido: Sevilla
+Partido: Ruben
+Partido: 1
+Partido: Valencia
+Partido: Sevilla
+Partido: Ruben
+Partido: 1
+Partido: FC Barcelona
+Partido: Sevilla
+Partido: Ruben a
+Partido: 1
+Partido: Real Madrid
+Partido: Sevilla
+Partido: Ruben a
+Partido: 1
+Partido: Valencia
+Partido: Sevilla
+Partido: Ruben a
+Partido: 2
+Partido: FC Barcelona
+Partido: Sevilla
+Partido: Esteban
+Partido: 2
+Partido: Real Madrid
+Partido: Sevilla
+Partido: Esteban
+Partido: 2
+Partido: Valencia
+Partido: Sevilla
+Partido: Esteban
+Partido: 2
+Partido: FC Barcelona
+Partido: Sevilla
+Partido: Felipe
+Partido: 2
+Partido: Real Madrid
+Partido: Sevilla
+Partido: Felipe
+Partido: 2
+Partido: Valencia
+Partido: Sevilla
+Partido: Felipe
+Partido: 2
+Partido: FC Barcelona
+Partido: Sevilla
+Partido: Carlos
+Partido: 2
+Partido: Real Madrid
+Partido: Sevilla
+Partido: Carlos
+Partido: 2
+Partido: Valencia
+Partido: Sevilla
+Partido: Carlos
+Partido: 2
+Partido: FC Barcelona
+Partido: Sevilla
+Partido: Luis
+Partido: 2
+Partido: Real Madrid
+Partido: Sevilla
+Partido: Luis
+Partido: 2
+Partido: Valencia
+Partido: Sevilla
+Partido: Luis
+Partido: 2
+Partido: FC Barcelona
+Partido: Sevilla
+Partido: Ruben
+Partido: 2
+Partido: Real Madrid
+Partido: Sevilla
+Partido: Ruben
+Partido: 2
+Partido: Valencia
+Partido: Sevilla
+Partido: Ruben
+Partido: 2
+Partido: FC Barcelona
+Partido: Sevilla
+Partido: Ruben a
+Partido: 2
+Partido: Real Madrid
+Partido: Sevilla
+Partido: Ruben a
+Partido: 2
+Partido: Valencia
+Partido: Sevilla
+Partido: Ruben a
+Partido: 3
+Partido: FC Barcelona
+Partido: Sevilla
+Partido: Esteban
+Partido: 3
+Partido: Real Madrid
+Partido: Sevilla
+Partido: Esteban
+Partido: 3
+Partido: Valencia
+Partido: Sevilla
+Partido: Esteban
+Partido: 3
+Partido: FC Barcelona
+Partido: Sevilla
+Partido: Felipe
+Partido: 3
+Partido: Real Madrid
+Partido: Sevilla
+Partido: Felipe
+Partido: 3
+Partido: Valencia
+Partido: Sevilla
+Partido: Felipe
+Partido: 3
+Partido: FC Barcelona
+Partido: Sevilla
+Partido: Carlos
+Partido: 3
+Partido: Real Madrid
+Partido: Sevilla
+Partido: Carlos
+Partido: 3
+Partido: Valencia
+Partido: Sevilla
+Partido: Carlos
+Partido: 3
+Partido: FC Barcelona
+Partido: Sevilla
+Partido: Luis
+Partido: 3
+Partido: Real Madrid
+Partido: Sevilla
+Partido: Luis
+Partido: 3
+Partido: Valencia
+Partido: Sevilla
+Partido: Luis
+Partido: 3
+Partido: FC Barcelona
+Partido: Sevilla
+Partido: Ruben
+Partido: 3
+Partido: Real Madrid
+Partido: Sevilla
+Partido: Ruben
+Partido: 3
+Partido: Valencia
+Partido: Sevilla
+Partido: Ruben
+Partido: 3
+Partido: FC Barcelona
+Partido: Sevilla
+Partido: Ruben a
+Partido: 3
+Partido: Real Madrid
+Partido: Sevilla
+Partido: Ruben a
+Partido: 3
+Partido: Valencia
+Partido: Sevilla
+Partido: Ruben a
+Partido: 4
+Partido: FC Barcelona
+Partido: Sevilla
+Partido: Esteban
+Partido: 4
+Partido: Real Madrid
+Partido: Sevilla
+Partido: Esteban
+Partido: 4
+Partido: Valencia
+Partido: Sevilla
+Partido: Esteban
+Partido: 4
+Partido: FC Barcelona
+Partido: Sevilla
+Partido: Felipe
+Partido: 4
+Partido: Real Madrid
+Partido: Sevilla
+Partido: Felipe
+Partido: 4
+Partido: Valencia
+Partido: Sevilla
+Partido: Felipe
+Partido: 4
+Partido: FC Barcelona
+Partido: Sevilla
+Partido: Carlos
+Partido: 4
+Partido: Real Madrid
+Partido: Sevilla
+Partido: Carlos
+Partido: 4
+Partido: Valencia
+Partido: Sevilla
+Partido: Carlos
+Partido: 4
+Partido: FC Barcelona
+Partido: Sevilla
+Partido: Luis
+Partido: 4
+Partido: Real Madrid
+Partido: Sevilla
+Partido: Luis
+Partido: 4
+Partido: Valencia
+Partido: Sevilla
+Partido: Luis
+Partido: 4
+Partido: FC Barcelona
+Partido: Sevilla
+Partido: Ruben
+Partido: 4
+Partido: Real Madrid
+Partido: Sevilla
+Partido: Ruben
+Partido: 4
+Partido: Valencia
+Partido: Sevilla
+Partido: Ruben
+Partido: 4
+Partido: FC Barcelona
+Partido: Sevilla
+Partido: Ruben a
+Partido: 4
+Partido: Real Madrid
+Partido: Sevilla
+Partido: Ruben a
+Partido: 4
+Partido: Valencia
+Partido: Sevilla
+Partido: Ruben a
+Partido: 1
+Partido: FC Barcelona
+Partido: Real Madrid
+Partido: Esteban
+Partido: 1
+Partido: Sevilla
+Partido: Real Madrid
+Partido: Esteban
+Partido: 1
+Partido: Valencia
+Partido: Real Madrid
+Partido: Esteban
+Partido: 1
+Partido: FC Barcelona
+Partido: Real Madrid
+Partido: Felipe
+Partido: 1
+Partido: Sevilla
+Partido: Real Madrid
+Partido: Felipe
+Partido: 1
+Partido: Valencia
+Partido: Real Madrid
+Partido: Felipe
+Partido: 1
+Partido: FC Barcelona
+Partido: Real Madrid
+Partido: Carlos
+Partido: 1
+Partido: Sevilla
+Partido: Real Madrid
+Partido: Carlos
+Partido: 1
+Partido: Valencia
+Partido: Real Madrid
+Partido: Carlos
+Partido: 1
+Partido: FC Barcelona
+Partido: Real Madrid
+Partido: Luis
+Partido: 1
+Partido: Sevilla
+Partido: Real Madrid
+Partido: Luis
+Partido: 1
+Partido: Valencia
+Partido: Real Madrid
+Partido: Luis
+Partido: 1
+Partido: FC Barcelona
+Partido: Real Madrid
+Partido: Ruben
+Partido: 1
+Partido: Sevilla
+Partido: Real Madrid
+Partido: Ruben
+Partido: 1
+Partido: Valencia
+Partido: Real Madrid
+Partido: Ruben
+Partido: 1
+Partido: FC Barcelona
+Partido: Real Madrid
+Partido: Ruben a
+Partido: 1
+Partido: Sevilla
+Partido: Real Madrid
+Partido: Ruben a
+Partido: 1
+Partido: Valencia
+Partido: Real Madrid
+Partido: Ruben a
+Partido: 2
+Partido: FC Barcelona
+Partido: Real Madrid
+Partido: Esteban
+Partido: 2
+Partido: Sevilla
+Partido: Real Madrid
+Partido: Esteban
+Partido: 2
+Partido: Valencia
+Partido: Real Madrid
+Partido: Esteban
+Partido: 2
+Partido: FC Barcelona
+Partido: Real Madrid
+Partido: Felipe
+Partido: 2
+Partido: Sevilla
+Partido: Real Madrid
+Partido: Felipe
+Partido: 2
+Partido: Valencia
+Partido: Real Madrid
+Partido: Felipe
+Partido: 2
+Partido: FC Barcelona
+Partido: Real Madrid
+Partido: Carlos
+Partido: 2
+Partido: Sevilla
+Partido: Real Madrid
+Partido: Carlos
+Partido: 2
+Partido: Valencia
+Partido: Real Madrid
+Partido: Carlos
+Partido: 2
+Partido: FC Barcelona
+Partido: Real Madrid
+Partido: Luis
+Partido: 2
+Partido: Sevilla
+Partido: Real Madrid
+Partido: Luis
+Partido: 2
+Partido: Valencia
+Partido: Real Madrid
+Partido: Luis
+Partido: 2
+Partido: FC Barcelona
+Partido: Real Madrid
+Partido: Ruben
+Partido: 2
+Partido: Sevilla
+Partido: Real Madrid
+Partido: Ruben
+Partido: 2
+Partido: Valencia
+Partido: Real Madrid
+Partido: Ruben
+Partido: 2
+Partido: FC Barcelona
+Partido: Real Madrid
+Partido: Ruben a
+Partido: 2
+Partido: Sevilla
+Partido: Real Madrid
+Partido: Ruben a
+Partido: 2
+Partido: Valencia
+Partido: Real Madrid
+Partido: Ruben a
+Partido: 3
+Partido: FC Barcelona
+Partido: Real Madrid
+Partido: Esteban
+Partido: 3
+Partido: Sevilla
+Partido: Real Madrid
+Partido: Esteban
+Partido: 3
+Partido: Valencia
+Partido: Real Madrid
+Partido: Esteban
+Partido: 3
+Partido: FC Barcelona
+Partido: Real Madrid
+Partido: Felipe
+Partido: 3
+Partido: Sevilla
+Partido: Real Madrid
+Partido: Felipe
+Partido: 3
+Partido: Valencia
+Partido: Real Madrid
+Partido: Felipe
+Partido: 3
+Partido: FC Barcelona
+Partido: Real Madrid
+Partido: Carlos
+Partido: 3
+Partido: Sevilla
+Partido: Real Madrid
+Partido: Carlos
+Partido: 3
+Partido: Valencia
+Partido: Real Madrid
+Partido: Carlos
+Partido: 3
+Partido: FC Barcelona
+Partido: Real Madrid
+Partido: Luis
+Partido: 3
+Partido: Sevilla
+Partido: Real Madrid
+Partido: Luis
+Partido: 3
+Partido: Valencia
+Partido: Real Madrid
+Partido: Luis
+Partido: 3
+Partido: FC Barcelona
+Partido: Real Madrid
+Partido: Ruben
+Partido: 3
+Partido: Sevilla
+Partido: Real Madrid
+Partido: Ruben
+Partido: 3
+Partido: Valencia
+Partido: Real Madrid
+Partido: Ruben
+Partido: 3
+Partido: FC Barcelona
+Partido: Real Madrid
+Partido: Ruben a
+Partido: 3
+Partido: Sevilla
+Partido: Real Madrid
+Partido: Ruben a
+Partido: 3
+Partido: Valencia
+Partido: Real Madrid
+Partido: Ruben a
+Partido: 4
+Partido: FC Barcelona
+Partido: Real Madrid
+Partido: Esteban
+Partido: 4
+Partido: Sevilla
+Partido: Real Madrid
+Partido: Esteban
+Partido: 4
+Partido: Valencia
+Partido: Real Madrid
+Partido: Esteban
+Partido: 4
+Partido: FC Barcelona
+Partido: Real Madrid
+Partido: Felipe
+Partido: 4
+Partido: Sevilla
+Partido: Real Madrid
+Partido: Felipe
+Partido: 4
+Partido: Valencia
+Partido: Real Madrid
+Partido: Felipe
+Partido: 4
+Partido: FC Barcelona
+Partido: Real Madrid
+Partido: Carlos
+Partido: 4
+Partido: Sevilla
+Partido: Real Madrid
+Partido: Carlos
+Partido: 4
+Partido: Valencia
+Partido: Real Madrid
+Partido: Carlos
+Partido: 4
+Partido: FC Barcelona
+Partido: Real Madrid
+Partido: Luis
+Partido: 4
+Partido: Sevilla
+Partido: Real Madrid
+Partido: Luis
+Partido: 4
+Partido: Valencia
+Partido: Real Madrid
+Partido: Luis
+Partido: 4
+Partido: FC Barcelona
+Partido: Real Madrid
+Partido: Ruben
+Partido: 4
+Partido: Sevilla
+Partido: Real Madrid
+Partido: Ruben
+Partido: 4
+Partido: Valencia
+Partido: Real Madrid
+Partido: Ruben
+Partido: 4
+Partido: FC Barcelona
+Partido: Real Madrid
+Partido: Ruben a
+Partido: 4
+Partido: Sevilla
+Partido: Real Madrid
+Partido: Ruben a
+Partido: 4
+Partido: Valencia
+Partido: Real Madrid
+Partido: Ruben a
+Partido: 1
+Partido: Real Madrid
+Partido: FC Barcelona
+Partido: Esteban
+Partido: 1
+Partido: Sevilla
+Partido: FC Barcelona
+Partido: Esteban
+Partido: 1
+Partido: Valencia
+Partido: FC Barcelona
+Partido: Esteban
+Partido: 1
+Partido: Real Madrid
+Partido: FC Barcelona
+Partido: Felipe
+Partido: 1
+Partido: Sevilla
+Partido: FC Barcelona
+Partido: Felipe
+Partido: 1
+Partido: Valencia
+Partido: FC Barcelona
+Partido: Felipe
+Partido: 1
+Partido: Real Madrid
+Partido: FC Barcelona
+Partido: Carlos
+Partido: 1
+Partido: Sevilla
+Partido: FC Barcelona
+Partido: Carlos
+Partido: 1
+Partido: Valencia
+Partido: FC Barcelona
+Partido: Carlos
+Partido: 1
+Partido: Real Madrid
+Partido: FC Barcelona
+Partido: Luis
+Partido: 1
+Partido: Sevilla
+Partido: FC Barcelona
+Partido: Luis
+Partido: 1
+Partido: Valencia
+Partido: FC Barcelona
+Partido: Luis
+Partido: 1
+Partido: Real Madrid
+Partido: FC Barcelona
+Partido: Ruben
+Partido: 1
+Partido: Sevilla
+Partido: FC Barcelona
+Partido: Ruben
+Partido: 1
+Partido: Valencia
+Partido: FC Barcelona
+Partido: Ruben
+Partido: 1
+Partido: Real Madrid
+Partido: FC Barcelona
+Partido: Ruben a
+Partido: 1
+Partido: Sevilla
+Partido: FC Barcelona
+Partido: Ruben a
+Partido: 1
+Partido: Valencia
+Partido: FC Barcelona
+Partido: Ruben a
+Partido: 2
+Partido: Real Madrid
+Partido: FC Barcelona
+Partido: Esteban
+Partido: 2
+Partido: Sevilla
+Partido: FC Barcelona
+Partido: Esteban
+Partido: 2
+Partido: Valencia
+Partido: FC Barcelona
+Partido: Esteban
+Partido: 2
+Partido: Real Madrid
+Partido: FC Barcelona
+Partido: Felipe
+Partido: 2
+Partido: Sevilla
+Partido: FC Barcelona
+Partido: Felipe
+Partido: 2
+Partido: Valencia
+Partido: FC Barcelona
+Partido: Felipe
+Partido: 2
+Partido: Real Madrid
+Partido: FC Barcelona
+Partido: Carlos
+Partido: 2
+Partido: Sevilla
+Partido: FC Barcelona
+Partido: Carlos
+Partido: 2
+Partido: Valencia
+Partido: FC Barcelona
+Partido: Carlos
+Partido: 2
+Partido: Real Madrid
+Partido: FC Barcelona
+Partido: Luis
+Partido: 2
+Partido: Sevilla
+Partido: FC Barcelona
+Partido: Luis
+Partido: 2
+Partido: Valencia
+Partido: FC Barcelona
+Partido: Luis
+Partido: 2
+Partido: Real Madrid
+Partido: FC Barcelona
+Partido: Ruben
+Partido: 2
+Partido: Sevilla
+Partido: FC Barcelona
+Partido: Ruben
+Partido: 2
+Partido: Valencia
+Partido: FC Barcelona
+Partido: Ruben
+Partido: 2
+Partido: Real Madrid
+Partido: FC Barcelona
+Partido: Ruben a
+Partido: 2
+Partido: Sevilla
+Partido: FC Barcelona
+Partido: Ruben a
+Partido: 2
+Partido: Valencia
+Partido: FC Barcelona
+Partido: Ruben a
+Partido: 3
+Partido: Real Madrid
+Partido: FC Barcelona
+Partido: Esteban
+Partido: 3
+Partido: Sevilla
+Partido: FC Barcelona
+Partido: Esteban
+Partido: 3
+Partido: Valencia
+Partido: FC Barcelona
+Partido: Esteban
+Partido: 3
+Partido: Real Madrid
+Partido: FC Barcelona
+Partido: Felipe
+Partido: 3
+Partido: Sevilla
+Partido: FC Barcelona
+Partido: Felipe
+Partido: 3
+Partido: Valencia
+Partido: FC Barcelona
+Partido: Felipe
+Partido: 3
+Partido: Real Madrid
+Partido: FC Barcelona
+Partido: Carlos
+Partido: 3
+Partido: Sevilla
+Partido: FC Barcelona
+Partido: Carlos
+Partido: 3
+Partido: Valencia
+Partido: FC Barcelona
+Partido: Carlos
+Partido: 3
+Partido: Real Madrid
+Partido: FC Barcelona
+Partido: Luis
+Partido: 3
+Partido: Sevilla
+Partido: FC Barcelona
+Partido: Luis
+Partido: 3
+Partido: Valencia
+Partido: FC Barcelona
+Partido: Luis
+Partido: 3
+Partido: Real Madrid
+Partido: FC Barcelona
+Partido: Ruben
+Partido: 3
+Partido: Sevilla
+Partido: FC Barcelona
+Partido: Ruben
+Partido: 3
+Partido: Valencia
+Partido: FC Barcelona
+Partido: Ruben
+Partido: 3
+Partido: Real Madrid
+Partido: FC Barcelona
+Partido: Ruben a
+Partido: 3
+Partido: Sevilla
+Partido: FC Barcelona
+Partido: Ruben a
+Partido: 3
+Partido: Valencia
+Partido: FC Barcelona
+Partido: Ruben a
+Partido: 4
+Partido: Real Madrid
+Partido: FC Barcelona
+Partido: Esteban
+Partido: 4
+Partido: Sevilla
+Partido: FC Barcelona
+Partido: Esteban
+Partido: 4
+Partido: Valencia
+Partido: FC Barcelona
+Partido: Esteban
+Partido: 4
+Partido: Real Madrid
+Partido: FC Barcelona
+Partido: Felipe
+Partido: 4
+Partido: Sevilla
+Partido: FC Barcelona
+Partido: Felipe
+Partido: 4
+Partido: Valencia
+Partido: FC Barcelona
+Partido: Felipe
+Partido: 4
+Partido: Real Madrid
+Partido: FC Barcelona
+Partido: Carlos
+Partido: 4
+Partido: Sevilla
+Partido: FC Barcelona
+Partido: Carlos
+Partido: 4
+Partido: Valencia
+Partido: FC Barcelona
+Partido: Carlos
+Partido: 4
+Partido: Real Madrid
+Partido: FC Barcelona
+Partido: Luis
+Partido: 4
+Partido: Sevilla
+Partido: FC Barcelona
+Partido: Luis
+Partido: 4
+Partido: Valencia
+Partido: FC Barcelona
+Partido: Luis
+Partido: 4
+Partido: Real Madrid
+Partido: FC Barcelona
+Partido: Ruben
+Partido: 4
+Partido: Sevilla
+Partido: FC Barcelona
+Partido: Ruben
+Partido: 4
+Partido: Valencia
+Partido: FC Barcelona
+Partido: Ruben
+Partido: 4
+Partido: Real Madrid
+Partido: FC Barcelona
+Partido: Ruben a
+Partido: 4
+Partido: Sevilla
+Partido: FC Barcelona
+Partido: Ruben a
+Partido: 4
+Partido: Valencia
+Partido: FC Barcelona
+Partido: Ruben a

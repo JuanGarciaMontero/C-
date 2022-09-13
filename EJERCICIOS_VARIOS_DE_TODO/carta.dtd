@@ -1,0 +1,5 @@
+<!ELEMENT carta_desayuno (Nombre, Precio_euros+, Descripcion, Calorias*)>
+<!ELEMENT Nombre (#PCDATA)>
+<!ELEMENT Precio_euros (#PCDATA)>
+<!ELEMENT Descripcion (#PCDATA)>
+<!ELEMENT Calorias (#PCDATA)>

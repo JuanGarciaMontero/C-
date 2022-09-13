@@ -1,0 +1,1 @@
+SELECT fabricante.nombre, producto.nombre, producto.precio FROM tienda.producto INNER JOIN tienda.fabricante ON producto.codigo_fabricante = fabricante.codigo WHERE producto.precio >= (SELECT AVG(producto.precio) FROM tienda.producto WHERE producto.codigo_fabricante = fabricante.codigo);

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="iso-8859-1">
+<rss version="2.0">
+	<channer>
+		<title>RSS por Juan</title>
+		<description>Ejemplo de RSS de un periodico</description>
+		<link>https://elpais.com/espana/catalunya/2022-04-19/fin-de-las-mascarillas-en-la-escuela-catalana-se-ha-hecho-largo-los-ninos-han-sido-los-grandes-olvidados-en-esta-pandemia.html</link>
+		<lasBuildDate>Tue, 19 Apr 2022 9:00:00 -0400</lasBuildDate>
+		<pubData>Tue, 19 Apr 2022 16:38:00 -0400</pubDate>
+		<item>
+			<title>Ejemplo item periodico</title>
+			<description>La noticia trata sobre la elimina ion de máscarillas en interiores</description>
+			<guid isPermaLink="false">1102347</guid>
+			<pubData>Tue, 19 Apr 2022 16:38:00 -0400</pubDate>
+		</item>
+	</channel>
+</rss>

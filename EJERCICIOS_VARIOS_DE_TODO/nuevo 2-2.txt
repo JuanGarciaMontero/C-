@@ -1,0 +1,24 @@
+Make a short video talking about a concept of software you know or you use (use the formal language)
+
+Hola realizo este video para deciros que sistema operativo utilizo y por que uso ese sistema operativo.
+(Voy a escribir todo lo relacionado con este tema pero no voy a realizar un video.)
+Yo uso como sistema operativo Microsoft Windows. Utilizo este sistema por que creo que es el más extendio y puedo encontrar todo tipo de programas para usar. Además de tener la opcion de utilizar programas de pago y gratuitos. El primer inconveniente al instalar Windows es que necesita licencia para su funcionamiento. Tambien pasa con otros sistemas operativos como MAC. Hay otros que son gratuitos basados en Linux. En MAC el sistema operativo es de pago al igual que casi todos los programas. En sistemas operativos basados en Linux, el programa es gratuito pero todavía no encuentro entornos graficos por el que pueda tener programas con caracteristicas parecidas a un PC.
+
+
+Hello, I make this video to tell you what operating system I use and why I use that operating system.
+(I am going to write everything related to this topic but I am not going to make a video.)
+I use Microsoft Windows as operating system. I use this system because I think it is the most extensive and I can find all kinds of programs to use. In addition to having the option of using paid and free programs. The first drawback when installing Windows is that it needs a license to run. It also happens with other operating systems such as MAC. There are others that are free based on Linux. In MAC the operating system is paid like almost all programs. On Linux-based operating systems, the program is free but I still haven't found any graphical environments where you can have programs with PC-like features.
+
+Look for a software language and explain it in no more than 100 words.
+
+PHP es un lenguaje de programación adaptado especialmente para el desarrollo web.
+PHP originalmente significaba Personal Home Page, pero ahora significa Hypertext Preprocessor.
+El código PHP suele ser procesado en un servidor web por un intérprete PHP.
+El resultado del código PHP interpetado y ejecutado en el servidor, daría una respuesta en HTTP para servir al cliente.
+El intérprete estándar de PHP, es un software libre publicado bajo Licencia PHP. PHP puede ser desplegado en la mayoría de los servidores web en casi todos los sistemas operativos.
+
+PHP is a programming language specially adapted for web development.
+PHP originally stood for "Personal Home Page", but now it stands for "Hypertext Preprocessor".
+PHP code is usually processed on a web server by a PHP interpreter.
+The result of the PHP code interpreted and executed on the server would give an HTTP response to serve the client.
+The standard PHP interpreter is free software released under the PHP License. PHP can be deployed on most web servers on almost all operating systems.

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript setInterval()</h2>
+
+<p>Uso de setInterval () para mostrar la hora despues de 1000 milisegundos</p>
+
+<h1 id="demo"></h1>
+
+<script>
+setInterval(myFunction, 1000);
+
+function myFunction() {
+  let d = new Date();
+  document.getElementById("demo").innerHTML=
+  d.getHours() + ":" +
+  d.getMinutes() + ":" +
+  d.getSeconds();
+}
+</script>
+
+</body>
+</html>

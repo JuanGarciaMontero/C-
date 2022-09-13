@@ -1,0 +1,76 @@
+reves =  texto.ccharAt(i) + reves;
+
+reves = p + reves;
+reves = a + p + reves;
+reves = l + a + + p + reves;
+reves = o + l + a + p + "";
+reves = olap;
+
+textosinesp = p + a + l + o;
+textosinesp = palo;
+
+if (palo==olap)
+
+
+Javascript: en head de html
+
+<script type0"text/javascript">
+    // en javasscript las variables no se identifican, luego se convierten a numero(passerInt) o letra(passerChar);
+	
+	var texto;
+	var reves="";
+	var textos="";
+	
+	texto=window.prompr("Introduce un texto: ); // imprime por pantalla.
+	
+	texto=texto.toLowerCase(); // Convierte todo a minusculas
+	
+	for (i=0; i<texto.length;i++){
+		if (texto.charAt(i)!=" "){
+			textos += texto.charAt(i); // charAt pasa el texto o cadena de texto a char
+			
+			reves = texto.charAt (i) + reves;
+				
+		}	
+	
+	}
+	
+	if(textos==reves){
+		document.write(texto+ "es un palindromo"); //document.write imprime en html. y tambien esta //windows.alert, imprime en ventana con  texto.
+		//window.prompt o prompt ("Imprime por panta lo que sea");
+		Palindromo==arenera
+	}else {
+		document.write(texto+ "no es un palindromo");
+	
+	}
+
+}
+
+</script>
+
+Funcione:
+
+*do{.....}while(confirm("¿Quieres seguir jugando")); //confirm imprime por pantalla la pregunta y en funcion a la respuesta pulsando botón aceptar o botón cancelar.
+
+*document.write-> escribe algo en nuestro archivo xml.
+
+*variable.toUpperCase(); //pone las letras todas en mayúsculas
+
+*variable.toLowerCase(); //pone las letras todas en minúsculas
+
+function inicio(){
+	var inputColor = prompt("Introduce el nombre del colo "+"para el fondo de esta página,"");
+	
+	document.body.style.backgroundColor = inputColor;
+
+}
+
+<body onload="inicio()">//cuando cargar el body despues llama a la funcion inicio
+
+</body>
+</html>
+
+
+function replace;
+ variable=variable.replace("o","w");
+ //funcion reemplaza en una variable de texto o string los caracteres o por w.

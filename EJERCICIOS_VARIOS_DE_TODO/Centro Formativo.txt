@@ -1,0 +1,29 @@
+1:/ Crea una tabla que sirva para almacenar los datos de los ALUMNOS de un CENTRO formativo. Tendrás en cuenta que habrá que utilizar todos los tipos de campo que sean posibles (texto, numérico, etc).
+
+	ENTIDADES
+		ALUMNOS	(PK"DNI", "NOMBRE", "APELLIDOS", "Estudios");[1 ALUMONO PUEDE ] [1 ALUMNO PUEDE MATRICULARSE 1 CURSO]
+		CENTRO	(PK"ID", "Curso", "Descripcion",);
+		MATRICULA (PK"ID", "Estudios", "Precio");
+		REQUISITOS ("Estudios", "Grado", ");
+		PROFESORES ("Nombre", "Apellido", PK"DNI", "TLF", "ESTUDIOS"); [1 PROFESOR PUEDE DAR CLASES A 1 CURSO]
+	
+	ACCIONES
+		MATRICULARSE (1 alumno se matricula de 1 curso en el centro con unos requisitos)
+		DAR CLASES (1 profesor pude dar clases a varios alumnos)
+		
+	RELACIONES
+		ALUMNO SE MATRICULA EN UNO O VARIOS CURSOS. AL MATRICULARSE ES NECESARIO UNOS DETERMINADOS REQUISITOS
+		PROFESOR DA CLASES A VARIOS ALUMNOS. CADA CLASE CORRESPONDE A UN DETERMINADO CURSO.
+	
+2:/A través de la tabla anterior crea un formulario que permita ver las fichas de cada alumno y crea una consulta que permita ver los alumnos ordenados por apellido de forma descendente.
+
+
+	FORMULARIO: BUSCADOR
+
+		ENTIDADES:
+			ALUMNO
+	
+		ACCIONES:
+			BUSCAR
+			VER
+	

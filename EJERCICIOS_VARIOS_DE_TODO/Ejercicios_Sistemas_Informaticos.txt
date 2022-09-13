@@ -1,0 +1,46 @@
+¿Qué tipo de memoria son las más actuales a día de hoy? Haz una descripción detallada con sus características.
+
+SDRAM DDR4: Es la más utilizada actualmente. Con 288 pines, los chips SDRAM DDR4. (SDRAM: doble ratio de datos)(DDR4: doble velocidad de datos y permite que la memoria maneje el doble de datos en cada ciclo de reloj). Tienen velocidades a partir de 1.066MHz en adelante. El tamaño máximo de memoria por cada DIMM(modulo de memoria) es de 16 GB.
+
+
+
+¿Cómo afecta la latencia de la memoria a los procesos que se ejecutan en un ordenador?
+La latencia de la RAM es el número de ciclos de reloj que tarda la ram en ofrecer un dato de la memoria al microprocesador. Cuanto más baja sea la latencia mejor RAM, ya que procesa en menos tiempo.
+
+
+Indica qué importancia tiene el Chipset de una placa y muestra ejemplos de la actualidad.
+
+El Chipset tiene como función la comunicación y control de trafico de la placa base con el resto de componentes, discos duros, tarjetas graficas, etc... Según el Chipset de nuestro ordenador será compatible con determinados procesadores, discos duros, tarjetas gráficas, y resto de perifericos. Uno de los cambios importante hasta los chipset actuales ha sido el cambio del South Bridge SB por PCH (Platform Controller Hub)y el North Bridge NB ha desaparecido y esa funcion se integra en el procesador.Ejemplos Chipset:
+Intel Z370: Lanzado a finales de 2017.
+Características:
+Overclock de RAM DDR4 y procesador.
+3 configuraciones PCIe:
+1×16.
+2×8.
+1×8+2×4.
+No disponía de CNVi.
+Intel Optane.
+14 USB, pero ninguno de Gen 2.
+24 lanes PCIe 3.0.
+Intel RST para almacenamiento PCIe Intel.
+Sería el puente de comunicación de los i7 e i5 desbloqueados (los que tienen la letra «K»), pero también serviría para los posteriores i9 al soportar también la 9ª generación de procesadores Intel.
+
+
+¿Qué tipos de sockets hay actualmente? Descríbelos y muestra ejemplos de cada uno de ellos.
+
+1-Un socket (enchufe), es un método para la comunicación entre un programa del cliente y un programa del servidor en una red. Un socket se define como el punto final en una conexión. Los sockets se crean y se utilizan con un sistema de peticiones o de llamadas de función a veces llamados interfaz de programación de aplicación de sockets (API).
+
+Un socket es una dirección de Internet, combinando una dirección IP y un número de puerto.
+
+2-Se conoce como socket o zócalo donde se inserta el microprocesador.
+
+Existen diferentes tipos según el metodo de sujeción que emplean y la configuración de los pines que lo forman.
+
+Esta segunda caracteristica permite la compatabilidad de unos procesadores u otros con la placa base.
+
+Existen dos grupos diferenciados, según el fabricante del procesador sea AMD o Intel.
+
+Por lo tanto, al elegir una placa y un procesador tienes que asegurarte de que ambos dispositivos sean compatibles entre si.
+
+Ejemplos: Socket 423, Socket mPGA478, Socket 479, Socket LGS775, Socket 754, Socket 939, Socktet940,etc...
+

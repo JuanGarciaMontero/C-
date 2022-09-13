@@ -1,0 +1,141 @@
+Crea una aplicación basada en orientación a objetos que muestre el uso de polimorfismo. Aporta el código fuente y las capturas que permitan ver el resultado. 
+
+package Polimorfismo;
+// Polimorfismo estático
+//   Dos métodos llamados iguales que pasan
+//   distinta cantidad de parametros o distintos 
+//   parametros; pueden usarse indistintamente
+//   en funcion de la peticion de parametros.
+
+class Polimorfismo {
+	
+	
+	public int sumar(int a, int b){
+	        return a+b;
+	    }
+	    
+	public int sumar(int a, int b, int c){
+	        return a+b+c;
+	    }
+
+	
+	public static void main(String[] args) {
+		
+		Polimorfismo objeto = new Polimorfismo();
+        System.out.println("Resultado del llamado a sumar: " + objeto.sumar(1,2));
+        System.out.println("Resultado del llamado a sumar: " + objeto.sumar(1,2,3));
+	}
+
+}
+
+Consola:
+Resultado del llamado a sumar: 3
+Resultado del llamado a sumar: 6
+
+
+
+
+package Polimorfismo2;
+
+/* Polimorfismo dinámico.
+ * 	
+ * Los métodos (de Polimorfismo3) de la clase que hereda 
+ * (Polimorfismo3 hereda de Polimorfismo2),
+ * y métodos heredados de Polimorfismo2
+ * son recogidos 
+ * pero se desarrollan los métodos de la clase que hereda;
+ * es decir se desarrollan los métodos de Polimorfismo3 
+ * 
+ * Los métodos Polimorfismo2 y Polimorfismo3 se llaman igual
+ * y tienen los mismos parámetros.
+ * 
+ */
+
+public class Polimorfismo2 {
+    private String nombreFigura;
+    private double area;
+    private double perimetro;
+    
+    public Polimorfismo2(String nombre){
+        this.nombreFigura = nombre;
+    }
+    public String getNombreFigura() {
+        return nombreFigura;
+    }
+    public void setNombreFigura(String nombreFigura) {
+        this.nombreFigura = nombreFigura;
+    }
+    
+    public double getArea() {
+        return area;
+    }
+    public void setArea(double area) {
+        this.area = area;
+    }
+    public double getPerimetro() {
+        return perimetro;
+    }
+    public void setPerimetro(double perimetro) {
+        this.perimetro = perimetro;
+    }
+
+    
+    public String toString() {
+        return "Polimorfismo2{" + "nombreFigura = " + nombreFigura + ", area = " + area + ", perimetro = " + perimetro + "}";
+    }
+
+}
+
+
+package Polimorfismo2;
+
+public class Polimorfismo3 extends Polimorfismo2{
+    
+    private double lado;
+    
+    public Polimorfismo3(double l){
+        super("cuadrado");
+        this.lado = l;
+    }
+    
+
+    
+    public double getArea() {
+        return this.lado * this.lado;
+    }
+    
+    
+    
+     public double getPerimetro() {
+        return 4 * this.lado;
+    }
+
+     
+     
+    public String toString() {
+        return super.toString() + " Cuadrado: {" + " lado = " + lado + " "+"}";
+    }
+        
+
+
+	public static void main(String[] args) {
+	
+		Polimorfismo2 unaFigura = new Polimorfismo2("una figura");
+		Polimorfismo3 unCuadrado = new Polimorfismo3(5.0);
+	        System.out.println("Area de la figura:  " + unaFigura.getArea());
+	        System.out.println("Area del cuadrado: " + unCuadrado.getArea());
+	        System.out.println("Perimetro del cuadrado: " + unCuadrado.getPerimetro());
+	        unCuadrado.setArea(unCuadrado.getArea());
+	        unCuadrado.setPerimetro(unCuadrado.getPerimetro());
+	        System.out.println(unaFigura.toString());
+	        System.out.println(unCuadrado.toString());
+	}
+
+}
+
+Consola:
+Area de la figura:  0.0
+Area del cuadrado: 25.0
+Perimetro del cuadrado: 20.0
+Polimorfismo2{nombreFigura = una figura, area = 0.0, perimetro = 0.0}
+Polimorfismo2{nombreFigura = cuadrado, area = 25.0, perimetro = 20.0} Cuadrado: { lado = 5.0 }

@@ -1,0 +1,18 @@
+package BankAccount;
+
+class UsarCuenta {
+
+	public static void main(String[] args) {
+		// TODO Apéndice de método generado automáticamente
+		BankAccount c;
+		c = new BankAccount cuenta = ("324034B","Gloria");
+		
+		if(c.SacarDinero(50.10)){
+		System.out.println("Hay saldo);			
+		}
+		else
+		{System.out.println("No hay saldo")};
+	}
+
+
+}

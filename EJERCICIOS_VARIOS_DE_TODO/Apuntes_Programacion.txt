@@ -1,0 +1,1065 @@
+1
+INTRODUCCIÓN
+A LA
+PROGRAMACIÓN
+
+Los datos son la información que puede ser interpretada y procesada por los algoritmos.
+Los datos pueden ser pasados a través de parámetros, leídos o devueltos por los métodos.
+Ocho tipos de datos primitivos que
+son:
+▶ Tipo de dato numérico: byte, short, int, long, float, double.
+▶ Tipo de dato carácter: char.
+▶ Tipo de dato booleano: boolean.
+
+Los algoritmos son una representación de una parte del mundo real compuesto por una secuencia de pasos que deben ser ejecutados para solucionar un problema. Mientras que los programas no son más que aquellos encargados de implementar los algoritmos a través de un lenguaje elegido.
+
+Modos de representar un algoritmo entre los cuales están:
+▶ Diagramas de flujo: Son aquellos que dibujan símbolos gráficos para representar el algoritmo.
+▶ Pseudocódigo: Se basa en la descripción de la lógica del algoritmo en lenguaje natural,evitando los detalles de la sintaxis de un lenguaje específico.
+▶ Tablas de decisión: Las tablas de decisiones son una herramienta que ayuda a representar los procesos como un conjunto de condiciones y su respectivo conjunto de acciones.
+
+
+Paradigma proviene de la composición de dos palabras provenientes del griego: pará (junto) y deigma (modelo).
+Un paradigma de programación es aquel enfoque que establece un método o estilo de programación.
+
+Paradigmas de programación:
+a. Paradigma imperativo o procedural. Realiza una tarea paso a paso cambiando de estado.
+b. Paradigma orientado a objetos. Los programas son escritos como una colección de clases y objetos que se comunican entre sí.
+c. Paradigma funcional. Se basa en la ejecución de funciones matemáticas que son evaluadas para producir resultados.
+d. Paradigma lógico. En este estilo de programación lógica se tiene una base de conocimientos sobre la cual podemos efectuar consultas.
+
+Un lenguaje de programación es aquel que se compone de un conjunto caracteres y reglas que sirven para desarrollar programas.
+
+Los lenguajes de programación adoptan paradigmas de programación y poseen gramática, reglas sintácticas y reglas semánticas.
+
+Los lenguajes de programación sirven para comunicarse con el computador y ordenarle que siga instrucciones que permitan la resolución de problemas.
+
+Java es un lenguaje interpretado de propósito general; posee la capacidad de dialogar simultáneamente con varios ordenadores con diferentes sistemas operativos. Java es que un lenguaje orientado a objetos.
+
+
+En sus inicios el entorno de programación consistía en un editor de texto y un compilador para ejecutar los programas escritos. Sucesivamente fueron apareciendo herramientas útiles como los entornos integrados para desarrollo de programas, en donde se facilita la corrección de errores de sintaxis, se obtienen mensajes más detallados de los fallos en la compilación de los códigos, entre otras ventajas.
+
+Los nuevos entornos de desarrollo basados en escritorio, los entornos en la nube.
+
+Cuando se habla de calidad de software hablamos del desarrollo de productos seguros y confiables, en donde se busca disminuir costos y optimizar al máximo posible el tiempo y los recursos involucrados en su desarrollo.
+
+La calidad del software, según el profesor Vidal Alonso Secades, un producto de software debe ser fiable, modificable, comprensible, poseer alto rendimiento, debe ser utilizable, probable y también portable.
+
+
+2
+INTRODUCCIÓN A
+LA ORIENTACIÓN
+A OBJETOS.
+
+La POO permite crear programas que son la representación de partes del mundo real con lenguajes orientados a objetos.
+Las clases son las encargadas de determinar los atributos de los objetos y los métodos de los
+objetos.
+
+Las clases describen al conjunto de los objetos que comparten una estructura y comportamiento similares.
+
+Los atributos son las características de los objetos, por lo tanto, son datos descriptivos de los mismos.
+Los atributos pueden ser:
+▶ Atributos de instancia, cuando describen particularidades de los objetos de la clase.
+▶ Atributos de clase, cuando se describen las características que son comunes a todos los objetos que componen la clase.
+
+Las variables de instancia o variables globales son declaradas en la clase fuera de los métodos, constructores o instrucciones. Y las variables de clase o variable miembro estático son compartidas por todas las instancia de la clase.
+
+Las variables pueden ser de instancia cuando definen los atributos de un objeto, de clase cuyos valores se preservan para todas las instancias de la clase y las variables locales que son declaradas y utilizadas dentro de los métodos.
+
+La sintaxis más habitual es la siguiente:
+[public|protected|private] <TipoVariable> <NombreVariable>;
+
+Los métodos son aquellos procedimientos que cumplen los objetos.
+
+Los métodos opcionalmente pueden tener valores retorno al finalizar la ejecución.
+Los métodos definen cómo se comportan los objetos y también tienen asociada una visibilidad como los atributos.
+Tanto los métodos como los atributos pueden ser variables o constantes y no estáticos o estáticos.
+
+▶ Public o private: Son modificadores especificados en la cabecera del método.
+▶ Tipo devuelto: Cuando el método lleva un calificador void (de vacío) significa que nodevuelve nada.
+▶ Parámetros: Cuando se pasan parámetros es porque son valores externos al objeto. Los parámetros pueden clasificarse en dos tipos:
+1. Tipos primitivos: Se pasa por valor.
+2. Clases y arrays: Se pasa la dirección.
+
+Las instancias de las clases interactúan unas con otras, tienen comportamiento y tienen identidad. El comportamiento es la manera en que la instancia generada a partir de la definición de una clase actúa y reacciona.
+
+Los mensajes son la información que es intercambiada entre los objetos. Las instancias tienen la capacidad de colaborar entre sí para la realización de actividades; cuando una instancia recibe un mensaje ejecuta el método asociado.
+
+referencia.metodo(parametro1,parametro2...);
+referencia.metodo();
+variable = referencia.metodo(parametro1,parametro2...);
+variable = referencia.metodo();
+
+Cuando un mismo mensaje funciona con diferentes objetos ocurre polimorfismo.
+
+El estado de los objetos es determinado por la combinación de los valores de atributos en un instante de tiempo concreto. El estado de un objeto tiene la capacidad de afectar el comportamiento del objeto.
+
+El encapsulamiento es una propiedad que permite ocultar los detalles de la implementación de un objeto.
+
+▶ public (el menos restrictivo),
+▶ protected (nivel intermedio),
+▶ no especificado o default (acceso en su paquete),
+▶ private (el más restrictivo)
+
+Las clases pueden relacionarse unas con otras y estas relaciones son denominadas roles. Los roles indican cómo se están comunicando las clases entre sí.
+Un rol es la proyección de una clase cuya función es describir las propiedades estructurales y de comportamiento de los objetos.
+
+Estas relaciones pueden clasificarse como relaciones de:
+▶ Asociación (conexión entre clases).
+▶ Dependencia (relación de uso).
+▶ Generalización/especialización (relaciones de herencia).
+
+La multiplicidad se refiere al número de instancias de una clase que se relacionan con una instancia de otra clase.
+
+En Java las aplicaciones son modulares. Java permite crear los programas a través de la composición de clases.
+
+Para desarrollar en Java necesitaremos instalar el JDK, que no es más que el Kit de desarrollo de Java.
+
+El JDK es un paquete que incluye el compilador de Java. El compilador es un programa que transforma el código Java en ficheros .class que entonces pueden correr (ejecutarse) en un entorno Java.
+
+Para que el ordenador ejecute el programa escrito en Java, será imprescindible instalar la Máquina Virtual Java correctamente.
+La Máquina Virtual Java (MVJ o JVM) es el entorno que permite a los ordenadores ejecutar los programas desarrollados con Java o en otros lenguajes pues es la responsable de ejecutar e interpretar código binario.
+
+Cuando tenemos nuestro programa escrito en Java se compila y se ejecuta a la vez; en otras palabras, el programa se compila una vez, pero se interpreta cada vez que se ejecuta en un computador.
+
+
+3
+IDENTIFICACIÓN
+DE LOS
+ELEMENTOS DE
+UN PROGRAMA
+INFORMÁTICO.
+
+Un programa consiste en una serie de instrucciones que se ejecutan con un objetivo preestablecido.
+
+Los identificadores son nombres que describen y que diferencian de forma única.
+
+Los identificadores siguen las siguientes reglas en Java:
+▶ No pueden ser palabras reservadas.
+▶ Mayúsculas y minúsculas son diferentes.
+▶ La primera letra o símbolo de la palabra debe ser un carácter alfabético.
+▶ Existe un convenio en el que si la palabra empieza por letra mayúscula significa que estamos tratando con nombres de clase o interfaces.
+Si la palabra está escrita completamente en mayúscula, se trata de una constante.
+Si es variable o método, debe comenzar con letra minúscula.
+
+Las variables se componen de tres partes:
+tipo + nombreidentificador + inicializador (opcional).
+
+Las variables se dividen en dos grandes categorías:
+▶ Variables de tipo primitivo. Dependiendo de su tipo ocupan un espacio diferente en la memoria: byte, short, int, long, float, double, boolean, char.
+▶ Variables de tipo referencia. Las variables de tipo referencia a objetos son aquellas que almacenan las direcciones en lugar de almacenar directamente los valores de los mismos. Las referencias al objeto son direcciones de un área en la memoria que representan: Strings, Arreglos y otros objetos.
+
+Cuando hablamos de tipo de dato nos estamos refiriendo a una especificación de un dominio
+o un rango de valores.
+
+Un literal en Java es un valor constante compuesto por una serie de caracteres.
+
+Las constantes son unidades que pueden almacenar valores fijos (invariables durante la ejecución del programa).
+Las constantes se escriben en mayúscula.
+
+Una expresión es la combinación de operadores y operandos que se construyen y que nos permiten efectuar evaluaciones que devuelven resultados.
+
+Un operador es un conjunto de símbolos que definen el comportamiento de un objeto y que son utilizados en las expresiones.
+
+Los operadores más frecuentes son: operadores aritméticos, operadores de asignación, operadores unarios y operadores de bits.
+
+La precedencia de los operadores se resume en la siguiente tabla de mayor prioridad a menor
+prioridad.
+
+Hay ocasiones en las que puede resultar útil convertir un dato almacenado con un tipo a otro
+tipo diferente. Casting.
+
+En Java los comentarios se usan para explicar partes puntuales del código en Java y de este modo hacerlo más legible.
+▶ Para los comentarios de una sola línea se usa: //
+▶ Para los comentarios de bloque se usa: /* ...*/
+▶ Para los comentarios de documentación se usa: /** ...*/
+
+
+4
+UTILIZACIÓN
+DE OBJETOS.
+
+Cuando trabajamos con objetos debemos pensar en que no trabajamos directamente con ellos sino con referencias (clases) a los mismos.
+
+Los objetos, que son representaciones de cosas o entidades del mundo real, poseen información referente a sí mismos y sobre su estado.
+
+Por lo tanto, podemos decir que las características de un objeto radican en su estado, su comportamiento e identidad, los cuales pertenecen a una clase que reúne objetos con las mismas características y comportamientos.
+
+Los constructores son métodos llamados automáticamente que sirven para inicializar los objetos de una clase.
+
+El operador "new" hace asignaciones de memoria para el objeto y devuelve la referencia de la ubicación y además invoca el constructor de la clase.
+
+[tipo] nombreVariable = new tipo([parámetro1[, parámetro2[, ...]]]);
+
+Los métodos pueden tener una lista de varios parámetros con declaraciones de tipo y separados por una coma o sencillamente no llevar ninguno. Además, pueden devolver valores o simplemente no hacerlo.
+
+[<public|private>] <TipoRetorno><NombreMetodo>(lista parámetros){
+//Cuerpo del método
+}
+
+Existen dos formas de paso de parámetros: paso de parámetro por valor y paso de parámetro por referencia.
+
+Los objetos tienen propiedades con valores distintos que los diferencian de otros objetos de la misma clase, aunque puedan compartir métodos.
+
+▶ Métodos No estáticos (Instancia): Son aquellos llamados métodos de instancia. Son los más comunes y pueden acceder a los miembros de clase y de instancia. Su sintaxis de invocación es como sigue:
+nombreObjeto.nombreMetodo(parametros);
+▶ Métodos Estáticos (Clase): Son aquellos que pueden ser llamados sin instanciar a una clase y se indican como estáticos con la palabra clave static.
+Su sintaxis de invocación es así:
+nombreClase.nombreMetodo(parametros);
+
+La Máquina Virtual Java (MVJ o JVM) ejecuta los programas y también administra la memoria que usa el programa que desarrollamos.
+
+System.gc() sirve para indicar a la máquina virtual de Java que se desea que el recolector de basura se ejecute de forma inmediata, para que los objetos que no se utilizan sean reciclados y se efectúe la liberación de memoria.
+
+El recolector de basura es un hilo de ejecución que se ejecuta dependiendo del estado en el que se encuentra el sistema Java, reciclando un objeto cuando dejan de existir referencias al mismo. 
+
+
+5
+USO DE
+ESTRUCTURAS
+DE CONTROL.
+
+Las estructuras que permiten este tipo de tareas son:
+▶ Las estructuras de selección.
+▶ Las estructuras de repetición.
+▶ Las estructuras de salto.
+
+if (condición){
+sentencia1;}
+else
+{sentencia2;}
+
+switch (expresion){
+	case expresión1:
+		bloque1;
+		break;
+	case expresión2:
+		bloque2;
+		break;
+	...
+	case expresiónN:
+		bloqueN;
+		break;
+	default:
+		bloque_ejecutado_por_defecto;
+	}
+
+for (instrucción 1; instrucción 2; instrucción 3) {
+// Bloque de código
+}
+
+for (tipo nombre_variable : nombre_array) {
+// bloque de código
+}
+
+while (condición) {
+// bloque de código
+}
+
+do {
+// bloque de código
+}
+while (condition);
+
+Break es una sentencia habitualmente utilizada para crear una interrupción en la ejecución normal del programa de una estructura iterativa o de un switch.
+
+Continue es una instrucción que se usa en estructuras iterativas y que normalmente está asociada a una condición.
+
+
+6
+DESARROLLO
+DE CLASES.
+
+La clase es la encargada de determinar los atributos de los objetos y sus métodos.
+
+La sintaxis para declarar las clases en Java es:
+tipo_deAcceso class MiClase {
+/* variables o campos,
+Constructores
+métodos */
+}
+
+El nombre de la clase por convención debe empezar con letra mayúscula y el resto en minúscula, como en el ejemplo: MiClase.
+Todo el cuerpo de la clase tiene que estar delimitado por llaves {}.
+Las clases tienen dos tipos de acceso, por lo que una clase puede ser:
+▶ Clase pública (public). Si las otras clases tienen la capacidad de crear instancias de ella.
+▶ Clase privada (private). Si el acceso a ella está restringido.
+
+En una misma clase puede crearse uno o más objetos.
+Los miembros de la clase son los métodos, que deben comenzar con minúscula y deben tener nombre de verbo. Por ejemplo: sumar(), mover(), imprimir(), etc.
+
+Cada método puede tener declaradas variables dentro del bloque del procedimiento, las cuales serán válidas sólo dentro de ese bloque; al terminar el bloque se destruyen las variables.
+
+El fácil identificar los miembros de la clase en Java porque usan la palabra reservada static cuando son declaradas. Los miembros de la clase son independientes, no están vinculados a una instancia específica de la clase.
+
+class nombreClase{
+//variables de instancia
+//variables de clase
+nombre métodoDeInstancia(){
+//variables locales
+//bloque código
+}
+}
+
+Cuando a la variable se le define fuera de los bloques de procedimientos se le llama variable global, con lo cual cualquiera de los bloques tiene libre acceso a ella y tiene libertad para modificarla.
+
+Un atributo es una información que se almacena y es parte representativa del estado. Los atributos se pueden sustentar mediante tipos primitivos o clases.
+
+Método
+[<public|private>] <TipoRetorno><NombreMétodo>(lista parámetros){
+//Cuerpo del método
+}
+
+Los métodos constructores son aquellos que se utilizan para la creación de los objetos de la clase. Existe también el método no declarado, conocido como constructor por defecto. Los constructores de una clase son trozos de código que ofrecen la inicialización de objetos a un estado determinado.
+
+[modificadorVisibilidad] nombreConstructor (listaParámetros){
+campo1 = valor o parámetro;
+campo2 = valor o parámetro;
+. . .
+campo n = valor o parámetro;
+}
+
+Los métodos constructores se llaman igual que la clase y cada clase,  posee por lo menos un constructor. Los constructores pueden ser sobrecargados para crear instancias de objetos y nunca tienen tipo de retorno.
+
+Existen tres tipos de ámbito que son:
+▶ Local.(Las variables locales son aquellas que sólo son accesibles por el bloque de código del procedimiento o método donde se declararon. )
+▶ Global.(Las variables globales, conocidas como variables de instancia, son las que corresponden o que pertenecen a la instancia concreta de la clase donde fueron declaradas. Por lo tanto, cada objeto tiene su propia copia de la variable.)
+▶ Estático.(Las variables estáticas, conocidas también como variables de clase, son las variables definidas para la clase y por lo tanto disponibles para todas las instancias de la clase.)
+
+Cuando decimos sobrecarga de métodos hablamos de métodos que tienen el mismo nombre, pero cuya lista de parámetros es diferente.
+
+
+class NombreClaseHija extends NombrClasePadre {
+//Declaraciones de variables y métodos
+}
+
+Cuando se define una clase dentro de un paquete, el nombre de ese paquete se adjunta a cada clase, evitando así las colisiones de nombres con otras clases que tienen el mismo nombre, pero están en otros paquetes.
+
+import nombre_paquete.nombre_subpaquete;
+class ClasePrueba{
+...
+}
+
+Los paquetes además de las clases pueden tener Interfaces, tipos enumerados y anotaciones.
+
+import nombre_paquete.*;
+
+Es importante destacar que cuando se trata de comentarios de documentación:
+▶ Se inicia con barra y asterisco doble: /**
+▶ Se termina con asterisco y barra: */
+▶ Las líneas adicionales se inician con un asterisco: *
+
+
+7
+APLICACIÓN DE
+LAS ESTRUCTURAS DE
+ALMACENAMIENTO.
+
+Las estructuras de almacenamiento que se usan para almacenar conjunto de datos se llaman arreglos, array en inglés, los cuales pueden ser unidimensionales, bidimensionales y multidimensionales.
+
+Un array es una tabla que guarda valores del mismo tipo, tales como tipo String, int o double.
+En Java existen estructuras de almacenamiento de datos finitas que son:
+▶ Arrays unidimensionales.
+▶ Arrays bidimensionales.
+
+Los arrays unidimensionales tienen la capacidad de guardar en una sola variable múltiples valores.
+
+tipo_dato[] identificador_array;
+
+Los arrays pueden ser creados con el operador new:
+tipo_dato [] identificador_array = new TipoDato[tamaño];
+
+Cuando a una variable tipo array se le añade el calificador final, significa que a este array no se le puede volver a definir con el calificador new, pero si quedaría desbloqueado cambiar el contenido del array.
+
+También es posible la declaración de arrays de dos dimensiones, conocidos como matrices.
+
+tipo_dato[][] identificador_array = new tipo_dato[tamaño][tamaño];
+
+int[][] matriz_numerica = new int[2][2];
+	for (int x=0; x<matriz_numerica.length; x++){
+	for (int y=0; y < matriz_numerica[x].length; y++){
+		System.out.println (matriz_numerica[x][y]);
+}
+}
+
+for (int variable: array){...}
+
+Algoritmo de búsqueda secuencial. Este algoritmo compara el elemento objetivo de la búsqueda con cada uno de los elementos del array hasta que es hallado. Son muy comunes las búsquedas del elemento mayor, menor o búsqueda de un elemento específico en los arrays.
+
+int arreglo[] = {100,500,30,200,10,60};
+int menor=0;
+menor = arreglo[0];
+for (int i=1; i<arreglo.length;i++) {
+	if ( arreglo[i]<menor )
+		menor=arreglo[i];
+	}
+System.out.println(menor);
+
+La búsqueda binaria se ejecuta sobre arreglos ordenados donde se compara si el elemento objeto de la búsqueda se encuentra en la mitad superior o inferior de este. Se subdivide de nuevo sucesivamente hasta encontrar el elemento buscado.
+
+Algoritmo de ordenamiento
+burbuja. Con este sencillo algoritmo se comparan los elementos adyacentes haciendo intercambios, donde los elementos más livianos se envían hacia arriba y se dejan los más pesados abajo, de ahí su nombre.
+
+Las cadenas de caracteres se declaran entre comillas dobles: "cadena x". Y para su manipulación se involucran tres clases incluidas en el paquete java.lang. que son: String, StringBuffer y
+StringBuilder. Las cadenas de caracteres son muy útiles y su uso muy frecuente cuando queremos guardar y usar nombres o textos.
+
+String nombre_identificador = "cadena o texto";
+
+Otro modo en que se usan las cadenas de caracteres es mediante la creación de objetos String usando el operador new, del mismo modo que se crearía cualquier objeto de Java.
+
+Algunas de las operaciones permitidas en Java con las cadenas de caracteres son:
+▶ Concatenación.operador +.método concat());
+▶ Longitud de cadenas.length()
+▶ Acceso a elementos. indexOf, lastIndexOf; toLowerCase, toUpperCase
+▶ Conversiones.toLowerCase();toUpperCase();
+
+Se puede hacer conversiones de objetos a cadenas de texto con el método toString() de la clase Object, cuando por ejemplo es necesario el paso a un método que sólo acepta cadenas.
+También es posible hacer conversiones de cadenas a números con el método valueOf().
+
+8
+UTILIZACIÓN
+AVANZADA DE
+CLASES.
+
+La relación entre clases se da con la herencia mediante jerarquías de clases en donde existen clases bases y clases derivadas. Por otro lado, la composición es una relación entre objetos.
+
+La herencia posibilita a las clases definirse a partir de otras, permitiendo que la clase derivada reutilice funcionalidades de la superclase y dejando a la clase derivada como una versión extendida de la clase padre. Las clases hijas tienen la capacidad de añadir sus propios métodos o hacer modificaciones en aquellos métodos heredados.
+
+Existen dos tipos de herencia:
+▶ Múltiple. Aquella que es soportada por muchos lenguajes en donde las clases pueden heredar atributos y métodos de otra u otras clases.
+▶ Simple. La herencia simple es la que permite que las clases hereden tan sólo de una clase padre. Java, por ejemplo, entraría dentro de los lenguajes que no soportan la herencia múltiple, pero sí ofrece la posibilidad de que las clases implementen múltiples interfaces.
+
+Si no queremos que otras clases hereden de una clase A, entonces se usa la palabra clave final.
+
+La superclase conocida también como clase padre o clase base es la clase de la que se hereda.
+La subclase denominada comúnmente como clase hija o clase derivada es aquella que hereda de otra clase.
+
+En Java para heredar de una clase se usa la palabra clave extends. Sólo puede existir una superclase después de la palabra clave extends, al no soportarse en Java la herencia de múltiples superclases.
+
+Para invocar a un método de la SuperClase se usa la palabra super.
+
+Public class NombreSubClase extends nombreSuperClase{
+	public nombreMétodo(Parámetro1, Parámetro2) {
+	//Llamada explícita al constructor padre
+	super(lista de parámetros);
+	...
+	}
+}
+
+▶ final: se usa cuando la clase no puede ser heredada por otras clases.
+▶ abstract: se utiliza cuando la clase no se puede usar para crear objetos (para acceder a una clase abstracta, debe heredarse de otra clase).
+▶ final: se usa cuando los atributos y métodos no pueden ser modificados.
+▶ static: se utiliza cuando los atributos y métodos pertenecen a la clase, más que a un objeto.
+▶ transient: se usa cuando los atributos y métodos se omiten al serializar el objeto que los contiene.
+▶ synchronized: cuando solo se puede acceder a los métodos por un hilo a la vez.
+▶ volatile: cuando el valor de un atributo no se almacena en caché de forma local por subprocesos y siempre se lee desde la “memoria principal”.
+
+Cuando trabajamos con métodos de una subclase podemos redefinir los métodos heredados de la clase base; a esta acción se le llama sobreescritura.
+
+Para extender la funcionalidad de un método heredado se siguen reglas tales como:
+▶ La estructura del método debe ser igual a la de su clase padre: (Nombre, argumentos, tipo Retorno).
+▶ No tener un nivel de acceso más limitado que el original.
+▶ No se pueden sobreescribir métodos static (métodos globales) ni métodos finales (constantes).
+▶ Se recomienda poner la anotación @override a los métodos sobrescritos.
+
+Las clases abstractas son aquellas que declaran métodos, pero no los implementan.
+
+Los métodos abstractos son aquellos que no tienen cuerpo.
+
+El proceso de abstracción en el que se ocultan detalles y sólo se muestra la información esencial al usuario no sólo se implementa con las clases abstractas, sino que también lo hacen las interfaces.
+
+Las interfaces son por defecto abstractas y también lo son sus métodos.
+
+public interface A{
+	//sin atributos de instancia
+	// todos los campos son static y final
+	// todos los métodos son abstractos
+		Public abstract tipoResultado nombreMétodo();
+}
+
+Para que una clase implemente una interfaz se debe emplear la palabra implements:
+public class B implements A {
+...
+}
+
+También es posible que una interfaz extienda otra interfaz mediante la utilización de la palabra
+extends.
+
+Las interfaces son notablemente ventajosas para soportar la herencia múltiple en Java.
+public interface D extends A,C {
+...
+}
+
+Las interfaces son similares a una clase abstracta en muchos aspectos, pero se diferencian de ellas en que sólo contienen la colección de comportamientos que serán implementados en una clase (métodos abstractos) y también contienen propiedades constantes.
+
+Gracias al polimorfismo, un mismo mensaje funciona con diferentes objetos.
+
+El polimorfismo puede obtenerse a través de las clases abstractas y las interfaces. Hay distintas formas de polimorfismo como las variables polimorfas, las funciones polimorfas, la sobrecarga de métodos, la redefinición y la genericidad.
+
+Además, también existen dos tipos de polimorfismo en Java que son:
+▶ Polimorfismo en tiempo de compilación (sobrecarga). La que es implementada por Java a través de los métodos sobrecargados, conocida también como polimorfismo estático.
+▶ Polimorfismo en tiempo de ejecución (ligadura dinámica). La ligadura dinámica es aquella que se lleva a cabo cuando se redefinen los métodos. También se le conoce
+como envío de método dinámico.
+
+Con la comprobación de tipos se eluden muchos problemas de programación. Existen dos formas de comprobación de tipos que son:
+▶ La comprobación estática de tipos es aquella que se efectúa durante la compilación.
+Ejemplo: verificación de tipos de incompatibilidad de operadores, comprobaciones del flujo de control, de unicidad.
+▶ La comprobación dinámica de tipos es aquella en la que se hacen verificaciones durante la ejecución del programa objeto.
+
+Los tipos genéricos, también conocidos como tipos parametrizados, son utilizados para crear clases, interfaces y métodos.
+
+public class NombreClase<tipo1, tipo2...> {
+...
+}
+
+Las clases genéricas permiten generar software que puede ser reutilizado. Cuando se crea funciones genéricas el compilador usa el código de la función genérica como plantilla.
+
+public class Caja {
+	private Object object;
+	public void set(Object object) {
+		this.object = object;
+	}
+	public Object get() {
+	return object;
+	}
+}
+
+public class Caja<T> {
+	private T t;
+	public void set(T t) {
+	this.t = t;
+	}
+	public T get() {
+	return t;
+	}
+}
+
+Los nombres de parámetros de tipo más utilizados son:
+▶ E – Elemento (usado ampliamente por el Java Collections Framework).
+▶ K – Clave.
+▶ N – Número.
+▶ T – Tipo.
+▶ V – Valor.
+▶ S, U, V etc. – 2do, 3ro, 4to tipos.
+
+
+9
+CONTROL Y
+MANEJO DE
+EXCEPCIONES.
+
+Según J. B. Bermúdez (Bermúdez, 2012), una excepción es “un evento que ocurre durante la ejecución del programa que interrumpe el flujo normal de las sentencias.”
+
+Esta técnica provee de grandes ventajas en la tarea de programar debido a que Java crea un objeto y lo facilita al entorno de ejecución, generando de este modo el lanzamiento de excepciones cuando ocurre un error.
+
+Las excepciones proveen información de causa del error y tipo y además revelan el estado del programa cuando sucedió el error. Este proceso logra crear una separación entre el código normal y el código de tratamiento de errores.
+
+Excepciones verificadas(checked) Son excepciones verificadas las que heredan de la clase Exception. Este tipo de excepciones indican que un mensaje lanzado a un objeto no ha podido realizar su acción.
+
+Excepciones no verificadas (unchecked)Son todas aquellas excepciones donde no es necesario utilizar la comprobación try...catch.
+Tenemos dos tipos que son:
+▶ Error. Son las excepciones que revelan problemas graves y poco podemos hacer para resolverlas.
+Ejemplo: Algún problema con el hardware.
+▶ RuntimeException. Es una excepción no comprobada relacionada a una mala programación, y en lugar de capturar la excepción lo que procede es corregir el error de programación.
+
+Todos los métodos usan la sentencia throw para lanzar excepciones.
+java.lang -> Objeto
+Superclaser -> Throwable
+Jerarquía de la Herencia
+	*Error
+		-NoClassDelFoundError
+		-VirtualMachineError
+	*Exception
+		-Runtime Expection
+			*Aritmetich Exception
+			*Index Out of Bounds Exception
+			*Illegal Argument Exception
+			*Null Pointer Exception
+		-Print Exeption
+		-No Such Element Exceptions
+		-IO Pointer Exceptions
+		
+La captura de excepciones se consigue utilizando bloques de código try-catch-finally encerrando las instrucciones entre llaves, como se muestra en el ejemplo.
+Ejemplo:
+try {
+// Bloque de código try
+}
+catch(Exception e) {
+// Bloque de código para el manejo de errores
+}
+
+La palabra try significa intentar, por lo tanto, el código que va dentro de sus llaves intenta capturar el error cuando se produce y cuando es capturado se ejecutan de forma directa las sentencias del bloque catch.
+Catch recibe un objeto Throwable como parámetro.
+Finally es un bloque que se ejecuta siempre como un fragmento de código independiente. El bloque finally es un bloque opcional en el código.
+
+Para propagar excepciones se hace uso de la palabra throws seguida de la excepción. Throws se usa para identificar la lista de excepciones que un método puede lanzar.
+
+Throw se utiliza para lanzamiento explícito de excepciones. La forma de la instrucción es parecida a lo que se muestra a continuación:
+Throw Objeto Throwable;
+
+También es posible crear excepciones personalizadas en Java.
+Class NombreExcepcion extends Exception{
+	public NombreExcepcion(){}
+	//mensaje opcional
+	//definición de segundo constructor
+	Public NombreExcepcion(String msg){
+	Super(msg);
+	}
+}
+
+
+10
+COLECCIÓN
+DE DATOS.
+
+Las colecciones son objetos que representan un conjunto de elementos, que pueden ser almacenados y permiten ser recorridas.
+
+Java proporciona una interfaz especial llamada Collection que es el tipo más genérico de agrupación de elementos y que sirve para representar un grupo de objetos. La interfaz Collection provee de métodos para acceder a los elementos. Dentro del marco de colecciones encontramos principalmente a las listas, pilas, colas y conjuntos.
+
+Las listas son un conjunto de elementos ordenados que pueden ser accedidos de forma aleatoria y que pueden estar duplicados.
+
+Existen implementaciones de listas de elementos en Java tales como:
+▶ Arraylist: Es una clase de array o matriz de tamaño variable. Esto quiere decir que ofrece la ventaja de poder cambiar si se necesita el tamaño para añadir más elementos o eliminarlos, a diferencia de un array convencional.
+▶ Vector: El Vector es una colección considerada obsoleta. Es una implementación similar
+al ArrayList, pero difiere en que este está sincronizado. Sincronizado quiere decir que si múltiples hilos acceden a un mismo vector concurrentemente seguirá manteniéndose la consistencia de los datos.
+▶ LinkedList: Es una lista que almacena en contenedores vinculados, los cuales son muy útiles cuando se requiere añadir o quitar elementos desde el principio, medio o final de la lista.
+
+Conocidas también como stack en inglés, las pilas almacena objetos apilados en donde el último en añadirse es el primero en salir; el primer elemento que se añade a la pila está al fondo de ella.
+
+Una cola, conocida también como queue en inglés, es una colección de objetos que, a diferencia de las pilas, el primer elemento en añadirse es el primero en salir de ella.
+
+Un conjunto (Set) es una colección que almacena elementos no repetidos.
+
+Los mapas (map), aunque no se clasifican como colección porque no heredan de la interfaz collection, son objetos que se comportan de modo muy similar. Los mapas almacenan pares de valores Clave-Valor donde no se permiten claves duplicadas.
+
+La clase Collection que se encuentra en el paquete de Java.util implementa algoritmos de ordenamiento, búsqueda, máximo y mínimo, composición, manipulación de datos, los cuales en su mayoría operan sobre instancias de List, pero algunos también operan sobre el resto de las colecciones.
+También la clase tiene características de sincronización y de solo lectura de las colecciones.
+
+Un tipo genérico es una clase o interfaz genérica que se parametriza sobre tipos.
+
+class NombreClase<listaParametrosTipo> {
+/ * ... * /
+}
+
+La sintaxis para declarar una referencia a una clase genérica y crear una instancia genérica es:
+
+NombreClase< listaParametrosTipo > nombre-var = new NombreClase< listaParametrosTipo
+>(lista-arg-cons);
+
+A partir de la versión 5 de Java es obligatorio declarar de qué tipo van a ser los objetos, por ejemplo de una lista.
+Ejemplo: ArrayList <Integer> lista = new ArrayList <>();
+Desde la versión 8 de Java se abre la posibilidad a usar tipos genéricos como el siguiente: Ejemplo:
+ArrayList<S> a = new ArrayList<>();
+En donde S indica que es un tipo genérico sin especificar.
+
+11
+LECTURA Y
+ESCRITURA DE
+INFORMACIÓN.
+
+Se denomina flujo, conocido también como stream en inglés, al flujo de datos que pasa a través del ordenador desde una entrada hacia una salida.
+Los flujos de información sirven para la comunicación del programa con el exterior. Los flujos sirven como una interfaz con el dispositivo (fichero, pantalla, teclado, red, ...) o clase asociada.
+
+Para el flujo de la información que se intercambia entre la fuente y el destino Java se basa en dos clases InputStream (flujo de entrada) y OutputStream (flujo de salida) del paquete java. io (i de input y o de output).
+
+Las dos clases manejan los datos como una secuencia de bytes:
+▶ InputStream es utilizado para leer datos de una fuente. Cuenta con métodos como: int
+read(), int read(byte[] b), long skip(long n), close().
+▶ OutputStream es utilizado para escribir datos sobre un destino. Cuenta con métodos
+como: write(int b), write(byte[] b), close().
+
+Según los datos que transportan, los flujos pueden ser:
+
+▶ Flujos de bytes: Son los flujos que transportan datos binarios. Estos practican operacio-
+nes i/o en base a bytes de 8 bits. Los datos binarios pueden ser, por ejemplo, imágenes
+o sonidos.
+
+▶ Flujos de caracteres: Son aquellos que transportan datos tipo carácter (de texto). Y usan flujos de bytes a nivel físico. Las clases más usadas para el flujo de caracteres son:
+FileReader (internamente usa FileInputStream) y FileWriter (internamente usa FileOut - putStream).
+
+Las clases relativas a flujos se encuentran en el paquete java.io, por lo tanto, cuando escribimos nuestro código fuente debemos importarlo.
+
+Reader y Writer son las clases raíz de la jerarquía para los flujos de caracteres.
+Mientras que InputStream y OutputStream son las clases para leer o escribir datos binarios.
+
+InputStreamReader es una clase hija de Reader que transforma los flujos de bytes en flujos de caracteres.
+
+Para hacer uso de un flujo hay que abrirlo cuando se crea y cerrarlo cuando dejamos de utilizarlo. Para leer los datos del fichero se puede usar FileInputStream y los objetos se pueden crear con la palabra clave new.
+Ejemplo:
+InputStream f = new FileInputStream("C:/java/hola");
+
+La entrada estándar es generalmente desde el teclado y es implementado por System.in (el
+objeto de la clase InputStream). Y la salida estándar es la consola implementada por System.out.
+
+Para acceder a la entrada/salida estándar en Java se hace a través de campos estáticos de la clase java.lang.System. La entrada/salida estándar pueden redireccionarse consiguiendo que se lea de un fichero y se escriba en otro, por ejemplo.
+
+
+La mayoría de los programas necesitan acceder a datos externos ya sea para extraer información o para almacenarla.
+La clase File permite generar código para examinar y manipular ficheros y carpetas, pero no especifica cómo se almacena o se recupera la información en los ficheros.
+
+Las instancias de la clase File representan nombres de archivo, pero no los archivos. Será necesario el control de excepciones en caso de que el archivo correspondiente a un nombre no exista.
+
+Los ficheros de datos son un conjunto de bytes en un dispositivo de almacenamiento que puede ser leído o escrito.
+
+Los ficheros son identificados por un nombre como se muestra en la ruta (path) del ejemplo en Windows:
+C:\Mis Documentos\pablo\documentosProgram\nombre_fichero.extensión
+En Linux o Unix sería:
+/home/pablo/documentosProgram/nombre_fichero.extensión
+
+Además, existen dos tipos de ficheros importantes:
+▶ Los ficheros binarios que leen los programas.
+▶ Los ficheros de caracteres o de texto que nosotros leemos o escribimos y requieren más espacio que los binarios.
+
+Los ficheros (de texto o binarios) logran ser accedidos de dos modos, aunque en alguna literatura añaden una tercera conocida como concatenación (tuberías o pipes).
+
+Los dos modos de acceso principales son:
+▶ Aleatorio. Son aquellos ficheros que permiten el acceso no secuencial a sus datos. Conocido también como Random Access en inglés.
+▶ Secuencial. Son aquellos ficheros que permiten el acceso secuencial a sus datos desde el principio del fichero hasta el final (el cual muchas veces no se conoce a priori).
+
+En Java la lectura y escritura de ficheros se hace tanto en ficheros de texto como en ficheros binarios.
+Antes de todo, para abrir el fichero y leerlo se usa una construcción de BufferedReader a partir de la clase FileReader, clase creada para leer archivos.
+
+Ej:
+//Lectura de un fichero de texto
+File fichero = new File ("C:\\nombre_archivo.extensión");
+FileReader fr = new FileReader (fichero);
+BufferedReader br = new BufferedReader(fr);
+...
+String linea = br.readLine();
+
+La clase BufferedReader es hija de Reader y se encarga de añadir un buffer para hacer la lectura de caracteres. A través de su método readLine lee una línea de texto y la devuelve como String.
+
+//Escritura de un fichero de texto
+public static void main(String[] args){
+	FileWriter fichero = null;
+	PrintWriter pw = null;
+	try
+	{
+	fichero = new FileWriter("c:/Pruebas Eclipse/prueba.txt");
+	pw = new PrintWriter(fichero);
+	
+	for (int a = 0; a < 5; a++)
+	pw.println("Escribe Línea: " + a);
+	} catch (Exception e) {
+		e.printStackTrace();
+	} finally {
+	try {
+	if (null != fichero)
+	fichero.close();
+	//cierre del fichero
+	} catch (Exception e2) {
+	e2.printStackTrace();
+	}
+}
+
+Para realizar la lectura y escritura de ficheros binarios se siguen los mismos pasos, pero en lugar de emplear los “Reader” y los “Writer”, se utilizan los “InputStream” y los “OutputStream”.
+En lugar emplear los métodos readLine() y println(), se deberá aplicar los métodos read() y write() de array de bytes.
+Los datos que se almacenan en un fichero son datos persistentes, después de guardada la información se puede volver a utilizar posteriormente.
+
+Para crear un fichero se utiliza un código como el siguiente:
+try {
+	// Creamos el objeto que encapsula el fichero
+	File fichero = new File(“c:\\carpetaPrueba\\nombre_fichero.txt”);
+	// A partir del objeto File creamos el fichero físicamente
+	if (fichero.createNewFile())
+		System.out.println(“El fichero se ha creado correctamente”);
+	else
+	System.out.println(“No se ha podido crear el fichero”);
+	} catch (Exception ioe) {
+	ioe.getMessage();
+	}
+	
+Para eliminar un fichero es posible utilizando la clase file de la siguiente manera:
+
+File fichero = new File(“c:\\carpetaPrueba\\nombre_fichero.txt”);
+if (fichero.exits())
+fichero.delete();
+
+
+El código para crear un directorio sería el siguiente:
+
+try {
+	// Declaración de variables
+	String directorio = “C:\\prueba”;
+	String varios = “carpeta1/carpeta2/carpeta3”;
+	// Crear un directorio
+			boolean exito = (new File(directorio)).mkdir();
+		if (exito)			System.out.println(“Directorio: “ + directorio + “ creado”);
+	// Crear varios directorios
+			exito = (new File(varios)).mkdirs();
+		if (exito)		System.out.println(“Directorios: “ + varios + “ creados”);
+	}catch (Exception e){
+	System.err.println(“Error: “ + e.getMessage());
+}
+
+
+Interfaces gráficas de usuario simples
+
+Las interfaces gráficas de usuario conocidas como GUI (acrónimo de Graphical User Interface) son una forma gráfica que interacciona con el usuario y cuya apariencia y comportamiento es similar en todas las plataformas en las que son ejecutadas.
+
+Las interfaces gráficas de usuario son desarrolladas con la ayuda de las JFC (Java Foundation
+Classes), que son un conjunto de clases diseñadas para desarrollar aplicaciones gráficas en Java. Estas clases especiales se agrupan en AWT–Abstract Windowing Toolkit, Swing y Accessibility API.
+
+Algunos componentes de la interfaz de usuario son: los botones, las listas, los menús, las casillas de verificación y los campos de texto, entre otros.
+Además, existen componentes para construir las ventanas como: ventanas, marcos, barras
+de menús, cuadros de diálogo.
+Algunos componentes de AWT.
+
+Para construir una ventana elemental en Java con Eclipse podemos utilizar un código como
+el que mostramos a continuación:
+
+import javax.swing.JFrame;
+public class MiPrimeraVentana extends JFrame{
+	//Creamos el constructor
+	MiPrimeraVentana(){
+	mostrarGUI();
+	}
+	private void mostrarGUI() {
+		//fijando posición x,y
+		setLocation(500,200);
+		//fijando tamaño
+		setSize(300,300);
+		//Estableciendo título
+		setTitle(“Hola Programador@”);
+	}
+	public static void main(String[] args) {
+	MiPrimeraVentana v= new MiPrimeraVentana();
+	v.setVisible(true);
+}
+
+
+Un evento se le llama a hacer clic en un botón y que ocurra algo: cerrar ventana, activar ventana, minimizar ventana, etc. Todos estos son ejemplos de interacciones del usuario con los componentes.
+
+Existen dos clases de eventos:
+▶ Eventos de bajo nivel, que son los que tienen que ver con la interacción física con la interfaz.
+▶ Eventos de alto nivel (semánticos), que son los relacionados con las operaciones lógicas como, por ejemplo: ActionEvent.
+
+Para establecer los controladores de eventos se deben crear los objetos que respondan a las acciones del usuario, a los cuales se les denomina objetos lógicos de la aplicación.
+Los objetos creados reciben notificaciones de ocurrencias de eventos y llaman a sus métodos definidos para responder al evento asociado.
+
+▶ Listener (escuchadores). Los objetos llamados listener (escuchadores) han ser de una clase que herede la interfaz perteneciente al tipo de evento que va a tratar.
+El listener escucha el evento y ejecuta la acción que corresponde.
+public void 	TipoEventoPerformed(TipoEventoEvent e) {
+// Código que implementa la respuesta al evento
+...
+}
+
+▶ Fuente (Source). Cada fuente define el tipo de eventos que notifica y proporciona métodos para registrar y eliminar oyentes de dicho tipo.
+//Registrar:
+fuente.addTipoEventoListener(oyente)
+//Eliminar:
+fuente.removeTipoEventoListener(oyente
+
+
+12
+GESTIÓN DE
+BASES DE DATOS
+RELACIONALES.
+
+Las bases de datos relacionales son hoy en día el modelo más importante de datos para las aplicaciones de procesamiento de datos.
+
+Java tiene una librería que permite interactuar con las bases de datos desde el lenguaje de programación Java, llamada Database Conectivity (JDBC). O lo que es lo mismo, una API es - pecializada que permite establecer conexiones con fuentes de datos, recuperar información, manipularla y ejecutar consultas.
+La API JDBC está compuesta por dos paquetes: java.sql y javax.sql que están incluidos en la Java Plataform Standard Edition (Java SE).
+
+El acceso a la base de datos se hace mediante dos modelos en el que JDBC puede ser implementado:
+
+▶ Modelo de arquitectura de dos niveles: Conocida también como Arquitectura de dos capas (two tier), donde por un lado está el cliente (máquina del usuario) y por el otro el servidor de base de datos (aloja la base de datos). El cliente accede a la base de datos de forma directa a través del controlador JDBC.
+
+▶ Modelo de arquitectura de tres niveles: Conocida también como Arquitectura de tres capas (three tier), donde por un lado está el cliente, en la capa intermedia se encuentra la lógica del negocio que sitúa el servidor de aplicaciones y en la tercera capa el servidor de base de datos. Normalmente se usa este modelo.
+
+
+Para conectarnos a un sistema de gestión de base de datos como Oracle, Access o MySql necesitamos un controlador (driver) específico para cada una en particular, que medie entre la API JDBC y la base de datos.
+
+Para poder establecer una conexión con la base de datos JDBC utiliza alguna de las siguientes dos clases: DataSource o DriverManager.
+La clase llamada DriverManager establece las conexiones con las bases de datos mediante el controlador basado en la tecnología JDBC (driver). Los comandos SQL (Statements) se envían a la base de datos a través de la conexión establecida. Cuando el comando genera resultados estos se almacenan en un objeto denominado ResultSet.
+Java utiliza SQL para acceder y manipular las bases de datos.
+
+Clases JDBC:
+
+DriverManager -> Carga el driver, gestiona la conexión y todas las comunicaciones con la BD.
+
+Connection -> Se usa para el establecimiento de las conexiones a las BDs.
+
+Statement -> Se utiliza para el envío y ejecución de sentencias SQL.
+
+ResulSet -> Usado para guardar el conjunto de resultados que se devuelven de una query.
+
+Asumiremos que ya te has instalado el MySQL Workbench y el driver (connector-java). Debes ubicar el fichero físico que contiene el driver (JAR/ZIP) en el CLASSPATH de la app.
+
+La sintaxis sería como la siguiente:
+Connection con = DriverManager.getConnection(url);
+Connection con = DriverManager.getConnection(url, login, password);
+Connection es un objeto que encapsula la base de datos. El formato de la URL variará según el
+driver que utilicemos.
+
+*paquete (import java.sql.*;)
+
+Ejemplo:
+
+*try {
+	Connection con = DriverManager.getConnection(“jdbc:mysql://localhost/bd”,”pruebas”, “cxs”);
+} catch (SQLException ex) {
+// Aquí se trata el error
+...
+}
+
+
+Una vez hecha la conexión a la base de datos podemos hacer tanto recuperación como manipulación de la información que queramos de ella.
+Lo haremos mediante la clase Statement que podemos instanciar así:
+
+*Statement stmt = con.createStatement();
+
+Para crear y ejecutar consultas SQL (query) podemos usar el objeto Statement y usando el método executeQuery como se muestra en las siguientes líneas:
+
+ResultSet result = stmt.executeQuery(query);
+
+Obtendremos una tabla a través de la consulta SQL, que contendrá los campos y registros que indiquemos en la consulta.
+
+Ejemplo:
+
+*String query = "SELECT * FROM TRABAJADORES WHERE Género = 'M'";
+ResultSet result = stmt.executeQuery(query);
+
+Los datos se devuelven como un objeto ResulSet. (result)
+
+Para la consulta de todos los registros obtenidos se emplea habitualmente un bucle con la siguiente sintaxis:
+
+*while(result.next()) {
+// Leer registro
+}
+
+Para mostrar en pantalla todos los datos obtenidos de la tabla TRABAJADORES del ejemplo podemos hacer lo siguiente:
+
+*	int idTrabajadores;
+	String nombre;
+	String genero;
+	
+	while(result.next()){
+	idTrabajadores = result.getInt("idTrabajadores");
+	nombre = result.getString("nombre");
+	genero = result.getString("genero");
+System.out.println(idTrabajadores + "\t" + nombre + "\t" + genero);
+}
+
+
+Para crear nuestra pequeña tabla podemos ejecutar las sentencias SQL del siguiente modo:
+
+*String st_crea = "CREATE TABLE TRABAJADORES (
+idTrabajadores INTEGER,
+nombre VARCHAR(45),
+genero CHAR(1),
+PRIMARY KEY (idTrabajadores)
+)";
+stmt.executeUpdate(st_crea);
+
+
+13
+MANTENIMIENTO
+DE LA
+PERSISTENCIA DE
+LOS OBJETOS.
+
+Aunque las bases de datos relacionales han sido siempre las más utilizadas por los programadores de software, las bases de datos orientadas a objetos son muy útiles cuando se desea gestionar datos muy complejos o no convencionales, como imágenes o documentos, permitiendo mejorar mucho el rendimiento del proyecto.
+
+Además, el modelo orientado a objetos tiene la capacidad de soportar relaciones de muchos a muchos, siendo el primer modelo que lo permite.
+
+Las bases de datos orientadas a objetos, también conocidas como OODB (Object Oriented DataBase), son aquellas que tienen la capacidad de integrarse con un lenguaje orientado a objetos agrupando la información en paquetes relacionados entre sí.
+
+Las bases de datos orientadas a objetos poseen librerías que proveen de almacenamiento persistente de objetos.
+
+Los datos en una OODB se dividen en datos transitorios y datos persistentes.
+
+En las bases de datos orientadas a objetos, los objetos se dividen en clases. Cada objeto es una unidad específica de una clase abstracta, esto produce una jerarquía de clases y subclases.
+
+Los objetos de una clase también pueden relacionarse con otras clases conformando una jerarquía de clases más flexible y permitiendo la formación de redes.
+
+Para hacer una introducción básica a las bases de datos orientadas a objetos, nos basaremos en ObjectDB, que es el sistema gestor de base de datos orientado a objetos, NoSQL, para el lenguaje de programación Java y compatible con ACID.
+ObjectDB provee de dos modos de utilización, uno es en modo cliente-servidor y la otra forma es en modo incrustado (en proceso)
+
+Para poder usar ObjectDB hace falta usar una de las dos API estándar de Java, llamadas JPA o JDO:
+
+▶ JPA con lenguaje de consulta JPA (JPQL) basado en la sintaxis de SQL. A través de la API de Java JPA es posible crear sentencias JPQL (Java Persistence Query Language). Es el estándar que suele aplicarse en APIs que implementan el estándar de JPA y HQL (es un lenguaje similar a SQL pero especializado en objetos y no en datos como SQL) en los proyectos. JPA facilita la representación de datos de clases y objetos.
+
+▶ JDO con lenguaje de consulta JDO (JDOQL) basado en la sintaxis de Java. Es otro estándar para el acceso a datos persistentes en bases de datos, mediante el empleo de clases simples que no obedecen a un marco de trabajo en especial (Plain Old Java Object, POJO) para representar el modelo de objetos.
+
+Estas APIs están incorporadas en ObjectDB, según la información ofrecida por su sitio oficial.
+
+ObjectDB puede ser tratado tanto por JPA como por JDO. Eso significa que las dependencias requeridas para la persistencia del objeto ya están ahí, sin demandar que el programador las incluya explícitamente en el proyecto Java.
+
+
+Las bases de datos orientadas a objetos (BDOO), aunque son poco utilizadas, pueden mejorar mucho el rendimiento de algunos proyectos por su alta afinidad con los lenguajes de programación orientados a objetos.
+
+El modo en el que se almacena con ObjectDB es guardando el objeto en la base de datos, pero no almacenando los métodos ni el código, sino solo el estado del objeto y en particular solo los datos de tipo persistente.
+
+De forma predeterminada cualquier campo que no es declarado como estático(static) o transitorio (transient) será persistente (persistent).
+
+En Java se emplea el *paquete javax.persistence y las clases *EntityManager. Cuando se modifica la BD se requiere una instancia de tipo *EntityTransaction.
+
+El modo de conectarse a la base de datos es muy sencillo. Para acometer la conexión a la base se haría del siguiente modo:
+
+*EntityManagerFactory emf = Persistence.createEntityManagerFactory(“ruta y nombre entidad.
+odb”);
+
+Para utilizar el modo incrustado, se debe especificar una ruta absoluta o una ruta relativa de un archivo de base de datos local. Para utilizar el modo de servidor cliente, se debe especificar una URL con el formato 
+*objectdb://host:port/path
+
+Para cerrar la base se usa la misma instancia:
+
+*emf.close();
+
+Para comenzar una transacción se precisa hacer:
+
+*em.getTransaction().begin();
+
+Y mientras la transacción está activa se invocan métodos que pueden cambiar el contenido de la base de datos.
+
+A través del método *persist, asociado a una transacción activa generada por una instancia de EntityManager, es posible ejecutar el almacenamiento de objetos persistentes.
+
+OQL es un lenguaje muy parecido a SQL, pero se distinguen en que OQL puede usar caminos de acceso dentro de la consulta para referirse a los componentes de los objetos complejos y para pasar de unos objetos a otros relacionados.
+
+La sintaxis para hacer una consulta SELECT FROM WHERE semejante a SQL, en OQL sería:
+	select d.nombre
+	from d in Departamentos
+	where d.cargo = ‘Administrativo’
+
+Las variables iterador se pueden especificar de tres modos:
+* d in departamentos
+* departamentos d
+* departamentos as d
+El almacenamiento de un objeto en la base de datos no almacena los métodos ni el código, sino solo el estado del objeto y en particular solo los datos de tipo persistente.
+
+Para guardar objetos persistentes se usa el método persist y se autoriza la transacción con commit.
+
+Ejemplo:
+
+	em.getTransaction().begin();
+		Trabajador trabajador = new Trabajador(“Shakira”, “Rodríguez”);
+	em.persist(trabajador);
+	em.getTransaction().commit()
+
+El nuevo objeto de la entidad Trabajador es guardado cuando la transacción es autorizada
+(commit).
+
+Todas las operaciones que afectan el contenido de la base de datos como almacenamiento, modificación y borrado de objetos persistentes, se deben ejecutar dentro de una transacción.
+
+Ejemplo de guardar nombres y direcciones en un directorio:
+
+...
+EntityManager em = emf.createEntityManager();
+em.getTransaction().begin();
+	Directorio d1=new Directorio(“Augusto”,”Galicia”);
+	Directorio d2=new Directorio(“José”,”Madrid”);
+em.persist(d1);
+em.persist(d2);
+em.getTransaction().commit();
+
+TypedQuery< Directorio > query
+= em.createQuery(“SELECT d FROM Directorio d”,Directorio.class);
+List< Directorio > results = query.getResultList();
+for (Directorio dd : results) {
+System.out.println(dd);
+}
+em.close();
+emf.close();
+...
+

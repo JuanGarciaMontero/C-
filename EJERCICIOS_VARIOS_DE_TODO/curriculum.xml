@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE curriculum>
+<!-- Ejemplo curriculum -->
+<curriculum>
+	<datos_personales>
+		<nombre>Juan</nombre>
+		<apellidos>Fernando Lopez</apellidos>
+		<email>jfernando@gmail.com</email>
+	</datos_personales>
+	<imagen>jfer.jpg</imagen>
+	<experiencia>
+		<empresa>
+            <nombreDeLaEmpresa1>Vodafone,S.A.</nombreDeLaEmpresa1>
+				<fecha1>18/02/1998</fecha1>
+				<actividad1>Analista</actividad1>
+			<nombreDeLaEmpresa2>Orange,S.A.</nombreDeLaEmpresa2>
+				<fecha2>01/11/2009</fecha2>
+            <actividad2>Diseñador</actividad2>
+		</empresa>
+	</experiencia>
+	<datos_academicos>Ingeniero Informatico</datos_academicos>
+	<idiomas>
+		<idioma1>Inglés</idioma1>
+			<Nivel1>Medio</Nivel1>
+		<idioma2>Español</idioma2>
+			<Nivel2>Nativo</Nivel2>
+		<idioma3>Aleman</idioma3>
+			<Nivel3>Bajo</Nivel3>
+	</idiomas>
+	<otros_datos>Fotografia, Running, Pesca</otros_datos>
+</curriculum>
+

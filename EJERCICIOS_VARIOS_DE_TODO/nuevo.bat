@@ -1,0 +1,2 @@
+NETSTAT -e
+pause

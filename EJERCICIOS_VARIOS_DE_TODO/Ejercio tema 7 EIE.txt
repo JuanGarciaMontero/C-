@@ -1,0 +1,18 @@
+Si te decides a crear tu propia empresa como empresario individual y prestar tus servicios como programador web, explica en relación a tus obligaciones fiscales las siguientes cuestiones:
+
+- ¿Por qué impuesto tendrán que tributar tus ganancias? ¿Cuánto dura el periodo impositivo? ¿Qué gastos podrías deducirte?
+
+Como autónomo tributas  I.R.P.F. Los Rendimientos de trabajo derivan del trabajo personal y que no tengan el carácter de rendimientos de actividades económicas. El autónomo también tributa el rendimiento de actividades económicas ya que proceden del trabajo personal y del capital conjuntamente o no. La estimación de los rendimientos pueden ser estimación directa (normal o simplificada) o estimación objetiva. La tributación de I.R.P.F como autónomo se realiza trimestralmente.
+
+El periodo impositivo es el año natural sino se produce fallecimiento.
+
+Gastos deducibles: cotizaciones a la Seguridad Social (Pago de Autónomos son cuotas mensuales), cotizaciones a colegio de huérfanos, cuotas sindicales, cuotas colegios profesionales.
+
+
+-  ¿Qué tipo de IVA gravaría tus servicios como programador web? ¿Cuándo deberás presentar tus declaraciones-liquidaciones del IVA y en qué modelo oficial?
+
+El tipo de IVA que grava sería de entregas de bienes y prestaciones de servicios efectuados por empresarios o profesionales en el desarrollo de su actividad. En el caso de programador web sería los servicios efectuados en la realización de páginas web a una empresa que contrata por ejemplos mis servicios como autónomo. Tributaria en el tipo general 21%. Abría que cargar el IVA soportado del 21% en las facturas de los trabajos en las páginas web entregados a la empresa que me contrato. La cuota de IVA en un periodo (suele ser trimestralmente) es IVA repercutido (IVA venta de páginas web) - IVA soportado (IVA compra de material de oficina, material informático, etc...)
+
+El periodo de liquidación de IVA coincide con el trimestre natural, pero se puede presentar mensualmente.
+
+La declaración de liquidación de IVA utilizaría el modelo oficial, modelo general 303 con periodicidad trimestral.

@@ -1,0 +1,32 @@
+SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
+START TRANSACTION;
+SET time_zone = "+00:00";
+
+CREATE TABLE `agenda` (
+  `id` int(11) NOT NULL,
+  `nombre` varchar(20) NOT NULL,
+  `telefono` varchar(20) NOT NULL,
+  `ciudad` varchar(20) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+INSERT INTO `agenda` (`id`, `nombre`, `telefono`, `ciudad`) VALUES
+(2, 'Ruben Garcia', '636091038', 'El Berrueco'),
+(3, 'Vicente Garcia', '654557788', 'Alcobendas'),
+(4, 'Maria del Carmen Mon', '644552211', 'Alcobendas'),
+(5, 'Noelvis Pichardo', '633554459', 'El Molar'),
+(6, 'Sergio Garcia', '655447788', 'El Molar'),
+(7, 'Felipe Hermoso', '636091037', 'Madrid'),
+(8, 'Pedro', '6547788', 'Almeria'),
+(9, 'Pablo', '6545566', 'Asturias'),
+(10, 'Luis Fernandez', '654778844', 'Barcelona'),
+(11, 'Alonso Lopez', '65448844', 'Barcelona'),
+(12, 'Lucia Lopez', '658221144', 'Toledo'),
+(13, 'Julio Cuadrado', '657771144', 'Toledo'),
+(14, 'Alejandro Valverde', '657745644', 'Sevilla'),
+(15, 'Pablo Luz', '68744221', 'Almeria'),
+(16, 'Abdon Garcia', '65554221', 'Ciudad Real'),
+(17, 'Victor Luz', '65599221', 'Valencia'),
+(18, 'Felipe Reyes', '687445577', 'Sevilla'),
+(19, 'Fernando Lopez', '67888774', 'Valladolid'),
+(25, 'a', '777', 'oooooooo'),
+(26, 'Juan', '33', 'ww');

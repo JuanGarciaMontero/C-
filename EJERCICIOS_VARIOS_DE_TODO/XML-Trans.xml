@@ -1,0 +1,56 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<netflix>
+    <peliculas>
+        <pelicula>
+            <nombre>Pelicula1</nombre>
+            <director>Director1</director>
+            <valoracion puntos="4" />
+            <publico>Adultos</publico>
+        </pelicula>
+        <pelicula>
+            <nombre>Pelicula2</nombre>
+            <director>Director1</director>
+            <valoracion puntos="3" />
+            <publico>Todos los publicos</publico>
+        </pelicula>
+        <pelicula>
+            <nombre>Pelicula3</nombre>
+            <director>Director3</director>
+            <valoracion puntos="4" />
+            <publico>Infantil</publico>
+        </pelicula>
+        <pelicula>
+            <nombre>Pelicula4</nombre>
+            <director>Director4</director>
+            <valoracion puntos="5"/>
+            <publico>Infantil</publico>
+        </pelicula>
+    </peliculas>
+    <series>
+        <serie>
+            <nombre>Serie1</nombre>
+            <director>Director2</director>
+            <valoracion puntos="3" />
+            <publico>Todos los publicos</publico>
+        </serie>
+        <serie>
+            <nombre>Serie2</nombre>
+            <director>Director2</director>
+            <valoracion puntos="5" />
+            <publico>Adultos</publico>
+        </serie>
+        <serie>
+            <nombre>Serie3</nombre>
+            <director>Director1</director>
+            <valoracion puntos="4" />
+            <publico>Infantil</publico>
+        </serie>
+        <serie>
+            <nombre>Serie4</nombre>
+            <director>Director5</director>
+            <valoracion puntos="4" />
+            <publico>Adultos</publico>
+        </serie>
+    </series>
+</netflix>

@@ -1,0 +1,31 @@
+h2{
+
+    color:darkblue;
+
+}
+
+
+body {
+    background:darkgrey;
+    align-content: center;
+    display: flex;
+  justify-content: center;
+}
+
+# trab {
+    
+    color:aqua;
+}
+
+table {
+    
+    background:cadetblue;
+    background-clip: border-box;
+    text-align-last: center;
+}
+
+# contenedor {
+  display: flex;
+  justify-content: center;
+   
+}

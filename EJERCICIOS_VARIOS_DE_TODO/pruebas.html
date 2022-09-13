@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html  lang="es">
+<head>
+<title>¡¡WEB!!</title>
+  <meta charset="utf-8">
+  <meta name="description" content="Web">
+  <meta name="keywords" content="HTML, CSS, JavaScript">
+  <meta name="author" content="Juan">
+  <meta http-equiv="refresh" content="30">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--<base href="https://www.gogle.com/" target="_blank">-->
+  
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  
+  <script src="https://kit.fontawesome.com/d9bed442cf.js" crossorigin="anonymous"></script>
+  
+<style>
+p {
+  border: 2px solid powderblue;
+  padding: 10px;
+  margin: 10px;
+  width: 20%;
+
+}
+li {
+  float: left;
+}
+
+li a:link {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+a:visited {
+  color: pink;
+  background-color: transparent;
+  text-decoration: none;
+}
+li a:hover {
+
+  background-color: #111;
+
+}
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  text-align: center;
+}
+tr:hover {background-color: #D6EEEE;}
+ul {
+  list-style-image: url('favicon.ico');
+  list-style-position: inside;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+.nav {
+  background-color: yellow; 
+  list-style-type: none;
+  text-align: center;
+  height: 60px;
+  margin: auto;
+  width: 40%;
+  border: 3px solid green;
+  padding: 10px;
+}
+
+.nav li {
+  display: inline-block;
+  font-size: 20px;
+  padding: 10px;
+  margin: auto;
+</style>
+<script type="text/javascript">
+function color(){
+
+	var inputColor = prompt("Introduce el nombre del color "+"para el fondo de esta página","");
+	
+	document.body.style.backgroundColor = inputColor;
+
+}
+</script>
+</head>
+<body>
+
+<h1>This is a heading</h1>
+<h2>This is the next heading</h2>
+<p onClick="color()" title="Cambia el color del fondo"><a>Cambiar el fondo de la página</a></p>
+<p>This is a paragraph.</p>
+<p>This is a paragraph.</p>
+
+<caption><strong>|EDADES|</strong></caption>
+<table style="width:30%" >
+  <tr >
+    <th colspan="2">Name</th>
+    <th rowspan="2">Age</th>
+  </tr>
+  <tr >
+    <th>Firstname</th>
+    <th>Lastname</th>
+  </tr>
+  <tr>
+    <td>Jill</td>
+    <td>Smith</td>
+    <td>50</td>
+  </tr>
+  <tr>
+    <td>Eve</td>
+    <td>Jackson</td>
+    <td>94</td>
+  </tr>
+  <tr>
+    <td>John</td>
+    <td>Doe</td>
+    <td>80</td>
+  </tr>
+</table>
+
+<ul>
+  <li><a href="#home">Home</a></li>
+  <li><a href="#news">News</a></li>
+  <li><a href="#contact">Contact</a></li>
+  <li><a href="#about">About</a></li>
+</ul>
+<br><br>
+<ul class="nav">
+  <li><a href="#home">Home</a></li>
+  <li><a href="#about">About Us</a></li>
+  <li><a href="#clients">Our Clients</a></li>  
+  <li><a href="#contact">Contact Us</a></li>
+</ul>
+<br>
+<br>
+
+<ol start="1000" type="I">
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ol>
+
+<div style="width:45%; background-color:black;color:white;padding:10px;">
+  <h2>London &#128512; &#128516; &#128525; &#128151;</h2>
+  <h4>London is the capital city of England. It is the most populous city in the0 United Kingdom, with a metropolitan area of over 13 million inhabitants.&#128512;</h4>
+</div>
+
+<br/><br/>
+
+<!--<form action="/action_page.php" style="width:200px; height:600px;">
+  <fieldset>
+    <legend>Personalia:</legend>
+    <label for="fname">First name:</label><br>
+    <input type="text" id="fname" name="fname" value="John"><br>
+    <label for="lname">Last name:</label><br>
+    <input type="text" id="lname" name="lname" value="Doe"><br><br>
+    <input type="submit" value="Submit">
+  </fieldset>
+</form>No se puede mostrar más de un formulario por página-->
+<!--
+<form action="/action_page.php">
+  <input list="browsers" name="browser">
+  <datalist id="browsers">
+    <option value="Internet Explorer">
+    <option value="Firefox">
+    <option value="Chrome">
+    <option value="Opera">
+    <option value="Safari">
+  </datalist>
+  <input type="submit">
+</form>-->
+
+<form action="/action_page.php"
+style="width:200px; height:600px;"
+oninput="x.value=parseInt(a.value)+parseInt(b.value)">
+  0
+  <input type="range" id="a" name="a" value="50">
+  100 +
+  <input type="number" id="b" name="b" value="50">
+  =
+  <output name="x" for="a b"></output>
+  <br><br>
+  <label for="favcolor">Select your favorite color:</label>
+  <input type="color" id="favcolor" name="favcolor" value="#ff0000">
+   <br><br>
+  <input list="browsers" name="browser">
+  <datalist id="browsers">
+    <option value="Internet Explorer">
+    <option value="Firefox">
+    <option value="Chrome">
+    <option value="Opera">
+    <option value="Safari">
+  </datalist>
+   <br><br>
+  <fieldset>
+    <legend>Personalia:</legend>
+    <label for="fname">First name:</label><br>
+    <input type="text" id="fname" name="fname" value="John"><br>
+    <label for="lname">Last name:</label><br>
+    <input type="text" id="lname" name="lname" value="Doe"><br><br>
+    <input type="submit" value="Submit">
+  </fieldset>
+  <br><br>
+   <label for="birthday">Birthday:</label>
+  <input type="date" id="birthday" name="birthday">
+   <br><br>
+   <label for="myfile">Select a file:</label>
+  <input type="file" id="myfile" name="myfile">
+  <br><br>
+    <label for="gsearch">Search Google:</label>
+  <input type="search" id="gsearch" name="gsearch">
+  <br><br>
+  <label for="phone">Enter a phone number:</label><br><br>
+  <input type="tel" id="phone" name="phone" placeholder="+34-611-111111" pattern="+[0-9]{2}-[0-9]{3}-[0-9]{6}" required><br><br>
+  <small>Format: +34-611-111111</small>
+  <br><br>
+  <label for="appt">Select a time:</label>
+  <input type="time" id="appt" name="appt">
+  <br><br>
+  <label for="homepage">Add your homepage:</label>
+  <input type="url" id="homepage" name="homepage">
+   <br><br>
+   <label for="week">Select a week:</label>
+  <input type="week" id="week" name="week">
+  <br><br>
+  <label for="country_code">Country code:</label>
+  <input type="text" id="country_code" name="country_code" pattern="[A-Za-z]{3}" title="Three letter country code"><br><br>
+  <input type="submit">
+  <input type="reset">
+  <br><br>
+</form>
+
+</body>
+</html>

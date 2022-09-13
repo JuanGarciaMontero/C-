@@ -1,0 +1,59 @@
+Dado el siguiente documento XML, realizar las siguientes búsquedas:
+
+1./ Nombre de los ciclos que incluyen el módulo "Lenguajes de marcas y sistemas de gestión de información"
+
+//ciclo[@id=//modulo[nombre="Lenguajes de macas y sistemas de gestión de información"]/ciclo]/nombre/text()
+
+Resultado:
+Administración de Sistemas Informáticos en Red
+Desarrollo de Aplicaciones Web
+
+
+2./ Nombre de los módulos de ciclos de Grado Superior:
+
+//modulo[ciclo=//ciclo[grado="Superior"]/@id]/nombre/text()
+
+Resultado:
+Gestión de bases de datos
+Lenguajes de marcas y sistemas de gestión de información
+Implantación de aplicaciones web
+
+
+3./ Nombre de los módulos de ciclos cuyo título se aprobó en 2009:
+
+//modulo[ciclo=//ciclo[decretoTitulo=2009]/@id]/nombre/text()
+
+Resultado:
+Gestión de bases de datos
+Lenguajes de marcas y sistemas de gestión de información
+Implantación de aplicaciones web
+
+
+
+
+
+
+
+
+
+Nombre de los módulos del ciclo "Sistemas Microinformáticos y Redes" (en la expresión final no deben aparecer las siglas SMR):
+
+Aplicaciones web
+
+//modulo[ciclo="SMR"]/nombre/text()
+
+//ciclo[nombre="Sistemas Microinformáticos y Redes"]/@id   -->  SMR
+
+//modulo[ciclo=//ciclo[nombre="Sistemas Microinformáticos y Redes"]/@id]/nombre/text()
+
+Los grados de los ciclos con módulos de curso 2
+Medio
+Superior
+
+ciclos con módulos de curso 2
+//modulo[curso=2]/ciclo
+Los grados de los ciclos
+//ciclo[@id="X"]/grado/text()
+
+Los grados de los ciclos con módulos de curso 2
+//ciclo[@id=//modulo[curso=2]/ciclo]/grado/text()

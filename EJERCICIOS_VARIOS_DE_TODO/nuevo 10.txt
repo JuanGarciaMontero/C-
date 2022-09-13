@@ -1,0 +1,42 @@
+//Leer nombre y sueldo de 10 empleados y mostrar el que más gana
+
+import java.util.*;
+
+public class Main {
+
+    public static void main(String[] args) {
+ 
+    Scanner sc = new (System.in);
+	
+	String nombres[] = new String[10];
+	Float sueldos[] = new Float[10];
+	
+	String nombreMayor;
+	Float sueldoMayor;
+	
+	System.out.printnl("Dar nombre y sueldo de los 10 empleados: ");
+	
+		
+	nombreMayor=nombres[0];
+	sueldoMayor=sueldos[0];
+	
+	for(int i=0;i <nombres.lenth;i++){
+	
+		System.out.printnl("Nombre "+(i+1)+": ");
+			empleados[i]=sc.nextLine();
+		System.out.printnl("Sueldo: ");
+			sueldos[i]=sc.nextDouble();
+	
+		if(sueldos[i]>sueldoMayor){
+		
+			sueldoMayor=sueldos[i];
+			nombreMayor=nombres[i];
+		
+		}
+	
+	}
+	System.out.println("Empleado con mayor sueldo: " + nombreMayor );                                         
+    System.out.println("Sueldo: " + sueldoMayor);
+		
+}
+

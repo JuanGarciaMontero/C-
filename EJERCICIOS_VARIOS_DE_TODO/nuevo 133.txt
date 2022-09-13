@@ -1,0 +1,72 @@
+insert into futbol4 values (nombre_equi1="select nombre_equi from futbol1", nombre equi2="select nombre_equi from futbol1", nombre_arb="select nombre_arb from futbol3");
+
+
+
+INSERT TOP(1) INTO futbol4 (nombre_equi1 , nombre_equi2, nombre_arb) SELECT nombre_equi, nombre_equi, 'Juan' FROM futbol1;
+
+
+$parametros_post = array(
+  'p1' => 'valor',
+  'p2' => 'valor2'
+);
+//suponiendo una conexión de bd abierta
+$campos = '';
+$parametros = '';
+$parametros_consulta = array();
+foreach($parametros_post as $nombre_parametro => $valor_parametro) {
+  //validar datos, etc.
+  $campos .= "$nombre_parametro,";
+  $parametros .= ":$nombre_parametro,";
+  $parametros_consulta[":$nombre_parametro"] = $valor_parametro;
+}
+
+$campos = trim($campos, ',');
+$parametros = trim($parametros, ',');
+
+$insert = "INSERT INTO tabla($campos) VALUES($parametros)";
+
+select DISTINCT * from futbol4 where nombre_equi1!=nombre_equi2 and id_sorteos!=(SELECT DISTINCT id_sorteos from futbol4 where nombre_arb);
+
+*	int idTrabajadores;
+	String nombre;
+	String genero;
+	
+	while(result.next()){
+	idTrabajadores = result.getInt("idTrabajadores");
+	nombre = result.getString("nombre");
+	genero = result.getString("genero");
+System.out.println(idTrabajadores + "\t" + nombre + "\t" + genero);
+}
+
+
+
+
+	EntityManagerFactory emf = Persistence.createEntityManagerFactory(“ruta y nombre entidad.odb”); //objectdb://host:port/path
+	EntityManager em = emf.createEntityManager();
+	em.getTransaction().begin();
+		Trabajador trabajador = new Trabajador(“Shakira”, “Rodríguez”);
+	em.persist(trabajador);
+	em.getTransaction().commit();
+	
+	TypedQuery< Directorio > query= em.createQuery(“SELECT d FROM Directorio d”,Directorio.class);
+	List< Directorio > results = query.getResultList();
+	for (Directorio dd : results) {
+	System.out.println(dd);
+	}
+	em.getTransaction().commit();
+	em.close();
+	emf.close();
+	
+Algoritmo calendario de la liga
+
+Para describir cómo se elabora un calendario completo de manera que los equipos jueguen todos contra todos, se parte de la primera jornada, que previamente se ha confeccionado mediante sorteo, y se procede de la siguiente forma.
+
+Las jornadas pares de la primera vuelta se forman a partir de la jornada anterior con estos cambios:
+• El equipo que está el último de la columna izquierda –equipo comodín– se coloca en el primer lugar de esa misma columna. El resto de los equipos de esa columna izquierda bajan un lugar.
+• A continuación se intercambian las dos columnas de las que consta la jornada.
+
+Las jornadas impares de la primera vuelta se forman a partir de la jornada impar anterior, de esta manera: el equipo comodín –que está en el último lugar de la columna izquierda– permanece en su lugar; los demás equipos se mueven un puesto mediante una permutación circular en el sentido contrario a las agujas del reloj.
+
+Las jornadas de la segunda vuelta se confeccionan intercambiando las columnas de las correspondientes jornadas de la primera vuelta. Para evitar que un equipo juegue tres veces seguidas en su casa, el equipo comodín se intercambia con su contrario en las dos últimas jornadas de la primera vuelta.
+
+Una plantilla para 20 equipos puede verse aquí o más concretamente en este enlace

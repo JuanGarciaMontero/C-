@@ -1,0 +1,21 @@
+Supón que una empresa de venta de ordenadores y servicios informáticos presenta los gastos mensuales que se determinan a continuación:
+
+Alquiler del local 800€
+Compra de 30 ordenadores a 350€/unidad
+Publicidad y promoción 200€
+Sueldos y salarios 4.500€
+Seguridad Social 1.200€
+Cuota de autónomo 250€
+Gastos de luz 250€
+Internet 50€
+Asesoría y gestoría 130€
+Intereses de préstamo 250€
+Teléfono 80€
+Material de oficina 100€
+ 
+
+Clasifica los anteriores gastos en costes fijos = 7610 y costes variables.= 520
+Calcula los gastos totales mensuales de la empresa. Suma de todo = 8130
+Calcula el umbral de rentabilidad, suponiendo que el precio de venta sea de 500€/unidad
+8130/500=16.26
+Con 17 unidades de venta de producto o servicios estariamaos en umbral de rentabilidad, a partir de  17 uniddes daria beneficio y no solo cubriria costes.

@@ -1,0 +1,922 @@
+1
+EXPLOTACIÓN
+DE SISTEMAS
+MICROINFORMÁTICOS.
+
+La descomposición de algoritmos es un procedimiento creado en el año 1936 por el matemático ingles Alan Mathison Turing. Turing creó un modelo computacional al que llamó en supublicación la Máquina de computación Lógica.
+
+Cuando se habla de arquitectura de ordenadores se hace referencia tanto al diseño conceptual
+como también a la parte estructural operacional de los sistemas informáticos.
+
+CPU, que son las siglas de la unidad central de procesamiento, que podemos imaginar como el cerebro de la máquina que se encarga del acceso a las direcciones de memoria y de todo el trabajo de procesamiento de información interno de la máquina.
+
+La Máquina de Turing es conceptual, se creó estructuralmente sencilla, cuando aún no existían los computadores, con el objetivo de ser un modelo para cualquier tipo de computación.
+
+La Máquina de Turing se compone de tres partes importantes que son:
+
+1. La cinta. Constituye la memoria de la máquina de Turing sobre la que apunta el cabezal.
+2. El cabezal lector/escritor. Leer el contenido de la celda a donde apunta y modificar el valor de la celda por el mismo u otro valor. Además, el cabezal puede moverse a la derecha o a la izquierda y únicamente una celda a la vez
+3. La unidad de control. Conocida también como procesador o la mente de la máquina, tiene entre sus funciones registrar los estados de la máquina.
+
+En la arquitectura de Harvard se mantiene una memoria de almacenamiento de datos independiente de la memoria del
+programa; consecuentemente, separa los datos y las instrucciones, cada uno con un sistema completo de buses, que permiten el envío simultáneo de datos e instrucciones, logrando este proceso con mayor velocidad.
+
+Fue creada en 1947 y su nombre proviene del computador llamado Mark 1.
+
+La arquitectura Von Neumann fue creada en 1945 por el matemático y físico John Von Neumann y, al contrario que la Arquitectura Harvard, emplea la misma memoria del computador para los datos y las instrucciones.
+
+La arquitectura Von Neumann conocida también como arquitectura Princeton, es un modelo de programa almacenado, compuesto por la:
+
+▶ ALU. Es la unidad Aritmético Lógica encargada de los cálculos y las decisiones lógicas.
+▶ UC. Es el acrónimo de la unidad de control, la cual incluye un registro de instrucciones y
+un contador de programa, una memoria, mecanismos de entrada y salida.
+▶ CPU. Es el acrónimo de la unidad central de procesamiento, encargado de la interpretación de las instrucciones y su ejecución.
+
+Los sistemas informáticos se componen básicamente por tres partes que se relacionan entre sí
+que son: el hardware, el software y el componente humano.
+
+Se refiere a la parte física de un sistema informático, compuesto por todos sus dispositivos dispuestos para su funcionamiento.
+Dentro del Hardware podemos distinguir cuatro partes esenciales que componen el ordenador que son:
+▶ Unidades de almacenamiento o memorias.
+▶ Unidad Central de procesamiento o CPU.
+▶ Unidad de entrada/salida (E/S).
+▶ Buses.
+
+Las unidades de almacenamiento se componen de memoria principal o interna y almacenamiento externo, que es la memoria secundaria o externa.
+
+▶ Memoria principal: el almacenamiento interno, conocido también como memoria central o principal del ordenador se compone, a su vez, de dos memorias llamadas RAM y ROM.
+• RAM: se trata de la memoria RAM acrónimo de Random Access Memory. Es una memoria que se usa para la lectura/escritura. Es volátil, almacena el sistema operativo de nuestro ordenador y los programas con sus respectivos datos.
+• ROM: ROM es la sigla de Read Only
+Memory. Es una memoria que se usa
+solo para lectura y es permanente. Se
+encarga del almacenamiento de la BIOS
+(Basic Input-Output System), donde se
+encuentran los programas que se ejecutan cuando encendemos el ordenador.
+
+▶ Memoria Secundaria: la memoria secundaria está relacionada con el almacenamiento externo y está compuesta por los dispositivos magnéticos, como los discos duros y Ópticos, como el DVD.
+Tiene una alta capacidad para guardar información, no es volátil, pero el acceso a los datos en este tipo de dispositivos es lento.
+
+El CPU o microprocesador, se encarga de coordinar todas las actividades de los distintos componentes para que todo sea ejecutado correctamente.
+Se compone de de dos unidades:
+▶ Aritmético-logica (ALU).
+▶ Control (UC).
+La combinación de ambas unidades compone el microprocesador.
+
+La unidad de entrada/salida está relacionada con todos los periféricos del ordenador que nos
+permiten comunicarnos con el mismo.
+
+Los buses son una especie de autopista por donde fluye la información entre las distintas uni-
+dades del computador. Los buses están compuestos por hilos.
+
+Existen tres clases principales de buses que son:
+▶ Bus de datos.
+▶ Bus de direcciones.
+▶ Bus de control del sistema.
+
+El Software se compone de todos los programas (softwares) que permiten el procesamiento y control entre la parte física y lógica del ordenador.
+Existen dos tipos de softwares conocidos como
+▶ Software base (sistema operativo).
+▶ Software de aplicaciones (para tareas específicas como las hojas de cálculo).
+
+Componente humano:
+Se compone por los usuarios del sistema informático.
+
+Los periféricos son todas las partes que envuelven el sistema, que componen los elementos
+físicos del ordenador y que utilizan los usuarios para interactuar con el sistema informático.
+
+Pueden clasificarse en: periféricos de entrada, de salida, mixtos, de comunicación y de alma-
+cenamiento.
+
+Los dispositivos periféricos se conectan al ordenador a través de puertos.
+
+Los puertos son caminos que permiten el paso de datos entre el microprocesador y la memoria, lográndose de este modo la comunicación entre los distintos dispositivos del sistema
+informático, incluyendo la placa base y los periféricos.
+
+Existen diferentes puertos para cada periférico. Ej: Puerto serie, Puerto paralelo, Puerto PS/2, Puerto USB, IEEE 1394 o Firewire, Puerto para juegos o MIDI, Audio mini -jack sockets, RCA video, VGA (Video Graphics Array), HDMI, Ethernet RJ-45, etc...
+
+Normas de seguridad y prevención de riesgos laborales. Fatiga mental.(pausar, aislarse contamminacio, planificacion).
+Trastornos musculoesqueléticos. Están relacionados con el concepto de ergonomía.(reducir movimientos repetitivos, estiramientos, mantener buenas posturas).
+Problemas visuales. Son producidos generalmente por las largas horas de exposición a pantallas en horas de trabajo.(posicion pantalla, tamañon pantalla, contrastes, ejercicios relajacion)
+
+
+Para que dos o más personas puedan comunicarse, normalmente hacen uso de dispositivos que se interconectan, produciendo lo que se conoce como sistema de comunicación, en el siempre interviene un mensaje, un emisor del mensaje y un receptor.
+
+Constituyen en conjunto un sistema de comunicación que comúnmente es clasificado en dos grandes grupos llamados: medios de transmisión guiados y medios de transmisión no guiados.
+
+Los denominados medios de transmisión guiados son los que permiten la conducción de los datos a través de cables, por lo que también se les conoce como medios de transmisión alámbricos. Tienen la capacidad de transmitir señales analógicas o también señales digitales.
+Par trenzado. Los cables UTP y STP.
+Los conectores que utilizan estos cables suelen ser conectores RJ-45 macho y el socket.
+
+Cable Coaxial.G59, RG6, RG11.
+
+Fibra Óptica: es considerado hasta el momento uno de los mejores medios de transmisión, puesto que no provoca, ni sufre interferencias electromagnéticas y tiene mayor resistencia. Existen también conectores ópticos. Entre los más comunes están: SC, LC, FC, ST.
+
+Transmite la luz de los siguientes modos:
+▶ Monomodo: es la fibra delgada que tiene un solo haz de luz muy enfocada, con fabricación de diámetro de núcleo más pequeño que las fibras multimodo y con cubierta de 125 μm.
+▶ Multimodo: Se refiere a la fibra que puede tener múltiples haces de luz, moviéndose a través del núcleo por caminos distintos, cuyo núcleo tiene un diámetro de 100μm con
+cubierta de 140 μm.
+
+
+Los medios de transmisión no guiados son lo que hacen uso del aire para transmitir los datos a través de medios como las radiofrecuencias, microondas, infrarrojos o láser, por lo que también reciben el nombre de medios de transmisión inalámbricos.
+
+Infrarrojo.100 GHz a 1000 THz. Protocolo simple y económicos. Corto alcance y baja velocidad trasmisión.
+
+Microondas: 1GHZ en adelante. Amplio ancho de banda. Atenuación condiciones atmosféricas y distancia máxima 80 km
+
+Ondas de Radio:10THz a 10 KHz. Grandes distancias 100kms. Interferencias.
+
+
+Los dispositivos que se conectan en una red informática son, por lo general, ordenadores.
+Las redes requieren de:
+▶ Un emisor, que emita la señal (un ordenador 1, por ejemplo).
+▶ Un codificador, que tal como indica su nombre, codifica la señal que se transmite a
+través de una línea (cables de red, en las redes alámbricas u ondas de radiofrecuencia,
+en el caso de ser una red inalámbrica).
+▶ Un decodificador, que convierte la señal eléctrica en datos (adaptadores de red o PCI)
+y, finalmente, un receptor que recibe la señal convertida (ordenador 2, por ejemplo).
+
+Los ordenadores que se conectan a la red pueden realizar dos funciones:
+▶ Pueden ser o servidores.
+▶ Estaciones de trabajo.
+
+Un servidor es un dispositivo (ordenador) en la red que tiene la responsabilidad de administrar y proveer de los recursos de la red a los otros ordenadores de la red a los que se les denomina clientes o estaciones de trabajo.
+
+Componentes:
+▶ Tarjeta de red: Actualmente, casi todas las placas base de los ordenadores traen integrada una tarjeta de red.
+▶ Conmutador: conocidos también por el nombre inglés switch, son dispositivos digitales lógicos que sirven para conectar equipos y para crear redes locales.
+▶ Concentrador: conocidos también por el nombre inglés Hub, permite centralizar el cableado de una red de computadoras, para luego poder ampliarla.
+▶ Encaminador: conocidos también por su nombre en inglés router, es un dispositivo que se usa para conectar ordenadores estableciendo una ruta. De ahí, que también se les denomina enrutadores. Permite reenviar paquetes de datos entre diferentes redes.
+▶ Pasarela: conocida también como Gateway, es un sistema compuesto tanto por hardware y software, que actúa como interfaz de conexión entre dispositivos, permitiendo la comunicación.
+
+En función del tamaño, ubicación y alcance de la red de ordenadores, se puede clasificar en:
+▶ Personal Área Networks (PAN) o red de área personal: son un tipo de red para uso personal, que pueden comunicar dispositivos que están ubicados próximos al punto de acceso.
+▶ Local Area Networks (LAN) o red de área local: es un tipo de red cuya cobertura cubre un área semejante al de una casa o edificio.
+▶ Metropolitan Area Networks (MAN) o red de área metropolitana: puede cubrir una gran ciudad.
+▶ Wide Area Networks (WAN) o red de área amplia: tipo de red privada que permite la conexión de múltiples redes de área local (LAN).
+▶ Global Area Networks (GAN) o red de área global: se refiere a un tipo de red compuesta por distintas redes unidas, cuya cobertura es un área ilimitada geográficamente hablando.
+
+Cuando se transmiten datos se hace distinción de tres tipos de transmisión, en base a la direccionalidad de los datos como: simplex (recibe o transmite), half-duplex(transmitir y recibir, no a la ver) y full-duplex (transmitir y recibir a la vez).
+
+Además, cabe mencionar que existe otro modo de clasificar las redes, en función del grado de difusión que son:
+▶ Intranet. Se trata de redes privadas utilizadas generalmente en el ámbito educativo.
+▶ Comercial o militar e Internet. Es una red de alcance mundial que utiliza la familia de protocolos TCP/IP.
+
+
+Cuando hablamos de topología de red nos referimos a la forma en que se diseña geométricamente una red, distribuyendo de un modo específico los nodos y los medios que se utilizan para la interconexión.
+
+Existen varias formas geométricas de topologías de red tales como: bus, estrella, anillo, árbol,
+malla y mixtas.
+
+Bus. Topología multipunto. Cable troncal donde se conectan todos los dispositivos.
+
+Estrella. Los dispositivos se unen a un conmutador.
+
+Anillo. Cada dispositivo se une al siquiene hasta completar un anillo.
+
+Arbol. Los nodes del arbol se unen a un concentrador central, compuesto por enlaces intermedios.
+
+Malla. Cada dispositivo tiene un enlace dedicado y exclusivo con cualquier otro dispositivo.
+
+Mixtas. Dos o más topología físca de red informatica de las anteriores.
+
+
+La topología lógica de una red está relacionada con la forma en la que la red envía tramas de un nodo al siguiente.
+
+Protocolos de comunicación de redes informáticas.
+
+Para lograr la comunicación de las distintas redes y trabajar en conjunto, establecieron el modelo de referencia OSI en 1984.
+
+Estándares IEEE. Normalización de la comunicación de sistemas informáticos a través de su norma 802
+
+La norma 802 es un proyecto que establece un estándar de conexión de redes relacionado
+con la definición de componentes físicos, que la componen a nivel físico y a nivel de enlace de
+datos del modelo OSI (Control de Enlace Lógico y Control de Acceso al medio).
+Las especificaciones 802 definen estándares para:
+▶ 1.Tarjetas de red (NIC).
+▶ 2.Componentes de redes WAN (WAN, Wide Area Networks).
+▶ 3.Componentes utilizadas para crear redes de cable coaxial y de par trenzado.
+
+Se pueden mencionar algunas de las especificaciones de la norma 802 entre las que se citan
+las siguientes:
+▶ 802.1: es la que establece los estándares de gestión de la red 
+▶ 802.2: establece las normas para el control del enlace lógico, dividiendo dicho nivel en
+dos: LLC y MAC.
+▶ 802.3: desarrolla el protocolo para el nivel MAC para redes de bus que utilizan acceso
+múltiple.
+▶ 802.4: desarrollo del nivel MAC para redes de bus de Paso de Testigo.
+▶ 802.5: establece las normas para el nivel MAC para red de anillo con paso de testigo.
+▶ 802.6: establece los estándares para una red MAN.
+▶ 802.7: se emplea para las redes de banda ancha.
+▶ 802.8: se emplea para fibra óptica.
+▶ 802.9: establece las normas para la definición de redes integradas de voz y datos.
+▶ 802.10: establece las normas para la seguridad en las redes.
+▶ 802.11: se emplea para redes sin cable
+
+
+2
+INSTALACIÓN
+DE SISTEMAS
+OPERATIVOS.
+
+Estructura de un sistema informático, según su arquitectura, como un conjunto de componentes que se interrelacionan para permitir la introducción de datos, procesamiento de la información y la salida de los resultados a través del ordenador y sus periféricos.
+
+Para obtener un sistema operativo refinado que permite ser instalado en casi cualquier ordenador, se dio una evolución desde los primeros sistemas operativos como el monolítico hasta los
+SO que conocemos hoy en día. Según las necesidades que los SO satisfacían, se crearon estructuras de clasificación, como las siguientes: estructura monolítica, jerárquica, de capas o anillos, máquinas virtuales y cliente-servidor.
+
+Monolítica: Se caracterizaban por la composición de único programa con procedimientos entrelazados, donde cada una de ellos tenía la capacidad de invocar a otro.
+
+Jerárquica: El sistema se divide en pequeñas partes denominadas módulos, de modo que formen una jerarquía de capas. Cada capa se construye sobre la que está inmediatamente inferior a ella.
+
+Capas o anillos:  el núcleo del sistema está rodeado de círculos
+concéntricos y es el que más se protege de los accesos indeseados.
+
+Máquinas virutales: Sistemas Operativos que dan cabida a la utilización de varios SO de modo simultáneo.
+
+Cliente-servidor: Este tipo de sistema operativo es de propósito general basado en núcleo y procesos. Puede ejecutarse en la mayoría de los ordenadores. Coordina el trabajo entre iguales y está constituida por una estructura modular que no accede al hardware.
+
+Cuando nos referimos a los sistemas operativos, hacemos alusión a los programas de un sistema informático que se responsabilizan del control del mismo. Es decir, que los sistemas operativos son los encargados de coordinar la gestión de los recursos físicos y proporcionar servicios a las distintas aplicaciones.
+En resumidas palabras, el sistema operativo es la inteligencia del ordenador y el software del
+sistema.
+
+Tipos de SO:
+
+Sitemas por lotes. Los sistemas operativos por lotes fue el primer sistema operativo desarrollado por la General Motors a mediados de la década de 1950.
+
+Sistemas por lotes con multiprogramación. 1965. Cuando se comienzan a introducir los circuitos integrados y los discos duros. IBM integra en un solo equipo.
+
+Sistemas de tiempo compartido. Permitían la interacción entre varios usuarios y el sistema, proporcionando una pequeña parte del CPU a cada uno de ellos.
+
+Sistemas distribuidos. 1980. Existían las computadoras personales que incluían microprocesadores, presentados por primera vez por Intel en 1974 y, por otro lado, a que ya se había desarrollado la Interfaz gráfica inventada por Doug Engerlbart 60s.
+
+En los sistemas distribuidos los usuarios interpretan un único sistema, cuando en realidad se trata de un conjunto de ordenadores dispersos geográficamente, pero interconectados mediante una red de comunicaciones distribuida.
+En los sistemas distribuidos los usuarios pueden acceder a los recursos de los sistemas remotos como si fuese de modo local.
+
+
+Los sistemas operativos realizan funciones como controlar la ejecución de los programas(administra todos los dispositivos que componen el hardware del ordenador y de redes del sistema), administración de tareas( planificación de uso del procesador para la ejecución de tareas de los usuarios finales),administración de archivos, proporcionar interfaces de usuario, servicios de soporte(actualizaciones de versiones de software), gestión del uso de hardware(administración de los usuarios a los recursos del sistema), entre otros.
+
+Tipos de sistemas operativos:
+-Monousuario o multiusuario
+-Centralizado o distribuido
+-Monotarea o multitarea
+-Uniprocesador o multiprocesador
+-Instalables y/o autoarrancables (USB booteable)
+
+Tres tipos de software:
+-Software de sistema. El sistema operativo ofrece al usuario un entorno fácil de usar, sin necesidad de tener profundos conocimientos sobre lógica digital, microprogramación o lenguaje de máquina.
+-Software de programación. Todas las herramientas que usan los programadores para codificar programas.
+-Software de aplicación. Programas que ayudan al usuario a realizar tareas específicas como, por ejemplo, las aplicaciones ofimáticas, los videojuegos,etc...
+
+Las licencias sirven para proteger la propiedad intelectual y de derechos de autoría de un programa, estableciendo un tipo de contrato entre los dueños de una aplicación y el usuario que compra el producto.
+
+En este contrato se aceptan una serie de derechos y deberes entre ambas partes contractuales donde se describen los límites de uso, modificación o redistribución del producto.
+Los distintos tipos de sistemas pueden ser tanto:
+▶ Privativos. Es decir que son sistemas con propietarios como Windows, cuya licencia hay que pagar.
+▶ Libres. Por ejemplo, Linux.
+
+
+Se les llama máquinas virtuales a aquellas que logran que el usuario perciba que trabaja con un ordenador, ejecutado de modo real, cuando en realidad se trata de un software especial que emula un sistema computarizado. Las máquinas virtuales podrían entenderse como una máquina dentro de otra.
+
+La virtualización es el nombre que se le da a la capacidad de emular un ordenador completo incluyendo los componentes físicos como discos duros, puertos, memorias, etc.
+
+El software que crea y ejecuta la virtualización se llama hipervisor. El hipervisor también se le
+conoce con el nombre de monitor de máquinas virtuales y su principal función es gestionar las máquinas virtuales, permitiendo acceder a los recursos de hardware de nuestro ordenador.
+
+Tres formas distintas de ejecutar una virtualización que son:
+▶ Virtualización completa,
+▶ Virtualizacón parcial.
+▶ Virtualizacón de emulación.
+
+Software para MV libres.
+▶ VirtualBox.
+▶ Hyper-V.
+Software para MV propietarios
+▶ VMware
+	• Libre. Denominada VM Player.
+	• De pago. Con opciones avanzadas llamada VMware Workstation
+▶ Parallels.
+
+Antes de crear nuestro entorno virtual debemos comprobar que el total de los recursos virtuales que vayamos a usar no superen las características disponibles en nuestro ordenador físico, principalmente por el uso de memoria y del CPU.
+
+
+Las particiones en el disco duro suelen hacerse para evitar problemas de configuraciones anteriores y/o para salvaguardar los datos y también para hacer espacio para instalar nuevos SO.
+
+El particionado del disco duro consiste en dividir el mismo disco en varias partes, dejando generalmente un disco con el sistema operativo principal y las demás particiones para guardar datos o para instalación de los demás sistemas operativos.
+
+Los controladores conocidos como drivers son programas que permiten la correcta interacción de nuestro sistema operativo con los periféricos como el ratón o el teclado.
+
+Cuando se instale un sistema operativo, se hará una clara distinción en si el entorno es virtual o no virtual, debido a que si se trata de una instalación virtual no se requiere de un gestor de arranque.
+
+Administrar varios sistemas en un mismo equipo es posible mediante una previa configuración de los recursos del ordenador.
+
+Eleccion de una instalación con arranque Dual Boot, que nos ofrece más posibilidades y rompe la limitación de estar atado a un único sistema operativo.
+
+El Registro Maestro de Arranque o Master Boot Record (MBR) es el sector cero (boot block o boot sector) de un dispositivo portador de datos, como el disco duro y es empleado para el arranque de nuestros ordenadores.
+
+También recibe dos nombres más por las funciones que ejecuta, que son sector de partición o tabla de partición maestra, debido a que contiene una tabla que sitúa las particiones en las que se ha formateado el disco duro y los comandos que permiten iniciar el sistema operativo.
+
+Puede ocurrir que cuando intentemos encender nuestro equipo no arranque. Puede que sean problemas relacionados directamente con el MBR de Windows.
+Comúnmente pueden darse este tipo de problemas por las siguientes razones:
+▶ Problemas en el Sector cero del disco, encargada de arrancar el SO.
+▶ Por ficheros corruptos en el equipo.
+
+Cuando decidimos instalar un sistema operativo como Windows, se crean un conjunto de particiones con ficheros críticos del sistema operativo. En una de las particiones se guardan las opciones de recuperación del sistema y toda la información del arranque, además del gestor de arranque de Windows.
+
+El gestor de arranque es un programa o conjunto de programas que se utilizan cuando se instalan varios sistemas operativos en el equipo y se desea seleccionar la carga de uno de los sistemas operativos, cuando se ha presionado el botón de arranque del ordenador.
+
+Algunos ejemplos de gestores de arranque que podemos mencionar son: Bootmgr, NT-Loader(NTLDR), ambos de Windows, BootX Antiguo bootloader de Mac, GRUB y GRUB2.
+
+El Código de arranque maestro conocido también como Master Boot Code y abreviado muchas veces como MBC, es una parte que compone el registro de inicio maestro y es cargado por la BIOS para iniciar el proceso de arranque.
+
+Su funcionamiento, según Microsoft, siempre y cuando la BIOS lo halla ejecutado correctamente, consiste en:
+▶ Explorar la tabla de particiones para la partición activa.
+▶ Encontrar el sector inicial de la partición activa.
+▶ Cargar una copia del sector de arranque de la partición activa en la memoria.
+▶ Transferir el control al código ejecutable en el sector de arranque.
+
+Existen dos modos que se pueden usar para la reparación del gestor de arranque, que implica dos opciones:
+▶ Modo automático: se busca reparar el gestor de arranque mediante una opción disponible en los sistemas operativos Windows 10, llamada Opciones de recuperación, que permite acceder a la reparación de inicio para restablecer el MBR de modo automático.
+Si esta opción no es posible utilizarla, se hará la reparación mediante un medio de instalación tipo DVD o USB, modificando o cambiando el medio de arranque principal de la BIOS.
+▶ Modo manual: cuando ocurren problemas relacionados con el MBR, podemos acceder al CMD, que permite ejecutar los siguientes comandos:
+* bootrec /fixmbr. Sirve para corregir problemas en el MBR dejando la tabla de partición intacta.
+* bootrec /fixboot. Se usa para borrar el MBR dañado y crear un nuevo sector de arranque.
+* bootrec /rebuildbcd. Es útil para la reparación de los datos de configuración de arranque y busca instalaciones compatibles.
+* bootrec /scanos. Comando utilizado para forzar a Windows a que ejecute una exploración y comprobación de todos los sistems operativos instalados en los discos de nuestro equipo.
+
+Una desventaja que presenta el MBR frente a otros competidores es que solo soporta cuatro particiones primarias a la vez, con un límite de espacio de 2.2 TB por cada una.
+
+Las instalaciones desatendidas son aquellas instalaciones automatizadas que no requieren de la presencia ni intervención del usuario.
+
+Los ficheros necesarios par el arranque de los siguientes sistemas operativos son:
+Windows FAT, FAT16, FAT32, NTFS, EFS.
+Linux ext2, ext3, ext4, JFS, ReiserFS, XFS.
+Mac HFS, HFS+
+
+
+3
+ADOPCIÓN DE
+PAUTAS DE
+SEGURIDAD
+INFORMÁTICA.
+
+Los sistemas de información y, entre ellos, las bases de datos (BD), tienen como objetivo común proporcionar una visión abstracta de todos los datos, es decir:
+El sistema debe ocultar los detalles sobre cómo se acceden y se manipulan los datos.
+
+Pero si los datos que se requieren almacenar son datos no estructurados de aplicativos y personales y no queremos depender de un SGBD para almacenarlos debemos saber que existen dos
+posibilidades:
+▶ El almacenamiento interno. Son los discos duros y las memorias de estado sólido
+▶ El almacenamiento externo. Son periféricos que se conectan de manera externa al equipo.
+
+Los dispositivos de almacenamiento son, como su propio nombre indica, aquellos destinados a almacenar la información. Y lo hacen sin necesidad de electricidad para mantenerla almacenada.
+Estos dispositivos también se conocen como “masivos”, por la cantidad de información que
+pueden llegar a almacenar.
+
+Toda información siempre se guarda en formato binario aunque, dependiendo del dispositivo que la contenga, puede estar en uno u otro lugar.
+
+Un soporte de información es un medio físico cuyo objetivo es registrar la información y los datos de forma magnética, óptica o mediante cualquier otro método, pero de forma permanente.
+
+El disco duro (en inglés, “Hard Disk”) es un dispositivo de almacenamiento que emplea en su interior un sistema de grabación magnética en el que se almacenan datos digitales.
+
+La información dentro de un disco duro se guarda mediante variaciones en el campo magnético; esto es representado mediante una sucesión de ceros y unos.
+
+Un CD-ROM es un dispositivo electrónico que usa la tecnología óptica, el láser, para leer toda la información que haya sido grabada en discos o CD, absolutamente intercambiables.
+
+Los discos o CD son rígidos de 8 o 12 centímetros de diámetro, con un orificio central de 15 milímetros de diámetro y un grosor de 1,2 milímetros, que pueden almacenar
+hasta 214 MB y 700 MB de información.
+
+Los DVD tienen una unidad capaz de almacenar 17 GB de información.
+
+Los Blue-Ray un nuevo formato de disco óptico, que mantiene las medidas de los dos dispositivos anteriormente vistos. Puede llegar a almacenar 100 GB de datos, divididos entre sus cuatros
+capas (cada una almacena 25 GB).
+
+La mayor densidad de grabación se consigue gracias al uso del rayo láser de color azul, el que le da nombre, que con su longitud de onda de 405 nanómetros, frente a los 650 del láser rojo de los DVD, le permite almacenar más información por unidad de superficie.
+
+Las memorias flash son un tipo de memoria no volátil, que almacena información aunque no haya un suministro eléctrico.
+
+Un controlador se encarga de gestionar el trasvase de información entre los diferentes dispositivos, gestionando el modo y la velocidad de dicha transferencia.
+
+Las interfaces para las conexiones internas son las siguientes: PATA(Más conocida como IDE 166MB/s), SATA(Usa un bus serie para la transmisión de los datos. sata1:150MB/s, 300MB/s y 600 MB/s), SCSI(interfaz preparada para discos con gran capacidad de almacenamiento, y gran velocidad de rotación) y SAS(Su acrónimo significa Serial Attached SCSI, por lo que es una versión remodelada de la interfaz anterior).
+
+SMART es un acrónimo de “Self-Monitoring, Analysis and Reporting Technology”. Se trata de una función que sirve para monitorizar la información interna que se está almacenando dentro de nuestro sistema.
+
+Se deben de tener en cuenta los siguientes tipos de partición:
+▶ El Registro de Arranque Maestro. En inglés MBR (Master Boot Record).
+▶ La Tabla de Particiones GUID. En inglés GPT (Guid Partition Table)
+
+El sistema de archivos es una parte del sistema operativo que gestiona el servicio de almacenamiento.
+
+El sistema de archivos es el software que provee el sistema operativo para operar sobre archivos, ficheros y/o directorios, proporcionando aparte medidas y mecanismos de protección y seguridad.
+
+Un fichero es una unidad lógica de memoria para almacenar datos, que se identifica por un nombre.
+
+Los directorios son los contenedores o carpetas que sirven para almacenar archivos u otros
+directorios.
+
+En los sistemas de archivos jerárquicos, usualmente se declara la ubicación precisa de un archivo con una cadena de texto llamada ruta o path.
+
+Toda aplicación necesita de distintas librerías para su correcta ejecución:
+▶ En Windows se dispone de DLL, que es la Dynamic-Link Library.
+▶ En Linux también disponemos de librerías (sin que estas se encuentren identificadas por
+su extensión).
+Todas estas librerías se cargan directamente en la memoria de nuestro equipo porque, como se sabe, la memoria RAM es mucho más ágil que la memoria de cualquier otro dispositivo.
+
+RAID es el acrónimo de Redundant Array of Independent Disk o, lo que es lo mismo, conjunto redundante de discos independientes.
+
+RAID 0. Denominado también stripping. Consiste en usar varios discos (frecuentemente dos) y distribuir la información entre ellos. La distribución se hace a nivel de bloque.
+
+RAID 1. Denominado también mirroding. Consiste en crear parejas de discos y usar uno como una copia exacta del otro. El nombre de espejo, por tanto, no le podría ir mejor.
+
+RAID 5. Variante del RAID 0. Arregla la carencia de integridad gracias al control de errores que incluye. Códigos e información se distribuyen a nivel de bloque. Se trata, sin duda, de la mejor relación entre rendimiento y coste.
+
+RAID 0+1. 
+▶ Primeramente se distribuye la información mediante el RAID 0.
+▶ Después se hace el espejo mediante el RAID 1.
+Se trata del modelo más usado a nivel empresarial.
+
+RAID 50
+▶ Primeramente se aplica el RAID 0, que divide completamente los datos (los distribuye).
+▶ Después se aplica el RAID 5, con sus respectivos tres discos duros.
+
+RAID 100 y 101
+Continuando las divisiones podemos aplicar el RAID 100 o, lo que es lo mismo, 1+0+0. Consiste en dos niveles 1+0 divididos por un nivel principal en RAID 0.
+De igual forma tenemos el RAID 101 o, lo que es lo mismo, 1+0+1. Son varios subniveles 1+0 sobre un nivel RAID 1 como principal.
+
+
+4
+CONFIGURACIÓN
+DE SISTEMAS
+OPERATIVOS.
+
+A un sistema operativo pueden acceder diferentes usuarios con distintos permisos. El usuario Administrador controla los usuarios y cómo entran.
+
+Sin embargo, el que se ocupa de aportar las distintas funciones para dar rienda a la seguridad de acceso es el propio sistema operativo.
+
+Las tareas que puede (y debe) realizar un administrador de usuarios son:
+▶ Añadir, modificar y eliminar usuarios en el sistema.
+▶ Establecer el sistema de auditorías.
+▶ Fijar el plan de cuentas y contraseñas en el equipo, junto con una política de derechos de usuario.
+▶ Añadir, modificar y eliminar grupos locales o globales.
+
+En sistema operativo Windows 10, podemos encontrar toda la administración dentro de Inicio->Administración de equipos->Usuarios y grupos locales.
+
+Las tareas que se pueden llevar a cabo son: alta de usuario, baja de usuarios y modificación de usuarios.
+ 
+Propiedades usuarios:
+a. General
+Aquí se encuentran los datos que identifican a los usuarios, como son el nombre, la contraseña y sus directivas de cuenta de acceso al ordenador.
+b. Miembro de...
+Indica los grupos a los que pertenece el usuario. Un usuario puede pertenecer a varios grupos, con privilegios adquiridos de la suma de todos ellos.
+c. Perfil
+Sirve para darle características o propiedades a un usuario. Una de las opciones son las propias rutas de acceso o programas que se ejecutan al inicio.
+
+A través de CMD:
+Listar los usuarios -> net user
+Crear usuarios sin privilegios -> net user nombre de usuario /add
+Borrar usuario -> net user nombre de usuario /del
+Agregar contraseña a usuario Windows -> net user nombre de usuario *.
+
+Las cuentas de usuario deben de ser únicas y cumplir, de alguna manera, unas reglas de escritura:
+▶ Deben tener como máximo 20 caracteres.
+▶ Pueden contener mayúsculas y minúsculas.
+▶ Pueden contener números.
+▶ No aceptan caracteres especiales /, |, :, ;, =, <, >,*
+▶ No aceptan caracteres en blanco.
+
+Linux
+Los usuarios en Linux se identifican a través de un User ID o UID (número único de usuario).
+Estos usuarios también pertenecen a grupos, que se identifican a través de un Group ID o GID.
+El usuario root es el usuario administrador del sistema operativo Linux y su UID siempre es 0.
+
+Todos los datos de los usuarios se encuentran en los siguientes ficheros:
+- passwd -> /etc/passwd -> Se encuentran definidas las cuentas de usuario.
+- shadow -> /etc/shadow -> Contiene las contraseñas de usuario encriptadas.
+- group -> /etc/group -> Contiene una relación de los grupos a los que pertenecen los usuarios.
+- login.defs -> /etc/login.defs ->
+Están definidas las variables que controlan los aspectos de la creación de usuarios y las de los campos de shadow usadas por defecto.
+
+▶ Ejecutar el siguiente comando para deshabilitar al usuario:
+net user cuenta /active:no
+▶ Ejecutar el siguiente comando para habilitar el usuario:
+net user cuenta /active:yes
+
+Las contraseñas son la manera que tienen los sistemas operativos para establecer la veracidad de un usuario; en resumen, son necesarias para verificar que el usuario es quien dice ser.
+
+Por propósitos de seguridad, en un sistema operativo como Red Hat Enterprise Linux, se configuran las contraseñas por medio del MD5 (Message-Digest Algorithm) y contraseñas shadow.
+
+En el caso de deshabilitar las contraseñas shadow, el sistema almacena el hash de estas en un archivo que se encuentra en /etc/passwd. Esto hace que el sistema se convierta en vulnerable a ataques piratas.
+
+Los perfiles de usuarios se encargan de guardar todo el conjunto de informaciones que permiten disponer de un entorno de trabajo con las funciones necesarias para que el usuario pueda
+realizar su trabajo.
+
+Los tipos de perfiles pueden ser los siguientes:
+▶ Perfil de usuario local.(El perfil es específico de un usuario, local al equipo, y se almacena en el disco duro del equipo
+local.)
+▶ Perfil de usuario móvil de red.(Lo crea el usuario administrador del sistema y se almacena en un servidor.)
+▶ Perfil de usuario obligatorio de red.(Es el llamado perfil móvil que se utiliza para especificar configuraciones particulares de usuarios o grupos de usuarios.)
+▶ Perfil de usuario temporal.(Es un tipo de perfil genérico que se inicia siempre que se produce un error en la entrada del
+perfil del usuario “logueado”.)
+
+Cada uno de los perfiles comentados se guarda en el equipo mediante carpetas o mediante otros medios, entre los que destacan:
+▶ Carpeta de configuración local. Aquí se incluyen ficheros de datos, historiales, etc.
+▶ Preferencias o cookies.
+▶ Entorno de red.
+▶ Escritorio.
+▶ Favoritos.
+▶ Las denominadas templates o plantillas.
+▶ Accesos directos.
+Algunas de las informaciones comentadas se encuentran ocultas para mayor seguridad del
+usuario.
+
+ntuser.dat Registro del perfil móvil de usuario. Los cambios se guardan al finalizar la sesión.
+ntuser.dat.log Se guardan temporalmente los cambios, hasta que termina la sesión, que es cuando se grabarán en el disco.
+ntuser.man Contiene el perfil obligado de usuario; no se puede cambiar nada más que por el administrador.
+
+El acceso a recursos se puede acceder desde Inicio-Herramientas administrativas-Usuario y en equipos del Active Directory. Es allí en donde se puede especificar:
+▶ La ruta de acceso al perfil.(Es la ruta de acceso en la red para activar el perfil móvil. Si no se especifica su perfil local, será
+el que se creó por defecto.)
+▶ El script de inicio de sesión.(Se puede especificar un fichero de secuencia de comando .bat, que se ejecutará en el inicio
+de sesión)
+▶ La ruta de acceso local.(Es el directorio particular donde se almacenan sus archivos, representado por la variable del
+sistema %USERNAME%)
+▶ Conectar.(Permite la conexión a una letra de unidad de red compartida dentro del sistema de red.)
+
+Para evitar que cada terminal disponga de un perfil diferente de entrada al servidor, se crea en la cuenta de usuario del servidor la característica de que el perfil sea
+móvil, para usarlo en cualquier equipo.
+
+Las directivas de seguridad son un conjunto de reglas de seguridad, referentes a características y permisos que se pueden configurar con el fin de garantizar el acceso a los recursos del sistema.
+
+En sistemas operativos Windows, el aplicativo que resuelve su administración es gpedit.msc.
+
+a. Directivas de seguridad local
+(Gestionan cuando el servidor no actúa de controlador de dominio.)
+Para acceder a la gestión de estas directivas se irá a Inicio-Herramientas administrativas-Directivas de seguridad local (el comando que se ejecuta para entrar en este modo es secpol.msc).
+Para gestionar una regla de directiva, se selecciona esta, se hace clic con el botón derecho del ratón y se pulsa en Propiedades. Y de la ventana de asistente de configuración se da a Activar/desactivar o completar los campos deseados.
+
+b. Directivas de seguridad de dominio y de seguridad de controlador de dominio.
+Para acceder a la gestión de estas directivas se irá a Inicio-Herramientas administrativas-Administración de directivas de grupo.
+Las políticas o directivas de grupo pueden estar contenidas en cuatro tipos:
+▶ Equipos Locales o directiva de grupo local.goedut,msc.
+▶ Sitios de Active Directory o directiva de sitio de grupo. Aplican a todos los equipos y/o usuarios de un sitio, independientemente del dominio del mismo bosque al que pertenezcan.
+▶ Dominios de Active Directory o directiva de grupo de dominio. Aplican a todos los equipos y/o usuarios de dominio.
+▶ Unidades Organizativas de Active Directory o directiva de grupo de unidad organizativa. Aplican únicamente a los equipos y/o usuarios que pertenezcan a la propia unidad organizativa (OU).
+
+Un proceso es un programa o tarea en ejecución al que el sistema operativo asignará recursos
+y del que controlará su ejecución.
+
+La información que nos aporta el sistema en la estructura de bloque de datos generada para
+cada proceso es:
+
+a. El estado hardware, información para gestionar la memoria, e informa-
+ción de estado del sistema de E/S.
+
+b. Estado del proceso.
+• Preparado o listo. Se encuentran todas las tareas que están listas para ejecutarse, pero que esperan a
+que el procesador quede libre.
+• En ejecución o activo. El proceso recibe alguna señal para continuar ejecutándose. En el caso de sistemas con un único procesador, solo puede haber un proceso en dicho estado en un instante dado. El tiempo de uso del microprocesador se reparte entre todos los procesos cargados, de manera que el usuario cree que se están ejecutando varias tareas a la vez; sin embargo, en un tiempo dado solamente se ejecuta una.
+• Bloqueado o suspendido. Sucede cuando el proceso ha agotado su tiempo de ejecución y debe dejar paso al siguiente proceso.
+• Muerto. Un proceso está en este estado cuando ha terminado su ejecución de manera correcta o porque se ha producido un error en su ejecución.
+• Nonato o ignorado.
+El proceso existe pero todavía no es conocido por el sistema operativo.
+
+c. Valor de prioridad a la hora de asignar los recursos del sistema.
+
+d. Direcciones o zona de memoria asignada.
+
+e. Código de identificación del proceso o pid.
+
+Un evento se clasifica, según su gravedad, en:
+▶ Crítico. Es un error del que no puede autorrecuperarse. Por ejemplo, un error del sistema.
+▶ Error. Es un problema importante. Por ejemplo, pérdida de información.
+▶ Advertencia. Es un problema potencial. Por ejemplo, un programa que requiere reiniciar para funcionar correctamente.
+▶ Información. Notifica una operación finalizada correctamente. Por ejemplo, la instalación de una impresora.
+
+
+5
+CONEXIÓN
+DE SISTEMAS
+EN RED.
+
+Cuando se establece una comunicación entre distintas computadoras que forman parte de una misma red o LAN, se deben instalar también los distintos adaptadores de red, tarjetas y cables. Esto, sin contar la instalación y configuración lógica del sistema operativo en donde se vaya a usar.
+De manera general, se puede resumir en:
+▶ Los pasos de instalación del adaptador de la red física.
+▶ De manera lógica (mediante su controlador), el protocolo y/o protocolos de red que permitan controlar la comunicación.
+
+Uno de los protocolos más importantes es el Protocolo TCP/IP por la funcionalidad que ofrece en la conexión con los diferentes ordenadores en redes mixtas, como pueden ser Internet o intranets.
+
+Los valores requeridos para usar el protocolo TCP/IP son:
+
+a. Una dirección IP. Una dirección IP representa la identificación del ordenador o interfaz en red mediante una numeración o dirección.
+Presenta una longitud de 32 bits (de tipo Ipv4) expresada en cuatro valores decimales que van entre 0 y 255 separados por puntos. Por ejemplo: 192.168.1.1.
+
+b. La máscara de subred. Su objetivo es designar:
+▶ Qué parte de la dirección IP identifica a la red de la cual forma parte el equipo.
+▶ Qué parte identifica al nodo o máquina.
+Son valores de 32 bits escritos en formato decimal como, por ejemplo, 255.255.255.0:
+▶ La posición del cero indica la dirección del nodo.
+▶ La posición de los valores 255 indica la identificación de red.
+En el caso anterior del apartado a (192.168.1.1.), la red será 192.168.1 y el equipo 1 (como máxi-
+mo 255 equipos huéspedes de la red o interfaces de red).
+
+c. Una puerta de enlace predeterminada. La dirección IP del interfaz, que permite el enlace entre dos redes. Por ejemplo: el equipo y la red de Internet.
+
+d. La identificación de servidores DNS preferidos y alternativos
+Representados mediante la dirección IP de su interfaz de red. Nos permitirán identificar a los ordenadores o nodos de una red mediante su nombre en vez de por su dirección IP de red.
+
+Nos encontramos con diferentes modos de asignar una dirección IP:
+▶ Estática. Se asigna manualmente por el administrador de red.
+▶ Dinámica. La asigna un servidor DHCP al inicio del sistema.
+▶ Alternativa. Si no hay servidor DHCP, el sistema asigna automáticamente una dirección IP de modo predeterminado. En el caso de Windows, está dentro del rango entre
+169.254.0.1 hasta 169.254.255.254 con una máscara de subred de 255.255.0.0.
+
+Windows instala directamente el protocolo TCP/IP del tipo Ipv4 e Ipv6 por defecto. Lo hace en el mismo momento en el que detecta una interfaz de red.
+
+WINS.
+Para incluir la configuración TCP/IP a los servidores que permiten resolver nombres NetBIOS de una red con entorno de sistema Microsoft
+
+Al finalizar deberemos comprobar que la configuración es correcta. Iremos a otro ordenador de la red con el sistema en funcionamiento. Saldremos a un terminal de consola desde “Inicio →Todos programas →Accesorios →Símbolo del sistema” y ejecutaremos la orden Ping direc_ip_pc_config. Si recibimos una serie de líneas con la respuesta de que los paquetes han sido enviados, significa que la configuración es correcta y que el equipo está incorporado a la conexión de la red.
+
+Para entrar en el registro del sistema, desde Inicio, en la lupa de búsqueda, se debe introducir la palabra regedit. Las claves de configuración se encuentran en HKEY_LOCAL_MACHINE (SYSTEM-CurrenControlSet-Services-TcpIp-Parameters-Interfaces).
+
+▶ ipconfig
+Comando que activa, desactiva y renueva el DHCP. Además tiene la capacidad de mostrar todos los datos de la configuración de red. Podemos obtener ayuda sobre el formato de la orden mediante el comando: C:\Users\fer\ ipconfig /?
+
+▶ netsh
+Es un comando de tipo shell que ejecuta instrucciones para modificar los datos de una conexión de red. Podemos obtener ayuda sobre el formato de la orden mediante el comando: C:\Users\fer netsh /?
+
+Para configurar la resolución de nombre en una red local, sin tener posibilidad de disponer de un servidor DNS activo, podemos utilizar el archivo hosts que se encuentra en C:\Windows\System32\drivers\etc\host.
+
+Buscará el nombre y lo traducirá por su dirección IP, realizando la actividad como si fuera un DNS. El único problema es que tiene que estar dispuesto y configurado en todos los ordenadores de la red.
+
+El objetivo principal de un router es enrutar o conectar mediante la mejor ruta toda la información y los paquetes de datos que se quieran interconectar.
+
+La mejor manera posible es ayudarse mediante las tablas de enrutamiento IP, que almacenan las rutas a los diferentes nodos de una red informática. Estas tablas pueden ser construidas de dos maneras diferentes:
+▶ Por aprendizaje.
+▶ Mediante la inserción manual de registros.
+
+Aparte, para que un router lleve a cabo su objetivo (enrutar), debe tener configurada su configuración básica:
+▶ Todas las interfaces deben tener configuradas su dirección IP y su máscara de red.
+▶ Todas las interfaces deben estar en estado ”UP”.
+Para que el enrutamiento sea correcto, un router tendrá en su tabla, como mínimo, tantos registros como redes a las que esté conectado directamente a través de sus interfaces.
+
+En los routers, el comando show ip route muestra las redes a las que el router está conectado.
+
+
+El puerto lógico es una zona o localización de la memoria RAM de un ordenador que se asocia con un puerto físico o con un canal de comunicación, y que proporciona un espacio para el almacenamiento temporal de la información que se va a transferir entre la localización de memoria y el canal de comunicación.
+
+Al final, un puerto lógico es una salida de bits, entre 0 y 1, o lo que es lo mismo, el valor que se usa en el modelo de la capa de transporte para diferenciar entre las distintas aplicaciones que se pueden conectar a los diferentes hosts.
+
+Los puertos se identifican por números desde el 1 hasta el 65.000, pudiendo llegar a más, siendo conocidos los puertos del 1 a 1024 como:
+▶ FTP. Puerto 20 transferencia de data (mp3, documentos, etc.).
+▶ HTTP. Puerto 80 transferencia de hipertexto por Internet.
+▶ SMTP. Puerto 25 correo electrónico.
+▶ HTTPS. Puerto 443 transferencia segura.
+▶ Del 1025 para arriba son desconocidos, algunos TROYANOS y otras aplicaciones inocuas.
+
+Los puertos lógicos son, al igual que los puertos físicos, necesarios para que nuestros programas puedan comunicarse con el exterior.
+La diferencia es que se enlazan virtualmente en nuestra conexión TCP con los programas, para tener una referencia, y para que los otros programas puedan conectarse a los nuestros y traspasar información.
+
+El comando ping es la forma más efectiva de probar rápidamente la conectividad entre una
+dirección IP de origen y de destino.
+
+Comando “traceroute”. Devuelve una lista de saltos a medida que un paquete se enruta a través de una red. Podría usarse para identificar el punto a lo largo del camino donde se puede encontrar el problema.
+
+Sintaxis para el uso de NSTAT en la línea de comandos
+NETSTAT [opción] [-p protocolo] [intervalo]
+-a Muestra todas las conexiones y puertos a la escucha.
+-b Muestra las aplicaciones y archivos ejecutables involucrados en crear conexiones en los puertos a la escucha.
+-e Muestra estadísticas de Ethernet.
+-n Muestra los puertos y las direcciones en formato numérico.
+-o Permite ver la identidad de cada proceso (PID) involucrado.
+-r Muestra la tabla de rutas.
+-s Muestra las estadísticas por protocolos.
+-v Usado con -b, permite ver secuencias de componentes involucrados en crear
+una conexión.
+-p Muestra las conexiones por protocolos: TCP, UDP, TCPv6, o UDPv6.
+Intervalo Intervalo en número de segundos que se monitorea las conexiones. Continuahasta que se ejecuta Control+C.
+
+La monitorización se considera una medida preventiva tanto para la seguridad como para el
+redimensionamiento de nuestra red.
+
+La arquitectura de red es el conjunto de capas o niveles, junto con los protocolos definidos en cada una de estas capas, que posibilitan que un ordenador se comunique con otro independientemente de la red en la que se encuentre.
+
+El flujo de información o los datos no se transfieren directamente de una capa a otra del mismo nivel sino que cada capa pasa los datos a otra adyacente.
+
+La arquitectura TCP/IP está compuesta por cuatro capas o niveles que son:
+*Capa o nivel de acceso a la red, de enlace o también llamada de subred.
+	*Se encarga del acceso al medio de transmisión. Es asimilable a los niveles 1 y 2 del modelo OSI y solo especifica que deben usarse protocolos que permitan las conexiones entre ordenadores de la red. Esta arquitectura está pensada para conectar ordenadores diferentes en redes diferentes, por lo que las cuestiones de nivel físico no se tratan, y se dejan lo suficientemente abiertas para que se pueda utilizan cualquier estándar de conexión. Permite y define el uso de direcciones físicas utilizando las direcciones MAC.
+*Capa o nivel de red también llamada de Internet.
+	*Al igual que la capa de red del modelo OSI, esta capa se encarga de estructurar la información en paquetes, determina la ruta que tomarán los paquetes y define el direccionamiento. En esta arquitectura los paquetes pueden viajar hasta el destino de forma independiente, pudiendo atravesar redes diferentes y llegar desordenados, sin que la ordenación de los paquetes sea responsabilidad de esta capa, por tanto tampoco se encarga de los errores. El protocolo más significativo de esta capa es el protocolo IP, y entre sus funciones está la de dar una dirección lógica a todos los nodos de la red.
+*Capa o nivel de transporte.
+	*Es igual al nivel de transporte del modelo OSI. Se encarga de que los paquetes de datos tengan una secuencia adecuada y de controlar los errores. Los protocolos más importantes de esta capa son: 
+		▶ TCP. Es un protocolo orientado a conexión y fiable.
+		▶ UDP. Es un protocolo no orientado a conexión y no fiable.
+*Capa o nivel de Aplicación.
+	*Esta capa englobaría conceptos de las capas de sesión, presentación y aplicación del modelo OSI. Incluye todos los protocolos de alto nivel relacionados con las aplicaciones que se utilizan en Internet.
+	
+Los adaptadores de red son dispositivos hardware que permiten que un equipo pueda conectarse a otro de manera inalámbrica o utilizando un cable.
+
+Los adaptadores de red (tarjetas de red):
+▶ Convierten los datos en señales eléctricas que pueden transmitirse a través de un cable.
+▶ Convierten las señales eléctricas en paquetes de datos que el sistema operativo del equipo puede entender.
+
+Cuando instalamos una tarjeta de red en un equipo, aparte de la instalación física tendremos que instalar el software correspondiente para que nuestro sistema reconozca al dispositivo (drivers).
+Una vez instalado el adaptador tendremos que configurarlo correctamente. Para ello introduciremos los valores adecuados para los siguientes parámetros:
+▶ Dirección IP del equipo.
+▶ Máscara de red.
+▶ Puerta de enlace.
+▶ Servidor DNS.
+
+Un dispositivo de interconexión de redes es un término ampliamente utilizado para cualquier hardware que conecte diferentes recursos de red.
+
+Es conveniente saber que Wi-Fi es una marca de la Wi-Fi Alliance, organización comercial de fabricantes que adopta, prueba y certifica que los equipos cumplen los estándares 802.11. Esto significa que los dispositivos que llevan el sello Wi-Fi cumplen el estándar IEEE 802.11.
+
+*IEEE 802.11a:
+	*Opera en la banda de 5 GHz y tiene una velocidad máxima de 54 Mbps, con velocidades reales de aproximadamente 20 Mbps. Tiene 12 canales sin solapamiento: 8 para redes inalámbricas y 4 para conexiones punto a punto. No puede interoperar con equipos del estándar 802.11b.
+*IEEE 802.11b:
+	*Opera en la banda de 2,4 GHz y tiene una velocidad máxima de 11 Mbps, con velocidades reales de entre 2 y 4 Mbps. Tiene 14 canales y pueden usarse 3 sin solapamiento en redes inalámbricas. Esta versión tiene una ventaja con respecto a la anterior y es el alcance: puede llegar a dar cobertura de hasta 120 m en exterior y 60 m en interior con velocidades adecuadas.
+*IEEE 802.11g:
+	*Opera en la banda de 2,4 GHz, por lo que es compatible con la versión b, pero ofrece las mismas tasas de transferencia que la versión a, por tanto puede alcanzar una velocidad máxima de 54 Mbps con medias de 20 Mbps. Tiene 14 canales y pueden usarse hasta 11, teniendo en cuenta que deben ir de 3 en 3 para impedir el solapamiento (para esto hay que cuidar el diseño de la red). En cuanto a coberturas, el estándar nos dice que puede alcanzar hasta 75 m en exterior y 20 m en interior, pero algunos fabricantes ofrecen dispositivos con mayores coberturas. Hay que resaltar que aunque la versión b y la g son compatibles, se recomienda usar la versión g, ya que si un dispositivo versión b se conecta a punto de acceso g, baja la velocidad de toda el área de cobertura, perjudicando a los otros dispositivos.
+*IEEE 802.11n:
+	*Puede operar simultáneamente en las bandas de 5 GHz y en la de 2,4 GHz. Gracias a esto la versión n es compatible con las otras versiones. Además es útil que trabaje en la banda de 5 GHz, ya que está menos congestionada y sufre menos interferencias de otros dispositivos. Tiene una velocidad máxima de 600 Mbps, con velocidades medias de operación de entre 100 y 200 Mbps. En cuanto a cobertura, varía respecto al tipo de dispositivo, antena que utiliza, etc., pero podemos trabajar con coberturas de 250 m en exterior y unos 80 m en interior. Al igual que la versión g, si los dispositivos que se conectan son de versiones anteriores, las velocidades y coberturas bajan. Esta versión utiliza tecnología MIMO, que significa múltiples entradas y múltiples salidas. Esto permite usar múltiples antenas transmisoras y receptoras para mejorar la eficiencia del sistema, permitiendo manejar más informa ción que si utilizáramos una sola antena.
+	
+	
+1-Empecemos comentando una medida que no proporciona ningún tipo de seguridad, pero que dificulta a los clientes el conectarse: ocultar el SSID.
+
+2-Consiste en encriptar o codificar la información de la red.
+Para ello se pueden usar distintos tipos de cifrado:
+
+▶ WEP. Se encarga de encriptar la información o los datos utilizando claves preconfiguradas para cifrar y descifrar los datos. Puede utilizar claves de 64 bits, 128 bits o 256 bits. Al ser un método bastante débil, ya que es fácilmente descifrable, no es muy recomendable utilizarlo.
+▶ WPA
+Acceso Wi-Fi protegido, utiliza claves de cifrado de entre 64 y 256 bits. Sin embargo en WPA se generan claves nuevas de manera dinámica, lo que dificulta su descifrado. WPA tiene una versión mejorada, la WPA2, que es más robusta y más difícil de descifrar. Es conveniente destacar que WPA puede utilizar dos tipos de encriptación:
+	• WPA-PSK. Utiliza un algoritmo complejo de encriptación, utilizando el protocolo TKIP, que es el que cambia la clave dinámicamente. Esto hace que WPA-PSK sea vulnerable en la primera conexión al punto de acceso, que es donde utiliza la clave preestablecida; después va cambiando las claves de forma dinámica.
+	• La utilización de servidores de encriptación, usualmente Radius. Estos servidores utilizan protocolos de autenticación y autorización; de esta manera, es el servidor el que se encarga de distribuir claves diferentes entre los usuarios. Este método es el más seguro, pero también el de mayor coste.
+	
+3-El filtrado de direcciones MAC es una medida de seguridad adicional. Se recomienda utilizarla como complemento a algunos de los métodos de encriptación.
+
+4-Una solución interesante de seguridad, sobre todo en sitios públicos, es utilizar Hotspot.
+
+
+La Wide Area Network (WAN, por sus siglas en inglés) es una red de larga distancia con una amplia extensión geográfica.
+
+Tipos de amenazas o ataques:
+
+*Interceptación:Alguien no autorizado consigue tener acceso al recurso/comunicación pincha la línea de red, realiza una captura ilícita de paquetes de información de la red, etc.
+
+*Interrupción:El acceso a un recurso/comunicación se ve interrumpido, de manera física (destrucción de la red) o lógica (saturación de servidores con pérdida de la disponibilidad de los servicios que suministran, cambio de localización de los servicios/recursos de información, etc.).
+
+*Fabricación: Además de conseguir acceso al recurso/comunicación, se tiene la posibilidad de generar e insertar información adicional falsa.
+
+*Modificación: Obtención no solo de acceso no autorizado al recurso/comunicación, sino también de la capacidad de modificarlo (modificación de los datos enviados/recibidos entre dos ordenadores, etc.)
+
+
+
+6
+GESTIÓN
+DE RECURSOS
+EN UNA RED.
+
+Las directivas de seguridad son un conjunto de reglas de seguridad, referentes a características y permisos que se pueden configurar con el fin de garantizar el acceso a los recursos del sistema. Son los conocidos como derechos de usuarios.
+
+En sistemas Windows, la aplicación que resuelve su administración es gpedit.msc.
+
+Las directivas de seguridad se pueden clasificar de la forma siguiente:
+
+▶ Directivas de seguridad local. Se gestionan cuando el servidor no actúa de controlador de dominio. Para acceder a la gestión de estas directivas iremos a Inicio-Herramientas administrativas-Directivas de seguridad local.
+
+▶ Directivas de seguridad de dominio y de seguridad de controlador de dominio. Se administran cuando el servidor actúa de controlador de dominio, y se utilizan para gestionar los usuarios del dominio y los controladores de todo el dominio. Para acceder a la gestión de estas directivas iremos a Inicio-Herramientas administrativas-Administración de directivas de grupo.
+
+Las políticas o directivas de grupo pueden estar contenidas en cuatro tipos de objetos:
+
+▶ Equipos locales o directiva de grupo local. Se aplican únicamente en el equipo que las tiene asignadas, independientemente del dominio al que pertenezcan. Son modificadas con “gpedit.msc”. Estas son las únicas políticas que se aplican a los equipos que no están en un dominio, como servidores independientes (stand alone) o clientes en redes de igual a igual (peer to peer).
+
+▶ Sitios de Active Directory o directiva de sitio de grupo. Se aplican para todos los equipos y/o usuarios de un sitio, independientemente del dominio del mismo bosque al que pertenezcan.
+
+▶ Dominios de Active Directory o directiva de grupo de dominio. Se aplican a todos los equipos y/o usuarios de dominio.
+
+▶ Unidades Organizativas de Active Directory o directiva de grupo de unidad organizativa. Se aplican únicamente a los equipos y/o usuarios que pertenezcan a la propia unidad
+organizativa (OU).
+
+La gestión de los derechos en el inicio de sesión de usuarios y grupos dentro de los SO permite la concesión o denegación de privilegios (políticas de seguridad) para la operatividad con el entorno de la computadora y de los servicios que disponga.
+
+Los usuarios administradores serán los encargados de asignar derechos específicos a las cuentas de grupo o a cuentas de usuario individuales.
+
+Pero, ¿cuál es la clara diferencia entre permisos y derechos?
+▶ Los permisos se asignan a los objetos como carpetas, impresoras, archivos, etc.
+▶ Los derechos se aplican a las cuentas de usuario y cuentas de grupo de usuario que estarán sometidos al protocolo de seguridad de la red en la que trabajan.
+
+Las ACL (Access Control List o Listas de Control de Acceso) tienen como objetivo permitir o denegar el tráfico de red de acuerdo con alguna condición.
+
+Cuando un cliente intenta acceder a un recurso, pide autorización al recurso para hacerlo.
+
+La autorización, junto a la autenticación, forman habitualmente las reglas de seguridad en cualquier entorno.
+
+El recurso comprobará entonces si en su ACL aparece el identificador de seguridad (SID) del cliente, y en caso contrario, comprobará si en su ACL aparece el SID de algún grupo al que pertenezca el cliente. En este momento se abren dos posibilidades:
+
+▶ Si no aparece ningún SID del cliente en la ACL: el recurso niega el acceso al cliente.
+
+▶ Si aparece algún SID del cliente en la ACL: el recurso comprueba si la acción que quiere realizar el cliente (leer, borrar, escribir, etc.) está permitida para ese SID en su ACL. Si lo está, le autoriza para hacerlo; en caso contrario se lo impide.
+
+Una directiva de seguridad es un conjunto de reglas de seguridad que se pueden implementar en un sistema.
+Hay dos tipos de directivas:
+▶ Las directivas de seguridad local.
+▶ Las directivas de grupo local.
+
+Las directivas de seguridad local. En ellas se aplican distintas restricciones de seguridad sobre las cuentas de usuario y contraseñas.
+
+Las directivas de grupo local
+Nos permiten, entre otras acciones, configurar equipos de forma local o remota, instalar o eliminar aplicaciones o restringir los derechos de los usuarios.
+
+Algunas directivas aparecen tanto en la configuración del equipo como en la configuración del usuario. En caso de conflicto, la configuración del equipo siempre tiene preferencia.
+
+La seguridad tiene como objetivo paliar o impedir todos los daños que se puedan producir por la materialización de las amenazas.
+Hay dos tipos de seguridad:
+▶ La lógica.
+▶ La física.
+La seguridad lógica y la física se complementan y tienen como objetivo proteger el software de los equipos informáticos, las aplicaciones y los datos de los usuarios.
+
+El objetivo principal de un análisis de este tipo es la identificación, evaluación y priorización de las vulnerabilidades de seguridad en los sistemas informáticos.
+
+El proceso que hay que seguir para analizar un sistema comprende varios pasos:
+▶ Identificar las medidas de seguridad existentes.
+▶ Valorar las posibles amenazas.
+▶ Valorar los daños que produciría un ataque.
+▶ Identificar los activos del sistema.
+▶ Descubrir las vulnerabilidades.
+▶ Establecer los objetivos de seguridad de la organización.
+▶ Seleccionar las medidas de protección posibles
+
+
+Las redes de ordenadores se idearon para el intercambio de información y la compartición de ficheros.
+
+Existen dos opciones:
+▶ A través de un servidor de archivos.
+▶ Mediante el uso de un servidor FTP.
+
+El servicio FTP permite conectarse a un equipo (el servidor FTP) y transferir ficheros desde este hacia el equipo del cliente (cliente FTP) y en sentido inverso. El protocolo FTP establece una doble conexión TCP entre el cliente y el servidor.
+
+Suele emplearse el puerto 21 del servidor y sirve para indicarle a este las operaciones que se quieren llevar a cabo.
+
+Existen dos modos de funcionamiento para este tipo de conexión:
+▶ Modo activo.
+Es el utilizado por defecto. El cliente establece una conexión a través del puerto 20 para la transferencia de datos.
+▶ Modo pasivo.
+Existe la posibilidad de que cliente y servidor negocien otro puerto distinto del 20 para la transferencia de datos. Este proceso de negociación se realiza por medio del puerto de control 21. El servidor responderá al cliente con el número puerto, superior al 1024, a través del cual atenderá la conexión de datos.
+
+Los servidores de impresión nos permiten la impresión de trabajos en impresoras compartidas o conectadas en red.
+
+Cuando hablamos de un servidor de aplicaciones nos estamos refiriendo a un equipo servidor, dentro de una red, que proporciona servicios de aplicación a los equipos cliente.
+
+Las ventajas más importantes del sistema de servidores de aplicaciones son:
+▶ La centralización.
+▶ La disminución de la complejidad en el desarrollo de aplicaciones. Un servidor Web se encarga de alojar y proporcionar las páginas web solicitadas por los clientes desde sus navegadores. El servidor Web maneja el protocolo HTTP. Cuando el servidor Web
+recibe una petición HTTP, este responde con una respuesta HTTP, como por ejemplo, enviándonos de respuesta una página HTML.
+
+Los servicios que permiten acceder de forma remota a un equipo a través de la red se clasifican en dos categorías:
+▶ Acceso remoto en modo terminal.
+	▶ SSH es el nombre de un protocolo y del programa que lo implementa cuya principal función es el acceso remoto a un servidor por medio de un canal seguro en el que toda la información está cifrada.
+	▶ Telnet es el nombre de un protocolo de red que nos permite acceder a otra máquina para manejarla remotamente como si estuviéramos sentados delante de ella. También es el nombre del programa informático que implementa el cliente.
+▶ Acceso remoto en modo gráfico. Para acceder en modo gráfico a un servidor se puede utilizar el servicio VNC (Windows y GNU/Linux) o el servicio de Escritorio remoto (o Terminal Server) en sistemas Windows.
+
+El sistema de cifrado de archivos o EFS (Encrypting File System) es una característica de Windows que permite almacenar información en el disco duro de forma cifrada.
+
+Los cortafuegos (firewalls, en inglés) se encargan de controlar, permitiendo o denegando, las conexiones entrantes y salientes de un ordenador.
+
+Entre las funciones de un cortafuegos están:
+▶ Complementan las defensas antivirus, antispyware, etc.
+▶ Ofrecen varios niveles de seguridad, preconfigurados, para satisfacer las distintas necesidades de seguridad del usuario.
+▶ Proporcionan información sobre los intentos de ataque.
+▶ Evitan ataques, bloqueando accesos y conexiones no autorizadas, impidiendo que se produzcan.
+▶ Bloquean el tráfico basándose en un esquema de aplicaciones fiables o no fiables (permiten configurar reglas de filtrado de conexiones, de paquetes de información, etc.)
+
+Es como un semáforo que, en función de la dirección IP y el puerto (entre otras opciones), dejará establecer la conexión o no siguiendo unas reglas establecidas.
+
+Un sistema de detección de intrusos o IDS (Intrusion Detection System), tiene como objetivo evitar las conexiones indeseadas o, dicho de otra manera, bloquear la entrada de los intrusos a un equipo o una red, alertando y monitorizando cuando hay pistas de que estos sucesos puedan llegar a ocurrir.
+
+Los principales sistemas de detección de intrusos son:
+
+▶ Basados en firmas. En este caso lo que hacen es supervisar todos los paquetes de la red. Previamente tienen una base de datos con todas las firmas predefinidas y así detectan posibles amenazas. Este sistema funciona de forma muy similar a un antivirus.
+
+▶ Basados en anomalías. Lo que hacen es monitorear el tráfico de red y lo comparan con una base que tienen establecida previamente. Pero, ¿qué significa esto? Por ejemplo, analizan si el ancho de banda utilizado, los protocolos o los puertos son normales o, por el contrario, si hay algo que haga sospechar y nos alerte de que podría tratarse de un ataque informático y deberíamos tomar medidas.
+
+▶ NIDS. Es un sistema de detección de intrusos que está basado en la red. Es capaz de detectar cualquier ataque a todo el segmento. Se va a encargar de examinar todos los componentes del tráfico desde y hacia los dispositivos, examinar y verificar cualquier tipo de señal extraña que pueda considerar un ataque. En caso de que detecte que algo no cuadra, comenzará a investigar de qué se trata y buscará una solución al problema. Esto permitirá que un administrador de red pueda solventar la incidencia rápidamente y evitar así que puedan entrar en un equipo, por ejemplo, que roben los datos almacenados.
+
+▶ HIDS. Se encarga de supervisar las redes internas y los equipos que están conectados a Internet. Examina tanto las redes individuales como las actividades en los puntos finales. Algo destacable de este sistema es que, más allá de verificar las amenazas externas, también va a rastrear en busca de amenazas internas. Esto lo hace al monitorear y escanear los paquetes de datos que viajan desde y hacia los puntos finales, de manera que detecta amenazas de seguridad que se originen de forma interna.
+
+
+
+7
+EXPLOTACIÓN
+DE APLICACIONES
+INFORMÁTICAS
+DE PROPÓSITO
+GENERAL.
+
+El software es el conjunto de programas informáticos que actúan sobre el hardware para ejecutar lo que el usuario desee. Según su función se distinguen tres tipos de software:
+
+▶ Sistema operativo. Es el software base que ha de estar instalado y configurado en nuestro ordenador para que las aplicaciones puedan ejecutarse y funcionar. Son claros ejemplos: Linux, Windows o MacOS.
+
+▶ Software de programación. Conjunto de herramientas que nos permiten desarrollar programas informáticos. Son claros ejemplos: Eclipse, Netbeans o VSCode.
+
+▶ Aplicaciones. Conjunto de programas que tienen una finalidad más o menos concreta. Son claros ejemplos: Notepad++, VLC o videojuegos.
+
+El documento ERS incluye una descripción completa del comportamiento del sistema que se va a desarrollar.
+

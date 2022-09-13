@@ -1,0 +1,11 @@
+Los grados de los ciclos con módulos de curso 2
+Medio
+Superior
+
+ciclos con módulos de curso 2
+//modulo[curso=2]/ciclo
+Los grados de los ciclos
+//ciclo[@id="X"]/grado/text()
+
+Los grados de los ciclos con módulos de curso 2
+//ciclo[@id=//modulo[curso=2]/ciclo]/grado/text()

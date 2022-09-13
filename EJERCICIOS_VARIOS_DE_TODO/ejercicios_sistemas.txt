@@ -1,0 +1,233 @@
+Actividad 8
+
+¿Qué influencia tienen las directivas del sistema operativo en el uso de un equipo? Explica con ejemplos prácticos.
+
+Directiva de grupo es un conjunto de reglas que controlan el entorno de trabajo de cuentas de usuario y cuentas de equipo. Directiva de grupo proporciona la gestión centralizada y configuración de sistemas operativos, aplicaciones y configuración de los usuarios en un entorno de Active Directory. En otras palabras, la Directiva de Grupo, en parte, controla lo que los usuarios pueden y no pueden hacer en un sistema informático.
+
+Directiva de Grupo Local (LGP) es una versión más básica de la directiva de grupo utilizado por Active Director.
+El usuario específico limitado, puede superar mediante el Editor del Registro para realizar cambios en las claves HKCU o HKLM. LGP simplemente hace cambios en el registro bajo la clave HKLM, lo que afecta a todos los usuarios. Los mismos cambios se pueden hacer bajo HKCU o HKCU que afectan solo a determinados usuarios.
+
+Para acceder la las directivas de grupoo local (LGP) en un sistema operativo Windows, tenemos que ejecutar en CMD, el comando rsop.msc.
+
+*********
+
+
+Active Directory almacena información acerca de los objetos de una red y facilita su búsqueda y uso por parte de los usuarios y administradores. Active Directory usa un almacén de datos estructurado como base para una organización jerárquica lógica de la información del directorio.
+
+Este almacén de datos, también conocido como directorio, contiene información sobre los Active Directory datos. Estos objetos suelen incluir recursos compartidos, como servidores, volúmenes, impresoras y cuentas de usuario y equipo de red. Para obtener más información sobre el almacén Active Directory datos, vea Almacén de datos de directorio.
+
+La seguridad se integra con Active Directory a través de la autenticación de inicio de sesión y el control de acceso a los objetos del directorio. Con un único inicio de sesión de red, los administradores pueden administrar los datos del directorio y la organización a través de su red, y los usuarios de red autorizados pueden tener acceso a los recursos en cualquier parte de la red. La administración basada en directiva facilita la administración de incluso las redes más complejas. Para obtener más información sobre la Active Directory seguridad, consulte Información general sobre seguridad.
+
+Active Directory también incluye:
+
+Conjunto de reglas, el esquema, que define las clases de objetos y atributos contenidos en el directorio, las restricciones y límites en las instancias de estos objetos y el formato de sus nombres.
+
+Catálogo global que contiene información sobre todos los objetos del directorio. Esto permite a los usuarios y administradores buscar información de directorio independientemente de qué dominio del directorio contiene realmente los datos.
+
+Mecanismo de consulta e índice, para que los usuarios o las aplicaciones de red puedan publicar y encontrar objetos y sus propiedades.
+
+Un servicio de replicación que distribuye los datos de directorio a través de una red. Todos los controladores de dominio de un dominio participan en la replicación y contienen una copia completa de toda la información de directorio de su dominio. Cualquier cambio en los datos del directorio se replica en todos los controladores de dominio del dominio. Para obtener más información sobre Active Directory replicación, vea conceptos Active Directory replicación de datos.
+
+*********
+
+¿Qué implicación tiene un sistema de archivos en un sistema operativo? ¿Qué sistemas de archivos se están utilizando actualmente?
+
+Un sistema de archivos es el sistema de almacenamiento de un dispositivo de memoria, que estructura y organiza la escritura, búsqueda, lectura, almacenamiento, edición y eliminación de archivos de una manera concreta. El objetivo principal de esta organización es que el usuario pueda identificar los archivos sin lugar a error y acceder a ellos lo más rápido posible. Por tanto un sistema de archivos adecuado es fundamental para un buen funcionamiento del sistema operativo. Cada sistema operativo tiene un sistema de archivos distinto.
+Los más habituales hasta la fecha son FAT16, FAT32, exFAT y NTFS (Windows) y HFS+ y APFS (macOS/Mac OS X). Linux utiliza actualmente ext4 (sucesor de ext3 y ext2).
+
+
+
+Actividad 9
+
+Instala virtual box y dentro instala una de las últimas versiones de Linux. Detalla el proceso de instalación tanto de Virtual Box como de Ubuntu a través de capturas.
+
+https://support.academicsoftware.eu/hc/es/articles/360006725277-C%C3%B3mo-instalar-Oracle-VM-VirtualBox#:~:text=Paso%201%3A%20Ve%20a%20la,Next%20para%20iniciar%20la%20instalaci%C3%B3n.
+
+https://www.solvetic.com/tutoriales/article/8558-como-instalar-linux-mint-20-en-virtualbox/
+
+Instala dentro de Virtual Box otra distribución de Linux. Detalla el proceso de instalación tanto de Virtual Box como de Ubuntu a través de capturas.
+
+https://tecnoloco.istocks.club/como-instalar-ubuntu-en-virtualbox/2020-10-16/
+
+Actividad 10
+
+Documenta el proceso de creación de grupos y usuarios a través del terminal. Utiliza capturas para mostrar los resultados.
+
+Para la creacion de usuario y grupo de usuarios desde el terminal CMD en Windows 10, tendremos que iniciar como administrador del sistema con: net user nombredeususario contraseña /add.
+Para agregar un nuevo grupo de usuarios: net localgroup administrators nombre /add
+
+
+https://hardmicro.net/es/art%C3%ADculos/198-como-crear-usuarios-desde-cmd
+
+Actividad 11
+
+Instala el programa Packet Tracer y crea una configuración para un Cibercafé. Explica el porqué de esa configuración de forma detallada.
+
+Despues de descargar e instalar el programa Cisco Packet Tracer Student, iniciamos el programa.
+Lo primero el realizar el diseño lógico de un sistema de red, en este caso para un Cibercafé.
+Seleccionamos en la parte inferior del programa "End Device" 3 ordenadores Genéricos. Pinchamos y pulsamos en la pantalla principal tantos ordenadores como de momento queramos. A continuación selecionamos un Swicth y seleccionamos Swicth2960. Despues elegimos un cable de conexion, cable Ethernet o copper straight-through.
+
+Un cable Ethernet es un cable de red que se utiliza para conexiones de red por cable de alta velocidad entre dos dispositivos. Este cable de red está hecho de un cable de cuatro pares, que consta de conductores de par trenzado. Se utiliza para la transmisión de datos en ambos extremos del cable, que se llama conector RJ45.
+
+Siendo este el cable que utilizaremos en este tipo de conexiones entre PC a Switch y a Router.
+
+A cada PC lo configuramos con una IP Estática. Ej, PC-PT PC3, tiene IP:192.168.100.1 con una Submáscara de Red: 255.255.255.0.
+
+Ni a los Switch ni Routes ni DSL-Modem le damós IP, su ya que son los que nos van a servir a los puntos finales.
+
+Para finalizar utilizo una Cloud-PT simulando un distribuidor de internet a través de la nube que conecta con nuestro DSL-Modem a través de cable de teléfono RJ11, por tanto mi red no va a tener conexion en fibra, que nos otorgaría mayor velocidades de subida y bajada de datos.
+
+Despues de todas las conexiones vemos que podemos comunicarnos entre equipos haciendo un ping desde cualquiera de ellos a otros, además de encondtrarno todas las conexiones en verde, es decir funcionando.
+
+Vemos en modo simulación, que todo funciona correctamente.
+
+Despues realizamos la configuración física de la red. Elegimos una plantilla que tiene Cisco Packet Tracer y distribuimos nuestros ordenadores por el restos de salas. En una habitacion colocaremos el armario donde tendremos los Router, Switchs y Cloud.
+
+Por último nos quedaría hacer un informe de todo lo representado en esquemas. El programa Cisco Packet Tracer hace automáticamente todos estos informes finales pero como sólo tengo una version de estudiante no me permite realizarlos. Seria pulsando Contro+W.
+
+Describe el porqué de IPV6. Qué características tiene, ventajas e inconvenientes.
+
+Características:
+
+Mayor espacio de direcciones. El tamaño de las direcciones IP cambia de 32 bits a 128 bits, para soportar más nodos de dirección.
+Simplificación del formato de la cabecera(Header). Se han eliminando campos del Header que había en IPv4 o se han hecho opcionales.
+Paquetes IP eficientes y extensibles.  Al no haber una fragmentación en los routers alineados a 64 bits y con una cabecera de longitud fija, se agiliza el procesado por parte del router.
+Posibilidad de paquetes con carga útil de datos de más de 65.355 bytes.
+Seguridad en el núcleo del protocolo (IPsec).
+Capacidad de etiquetas de flujo. Esta capacidad puede ser usada por un nodo origen para etiquetar paquetes pertenecientes a un flujo (flow) de tráfico particular que requiere manejo especial por los routers IPv6, tal como calidad de servicio no por defecto o servicios de tiempo real.
+Autoconfiguración. La autoconfiguración de direcciones es más simple, especialmente en direcciones superiores a 64 bits son separados por un mensaje desde el router y los 64 bits más bajos son separados con la dirección MAC. En este caso, el largo del prefijo de la subred es 64, por lo que no hay que preocuparse por la máscara de red. Además el largo del prefijo no depende del número de los “hosts” por lo tanto la asignación es más simple.
+Renumeración. Es posible cambiar el formato de numeración manteniendo la misma dirección IP facilitando así el cambio de proveedor de servicios.
+Direccionamiento más eficiente de la red, debido a la jerarquía de direccionamiento basada en agregación.
+Mejor calidad de servicio y clase de servicio.
+Mejor capacidad de autenticación y privacidad.
+
+Ventajas:
+La cantidad de direcciones IPv6 es tan alta que podrían asignarse 670 mil billones de direcciones por cada milímetro cuadrado de la superficie de La Tierra. Así, cada persona podrá tener direcciones propias para sus dispositivos.
+IPv6 incluye seguridad en sus especificaciones como son la encriptación de la información y la autentificación del remitente de dicha información.
+
+IPv6 permite el uso depaquetes de datos de mayor tamaño (hasta 64 bits)
+
+IPv6 incluye en su estándar el mecanismo "plug and play", lo cual facilita a los usuarios la conexión de sus equipos a la red. La configuración se realiza automáticamente. Esto permite que al conectar una máquina a una red IPv6, se le asigne automáticamente una (ó varias) direcciones IPv6.
+
+IPv6 incluye mecanismos de movilidad más eficientes y robustos lo cual beneficiará no sólo a los usuarios de telefonía y dispositivos móviles, sino también (por ejemplo) tener buenas conexiones a internet durante los vuelos de avión.
+
+IPv6 ha sido diseñado para ser extensible y ofrece soporte optimizado para nuevas opciones y agregados, permitiendo introducir mejoras en el futuro.
+
+Al incorporar IPv6 una gran cantidad de direcciones, no será necesario utilizar NAT, y sus nuevas capacidades de Plug and Play, seguridad, y QoS implicarán mejores conexiones de voz.
+
+Desventajas:
+
+La necesidad de extender un soporte permanente. Necesita una dirección IPv4 o algún tipo de NAT en los routers pasarela. Problemas restantes de arquitectura. Más difíciles de memorizar.
+
+La mayoria de redes son ipv4 entonces la implementación total de ipv6 seria muy costosa y tardaria mucho tiempo mientras tanto se requieren la implementación de los mecanismos de transición para la interacción de las 2 redes.
+
+http://redesdecomputadores.umh.es/ipv6/Ventajas%20e%20inconv.html
+
+Actividad 12
+
+Describe qué órdenes podemos utilizar para ver si existe alguna avería en la conexión de red.
+
+Podemos hacer uso de dos comandos en Windows: ping y tracert. Lo primero que vamos a hacer es ir a Inicio, entramos en el Símbolo del sistema y allí podremos ejecutar ambos comandos seguidos de las DNS de Google, por ejemplo. Quedaría así:
+
+Ping 8.8.8.8
+Veríamos si recibimos de internet
+
+
+Ping 127.0.0.1
+Veríamos nos devuelve la red una llamada a nosotros mismos
+
+Utiliza el comando TRACERT para determinar dónde se ha detenido un paquete en la red. Te permite hacer un seguimiento de la ruta entre tu equipo y el otro equipo en la red.
+
+El comando IPCONFIG muestra todos los datos de la configuración del equipo para el protocolo TCP/IP, incluidas la dirección IP, la máscara de subred, la puerta de enlace, los servidores DNS.
+
+NSLOOKUP es un comando utilizado para diagnosticar y solucionar problemas de los servidores DNS que utilizan la conexión de red actual.
+
+Actualmente no tengo asignado ningún servidor de dns.
+
+El comando NETSTAT es uno de los más utilizados en el trabajo en redes, muestra todas las estadísticas de los protocolos y las conexiones que tienes establecidas, direcciones, puertos utilizados, cantidad de información, etc.
+
+netstat -a muestra todas las conexiones y puertos de escucha
+netstat -n muestra los puertos y direcciones en formato numérico.
+netstat -b muestra el nombre del programa que inició la conexión
+netstat -e muestra estadísticas de datos enviados, recibidos
+
+El comando ROUTE permite ver la tabla de rutas del equipo, contiene la ruta que sigue un paquete de red desde un equipo que utiliza TCP/IP a otro.
+
+Utiliza el comando TRACERT para determinar dónde se ha detenido un paquete en la red. Te permite hacer un seguimiento de la ruta entre tu equipo y el otro equipo en la red.
+
+Tracert 8.8.8.8
+
+https://norfipc.com/redes/solucionar-problemas-conexiones-internet.html
+
+https://www.redeszone.net/tutoriales/redes-cable/diagnosticar-problemas-conexion-red/
+
+Apoya tu respuesta con capturas de esos comandos. Puedes hacerlo desde cualquier sistema operativo.
+
+https://www.softzone.es/windows/como-se-hace/cmd-comprobar-conexion/
+
+
+¿Qué pasos harías para compartir recursos desde Linux con Windows? Aporta las capturas necesarias para explicar todo el proceso.
+
+https://pc-solucion.es/unidad/compartir-carpetas-entre-linux-windows-con-samba/
+
+Voy a compartir recursos en este caso una carpeta llamada en Windows BBDD y esta en la ruta: C:\Users\Acer\Desktop\Ejercicios\BBDD
+En ubuntu creo otra carpeta llamada Windows en la ruta: /home/ubuntu/Desktop/Windows
+
+
+
+Actividad 13
+
+Instala una de las últimas versiones de Windows Server dentro de Virtual Box. Detalla todo el proceso de instalación paso a paso con capturas.
+
+https://www.microsoft.com/es-es/windows-server/trial
+
+Configura todos los parámetros de red que creas necesarios para su buen funcionamiento. Utiliza capturas para mostrar todo el proceso y explica el porqué de cada paso que realices.
+
+https://docs.oracle.com/cd/E19957-01/820-2981/ipconfig-63/index.html
+
+Actividad 14
+
+¿Qué buenas prácticas harías para evitar al máximo las vulnerabilidades en un equipo de empresa?
+
+1. Instalar un software antivirus confiable
+Un buen programa antivirus confiable es un requisito básico para evitar vulnabilidades en un equip de empresa. Aparte, el software anti-malware también es esencial. Trabajan como una frontera final para la defensa de ataques no deseados, si pasan a través de la red de seguridad de la empresa. Además su cometido es la detección y eliminación de virus y malware, adware y spyware. También exploran y filtran descargas y correos electrónicos potencialmente dañinos.
+
+2. Utilizar contraseñas complejas
+Casi todas las aplicaciones basadas en un ordenador y en la Web requieren una clave para acceder a ellas. Bien se trate de las respuestas a las preguntas de seguridad o de las contraseñas, hay que asegurarse de crear contraseñas complejas para que sea difícil para los hackers vulnerarlas.
+
+3. Protegerte con Firewall
+El Firewall es necesario, ya que ayuda a proteger el tráfico de red – entrante y saliente. Puede impedir que los hackers ataquen tu red bloqueando ciertos sitios web. También puede programarse para que el envío de datos de propiedad y correos electrónicos confidenciales de la red de tu empresa esté restringido.
+
+4. Instalar software de cifrado
+Si gestionas datos relativos a tarjetas de crédito, cuentas bancarias y números de la seguridad social en una base de datos, tiene sentido tener un programa de cifrado para mantener los datos seguros cambiando la información del ordenador a códigos ilegibles.
+
+5. Ignorar  los correos electrónicos sospechosos
+Hay que habituarse a no abrir nunca ni responder correos electrónicos de aspecto sospechoso, incluso si parecen ser de un remitente conocido. Si abres el correo electrónico, no hagas clic en enlaces sospechosos ni descargues archivos adjuntos. Si lo haces, puedes convertirte en una víctima de robo de dinero y de identidad online, incluyendo  las “estafas de phishing”.
+
+6. Limitar el acceso a datos críticos
+En las empresas, el número de personas con acceso a datos críticos debe ser  mínimo, el Director de la empresa y ciertas personas de confianza.
+
+7. Hacer una copia de seguridad regularmente
+Cada semana, hay que realizar una copia de seguridad de los datos en un disco duro externo o en la propia nube, o programar copias de seguridad automáticas para garantizar que la información se almacene de forma segura.
+
+8. Protección de la red Wi-Fi
+Para proteger la red Wi-Fi de infracciones por parte de piratas informáticos, hay que cambiar el nombre de su punto de acceso inalámbrico o enrutador, también llamado Identificador de conjunto de servicios (SSI)
+
+9. Portátiles y Smartphones seguros
+Los ordenadores portátiles y los smartphones contienen una gran cantidad de datos valiosos, y esa es también la razón por la que están en un mayor riesgo de perder datos o de que se roben. La protección de ambos dispositivos implica encriptación, protección por contraseña y habilitación de la opción de “limpieza remota”.
+
+10. Comunicar Políticas de Seguridad Cibernética a los Empleados
+Tener una política escrita de seguridad informática puede no ser suficiente, tienes que asegurarte de que sus detalles sean comunicados y entendidos por tus empleados, para que puedan ponerlos en práctica. Esa es la única manera de hacer efectivas estas políticas. También hay que realizar la modificación periódica de estas políticas en función de la relevancia de los contenidos.
+
+
+
+Documenta todo el proceso de creación de copias de seguridad en Ubuntu a través de capturas y sus respectivas explicaciones del proceso.
+
+
+Una vez arrancado Ubuntu en VirtualBox, y entrado con nuestra contraseña, pinchamos en el cuadrado con cuadraditos (Show Applications) y en "Type to search" ponemos "Deja", y aparece la aplicacion de Ubuntu "Backups".
+
+Desde Overview podemos realizar un Backup ahora mismo o programar cuando se realiza.
+
+Si entras en Restore, puedes ver las Carpetas que tienen Copia. Para ver la configuración de carpetas que copia y donde las guarda pincha en el icono con las tres lineas horizontales, y en preferences verás en General donde se guardan las carpetas selecionadas y cuando realizar las copias. En la pestaña Folders verás las carpetas a guardar y podrás añadir y restringuir subcarpetas.
+
+

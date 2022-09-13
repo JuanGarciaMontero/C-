@@ -1,0 +1,105 @@
+
+/*limpiamos margenes predefinidos*/
+*{
+
+    margin: 0;
+	padding: 0;
+
+}
+
+#contenedor{
+	background-color: dimgrey;
+	padding-bottom: 20px;
+	padding-top: 20px;
+	font-family: Arial;
+}
+header {
+		color: white;
+		text-align:center;
+}
+
+h1{
+	font-size: 42px;
+}
+/*Menu de navegación horizontal*/
+nav{
+	padding-left: 90px;
+
+}
+form {
+	margin:0 auto;
+	width:400px;
+	padding-bottom: 20px;
+}
+
+input, textarea{
+	width: 380px;
+	height: 27;
+	background:#eeeeeee;
+	border:2px solid #f6f6f6;
+	padding: 10px;
+	margin-top:5px;
+	font-size:10px;
+	color:#fffffff;
+	
+}
+
+nav ul li{
+	display:block;
+	float:left;
+	padding: 10px;
+}
+
+nav ul li a{
+	text-decoration: none;
+	color: black;
+	font-size: 20px;
+}
+
+nav ul li a:hover{/*Cambia color del texto del menu al pasar raton*/
+	text-decoration: none;
+	color: white;
+}
+
+#contenido{
+	padding-top: 50px;
+	padding-left: 100px;
+	padding-right: 100px;
+	color: white;
+	text-align: justify;
+	font-size: 20px;
+}
+
+#contenido h1{
+	font-size: 32px,
+	padding-bottom: 15px;
+	
+}
+
+td{
+	padding: 20px;
+}
+
+.centrado{
+	text-align:center;
+}
+
+footer{
+	background-color: black;
+	color:white;
+	padding-bottom: 20px;
+	font-size: 12px;
+}
+
+footer ul{
+	padding-left: 100px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+footer ul li{
+	display:block;
+	float:left;
+	padding-left: 30px;
+	
+}

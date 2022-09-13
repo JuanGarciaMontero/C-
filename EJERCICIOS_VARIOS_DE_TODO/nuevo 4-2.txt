@@ -1,0 +1,10 @@
+Define las ventajas de realizar pruebas de caja blanca y simula un caso en el que las utilizaríais.
+
+Las pruebas de caja blanca (white box), centradas en la parte estructural del sistema (funciones internas).
+
+Testear el producto de software; encontrando errores en los productos como: errores de semántica, datos erróneos, producción de resultados sin sentido, incoherencias entre secciones del sistema, entre otros.
+
+Las pruebas de caja negra (black box), basadas en la parte funcional del sistema y la interfaz.
+
+Ej: Pruebas basadas en caso de uso
+Considera las rutas posibles (escenarios) que siguen los usuarios (actores) para finalizar un proceso. Se estudia la reacción del sistema desde la perspectiva del usuario, donde cada caso de uso es una interacción usuario-sistema.

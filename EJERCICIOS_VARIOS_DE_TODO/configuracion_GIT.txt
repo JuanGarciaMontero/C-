@@ -1,0 +1,338 @@
+
+Acer@Portatil-Juan MINGW64 ~/miapp (main)
+$ git config --list --system
+diff.astextplain.textconv=astextplain
+filter.lfs.clean=git-lfs clean -- %f
+filter.lfs.smudge=git-lfs smudge -- %f
+filter.lfs.process=git-lfs filter-process
+filter.lfs.required=true
+http.sslbackend=openssl
+http.sslcainfo=C:/Program Files/Git/mingw64/ssl/certs/ca-bundle.crt
+core.autocrlf=true
+core.fscache=true
+core.symlinks=false
+core.editor="C:\\Program Files (x86)\\Notepad++\\notepad++.exe" -multiInst -notabbar -nosession -noPlugin
+pull.rebase=false
+credential.helper=manager-core
+credential.https://dev.azure.com.usehttppath=true
+init.defaultbranch=main
+
+Acer@Portatil-Juan MINGW64 ~/miapp (main)
+$ git config --list --global
+filter.lfs.process=git-lfs filter-process
+filter.lfs.required=true
+filter.lfs.clean=git-lfs clean -- %f
+filter.lfs.smudge=git-lfs smudge -- %f
+user.name=JuanGarciaMontero
+user.email=108418765+JuanGarciaMontero@users.noreply.github.com
+credential.http://localhost:3000.provider=generic
+
+Acer@Portatil-Juan MINGW64 ~/miapp (main)
+$ git config --list --local
+core.repositoryformatversion=0
+core.filemode=false
+core.bare=false
+core.logallrefupdates=true
+core.symlinks=false
+core.ignorecase=true
+
+Acer@Portatil-Juan MINGW64 ~/miapp (main)
+$ cat .git/config
+[core]
+        repositoryformatversion = 0
+        filemode = false
+        bare = false
+        logallrefupdates = true
+        symlinks = false
+        ignorecase = true
+
+Acer@Portatil-Juan MINGW64 ~/miapp (main)
+$ cat $HOME/.gitconfig
+[filter "lfs"]
+        process = git-lfs filter-process
+        required = true
+        clean = git-lfs clean -- %f
+        smudge = git-lfs smudge -- %f
+[user]
+        name = JuanGarciaMontero
+        email = 108418765+JuanGarciaMontero@users.noreply.github.com
+[credential "http://localhost:3000"]
+        provider = generic
+
+Acer@Portatil-Juan MINGW64 ~/miapp (main)
+$ cat /etc/gitconfig
+[diff "astextplain"]
+        textconv = astextplain
+[filter "lfs"]
+        clean = git-lfs clean -- %f
+        smudge = git-lfs smudge -- %f
+        process = git-lfs filter-process
+        required = true
+[http]
+        sslBackend = openssl
+        sslCAInfo = C:/Program Files/Git/mingw64/ssl/certs/ca-bundle.crt
+[core]
+        autocrlf = true
+        fscache = true
+        symlinks = false
+        editor = \"C:\\\\Program Files (x86)\\\\Notepad++\\\\notepad++.exe\" -multiInst -notabbar -nosession -noPlugin
+[pull]
+        rebase = false
+[credential]
+        helper = manager-core
+[credential "https://dev.azure.com"]
+        useHttpPath = true
+[init]
+        defaultBranch = main
+
+Acer@Portatil-Juan MINGW64 ~/miapp (main)
+
+Acer@Portatil-Juan MINGW64 ~/miapp (main)
+$ git config --list --global
+filter.lfs.process=git-lfs filter-process
+filter.lfs.required=true
+filter.lfs.clean=git-lfs clean -- %f
+filter.lfs.smudge=git-lfs smudge -- %f
+user.name=JuanGarciaMontero
+user.email=108418765+JuanGarciaMontero@users.noreply.github.com
+credential.http://localhost:3000.provider=generic
+
+Acer@Portatil-Juan MINGW64 ~/miapp (main)
+$ git config --global user.name "jgmen"
+
+Acer@Portatil-Juan MINGW64 ~/miapp (main)
+$ cat $HOME/.gitconfig
+[filter "lfs"]
+        process = git-lfs filter-process
+        required = true
+        clean = git-lfs clean -- %f
+        smudge = git-lfs smudge -- %f
+[user]
+        name = jgmen
+        email = 108418765+JuanGarciaMontero@users.noreply.github.com
+[credential "http://localhost:3000"]
+        provider = generic
+
+Acer@Portatil-Juan MINGW64 ~/miapp (main)
+$ git config --list --global
+filter.lfs.process=git-lfs filter-process
+filter.lfs.required=true
+filter.lfs.clean=git-lfs clean -- %f
+filter.lfs.smudge=git-lfs smudge -- %f
+user.name=jgmen
+user.email=108418765+JuanGarciaMontero@users.noreply.github.com
+credential.http://localhost:3000.provider=generic
+
+Acer@Portatil-Juan MINGW64 ~/miapp (main)
+$ pwd
+/c/Users/Acer/miapp
+
+Acer@Portatil-Juan MINGW64 ~/miapp (main)
+$ git config --local user.email "jgmen@noreply.users.github.com"
+
+Acer@Portatil-Juan MINGW64 ~/miapp (main)
+$ cat .git/config
+[core]
+        repositoryformatversion = 0
+        filemode = false
+        bare = false
+        logallrefupdates = true
+        symlinks = false
+        ignorecase = true
+[user]
+        email = jgmen@noreply.users.github.com
+
+Acer@Portatil-Juan MINGW64 ~/miapp (main)
+$ git config --list --local
+core.repositoryformatversion=0
+core.filemode=false
+core.bare=false
+core.logallrefupdates=true
+core.symlinks=false
+core.ignorecase=true
+user.email=jgmen@noreply.users.github.com
+
+Acer@Portatil-Juan MINGW64 ~/miapp (main)
+$ git config --list --local
+core.repositoryformatversion=0
+core.filemode=false
+core.bare=false
+core.logallrefupdates=true
+core.symlinks=false
+core.ignorecase=true
+user.email=jgmen@noreply.users.github.com
+
+Acer@Portatil-Juan MINGW64 ~/miapp (main)
+$ git commit -a
+[main (root-commit) 589ac02] Prueba inicial
+ 2 files changed, 1 insertion(+)
+ create mode 100644 LICENSE
+
+Acer@Portatil-Juan MINGW64 ~/miapp (main)
+$ git log
+commit 589ac02d6236d945b1afb162207dc717e67e4ae6 (HEAD -> main)
+Author: jgmen <jgmen@noreply.users.github.com>
+Date:   Fri Aug 19 13:09:02 2022 +0200
+
+
+Acer@Portatil-Juan MINGW64 ~/miapp (main)
+$ git config --local user.email "jgmen20@gmail.com"
+
+Acer@Portatil-Juan MINGW64 ~/miapp (main)
+$ cat .git/config
+[core]
+        repositoryformatversion = 0
+        filemode = false
+        bare = false
+        logallrefupdates = true
+        symlinks = false
+        ignorecase = true
+[user]
+        email = jgmen20@gmail.com
+
+Acer@Portatil-Juan MINGW64 ~/miapp (main)
+$ ls
+LICENSE  Readme.md  src/
+
+Acer@Portatil-Juan MINGW64 ~/miapp (main)
+$ echo MIT > LICENSE
+
+Acer@Portatil-Juan MINGW64 ~/miapp (main)
+$ cat LICENSE
+MIT
+
+Acer@Portatil-Juan MINGW64 ~/miapp (main)
+$ git commit -a
+warning: in the working copy of 'LICENSE', LF will be replaced by CRLF the next time Git touches it
+[main d97928c] Cambio el texto de LICENSE
+ 1 file changed, 1 insertion(+)
+
+Acer@Portatil-Juan MINGW64 ~/miapp (main)
+$ git log
+commit d97928ca76a40254f64685bc1a1b0164ecb0d3f9 (HEAD -> main)
+Author: jgmen <jgmen20@gmail.com>
+Date:   Fri Aug 19 13:22:30 2022 +0200
+
+    Cambio el texto de LICENSE
+
+commit 589ac02d6236d945b1afb162207dc717e67e4ae6
+Author: jgmen <jgmen@noreply.users.github.com>
+Date:   Fri Aug 19 13:09:02 2022 +0200
+
+    Prueba inicial
+
+Acer@Portatil-Juan MINGW64 ~/miapp (main)
+$ echo GPL > LICENSE
+
+Acer@Portatil-Juan MINGW64 ~/miapp (main)
+$ git commit
+On branch main
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   LICENSE
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Acer@Portatil-Juan MINGW64 ~/miapp (main)
+$ git commit -a
+warning: in the working copy of 'LICENSE', LF will be replaced by CRLF the next time Git touches it
+[main 859f46d] Vuelvo a cambiar el texto de la licencia
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+Acer@Portatil-Juan MINGW64 ~/miapp (main)
+$ git log
+commit 859f46d97a74f7198ced273685aaf11ed4f9ba94 (HEAD -> main)
+Author: jgmen <jgmen20@gmail.com>
+Date:   Fri Aug 19 13:25:56 2022 +0200
+
+    Vuelvo a cambiar el texto de la licencia
+
+commit d97928ca76a40254f64685bc1a1b0164ecb0d3f9
+Author: jgmen <jgmen20@gmail.com>
+Date:   Fri Aug 19 13:22:30 2022 +0200
+
+    Cambio el texto de LICENSE
+
+commit 589ac02d6236d945b1afb162207dc717e67e4ae6
+Author: jgmen <jgmen@noreply.users.github.com>
+Date:   Fri Aug 19 13:09:02 2022 +0200
+
+    Prueba inicial
+
+OTRA FORMA CREAR REPOSITORIOS GIT
+
+Acer@Portatil-Juan MINGW64 ~/miapp (main)
+$ mkdir repositories
+
+Acer@Portatil-Juan MINGW64 ~/miapp (main)
+$ cd repositories
+
+Acer@Portatil-Juan MINGW64 ~/miapp/repositories (main)
+$ git init --bare aplicacion
+Initialized empty Git repository in C:/Users/Acer/miapp/repositories/aplicacion/
+
+Acer@Portatil-Juan MINGW64 ~/miapp/repositories (main)
+$ cd aplicacion
+
+Acer@Portatil-Juan MINGW64 ~/miapp/repositories/aplicacion (BARE:main)
+$ ls
+HEAD  config  description  hooks/  info/  objects/  refs/
+
+Acer@Portatil-Juan MINGW64 ~/miapp/repositories/aplicacion (BARE:main)
+$ cd miapp
+bash: cd: miapp: No such file or directory
+
+Acer@Portatil-Juan MINGW64 ~/miapp/repositories/aplicacion (BARE:main)
+$ ls
+HEAD  config  description  hooks/  info/  objects/  refs/
+
+Acer@Portatil-Juan MINGW64 ~/miapp/repositories/aplicacion (BARE:main)
+$ cd
+
+Acer@Portatil-Juan MINGW64 ~ (main)
+$ cd miapp
+
+Acer@Portatil-Juan MINGW64 ~/miapp (main)
+$ ls
+LICENSE  Readme.md  repositories/  src/
+
+Acer@Portatil-Juan MINGW64 ~/miapp (main)
+$ rm -rf .git
+
+Acer@Portatil-Juan MINGW64 ~/miapp (main)
+$ git clone C:/Users/Acer/miapp/repositories/aplicacion/ .
+
+git
+fatal: destination path '.' already exists and is not an empty directory.
+
+Acer@Portatil-Juan MINGW64 ~/miapp (main)
+$ cd..
+bash: cd..: command not found
+
+Acer@Portatil-Juan MINGW64 ~/miapp (main)
+$ mv miapp miapp.original
+mv: cannot stat 'miapp': No such file or directory
+
+Acer@Portatil-Juan MINGW64 ~/miapp (main)
+$ git clone C:/Users/Acer/miapp/repositories/aplicacion/ miaa
+Cloning into 'miaa'...
+warning: You appear to have cloned an empty repository.
+done.
+
+Acer@Portatil-Juan MINGW64 ~/miapp (main)
+$ cd miaa
+
+Acer@Portatil-Juan MINGW64 ~/miapp/miaa (main)
+$ ls C:/Users/Acer/miapp/repositories/aplicacion/
+HEAD  config  description  hooks/  info/  objects/  refs/
+
+Acer@Portatil-Juan MINGW64 ~/miapp/miaa (main)
+$ ls -al
+total 8
+drwxr-xr-x 1 Acer 197609 0 Aug 19 13:40 ./
+drwxr-xr-x 1 Acer 197609 0 Aug 19 13:40 ../
+drwxr-xr-x 1 Acer 197609 0 Aug 19 13:40 .git/
+//////////// ERROR NO EN /miapp/
+
+

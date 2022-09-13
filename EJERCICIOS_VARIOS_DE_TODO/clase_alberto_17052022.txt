@@ -1,0 +1,20 @@
+Alberto del Dedo Melgarejo18:08
+
+192.168.2.7
+
+Alberto del Dedo Melgarejo18:10
+
+https://todosobreredes503.wordpress.com/redes-cableadas/clasificacion-de-redes-segun-su-rango-clase-abcd/
+
+192.168.2.7/24
+
+Alberto del Dedo Melgarejo18:14
+
+0-126 Clase A
+
+128-191-B
+
+192-224 Clase C o apedillo /24
+
+https://www.calculator.net/ip-subnet-calculator.html?cclass=a&csubnet=1&cip=192.168.1.154&ctype=ipv4&printit=0&x=47&y=20
+
