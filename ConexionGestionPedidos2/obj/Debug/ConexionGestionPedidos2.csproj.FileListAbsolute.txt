@@ -1,0 +1,16 @@
+C:\Users\Acer\source\repos\ConexionGestionPedidos2\bin\Debug\ConexionGestionPedidos2.exe.config
+C:\Users\Acer\source\repos\ConexionGestionPedidos2\bin\Debug\ConexionGestionPedidos2.exe
+C:\Users\Acer\source\repos\ConexionGestionPedidos2\bin\Debug\ConexionGestionPedidos2.pdb
+C:\Users\Acer\source\repos\ConexionGestionPedidos2\obj\Debug\ConexionGestionPedidos2.csproj.AssemblyReference.cache
+C:\Users\Acer\source\repos\ConexionGestionPedidos2\obj\Debug\ConexionGestionPedidos2.csproj.SuggestedBindingRedirects.cache
+C:\Users\Acer\source\repos\ConexionGestionPedidos2\obj\Debug\MainWindow.g.cs
+C:\Users\Acer\source\repos\ConexionGestionPedidos2\obj\Debug\App.g.cs
+C:\Users\Acer\source\repos\ConexionGestionPedidos2\obj\Debug\ConexionGestionPedidos2_MarkupCompile.cache
+C:\Users\Acer\source\repos\ConexionGestionPedidos2\obj\Debug\ConexionGestionPedidos2_MarkupCompile.lref
+C:\Users\Acer\source\repos\ConexionGestionPedidos2\obj\Debug\MainWindow.baml
+C:\Users\Acer\source\repos\ConexionGestionPedidos2\obj\Debug\ConexionGestionPedidos2.g.resources
+C:\Users\Acer\source\repos\ConexionGestionPedidos2\obj\Debug\ConexionGestionPedidos2.Properties.Resources.resources
+C:\Users\Acer\source\repos\ConexionGestionPedidos2\obj\Debug\ConexionGestionPedidos2.csproj.GenerateResource.cache
+C:\Users\Acer\source\repos\ConexionGestionPedidos2\obj\Debug\ConexionGestionPedidos2.csproj.CoreCompileInputs.cache
+C:\Users\Acer\source\repos\ConexionGestionPedidos2\obj\Debug\ConexionGestionPedidos2.exe
+C:\Users\Acer\source\repos\ConexionGestionPedidos2\obj\Debug\ConexionGestionPedidos2.pdb

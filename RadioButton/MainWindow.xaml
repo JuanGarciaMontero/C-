@@ -1,0 +1,68 @@
+﻿<Window x:Class="RadioButton.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:RadioButton"
+        mc:Ignorable="d"
+        Title="RadioButton" Height="450" Width="800">
+    <Grid>
+
+        <Grid.RowDefinitions>
+
+            <RowDefinition Height="75"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+
+        </Grid.RowDefinitions>
+
+        <StackPanel Grid.Row="0">
+            
+            <TextBlock Text="SEMAFORO"  FontSize="45" TextDecorations="Underline" TextAlignment="Center" Foreground="BlueViolet"></TextBlock>
+
+        </StackPanel>
+
+        <StackPanel Grid.Row="1">
+
+            <Grid>
+
+                <Grid.ColumnDefinitions>
+
+                    <ColumnDefinition Width="0.5*"></ColumnDefinition>
+                    <ColumnDefinition Width="0.5*"></ColumnDefinition>
+
+                </Grid.ColumnDefinitions>
+
+                <StackPanel Grid.Row="0">
+
+                    <RadioButton Margin="50,20,100,80" Click="RadioButton_Click" HorizontalAlignment="Right">
+                        <TextBlock Text="Rojo"></TextBlock>
+                    </RadioButton>
+
+                    <RadioButton Margin="50,20,100,80" Click="RadioButton_Click_1"  HorizontalAlignment="Right">
+                        <TextBlock Text="Amarillo"></TextBlock>
+                    </RadioButton>
+
+                    <RadioButton Margin="50,20,100,80" Click="RadioButton_Click_2"  HorizontalAlignment="Right">
+                        <TextBlock Text="Verde"></TextBlock>
+                    </RadioButton>
+
+
+                </StackPanel>
+
+                <Grid Grid.Column="1">
+
+                    <Image Source="C:\Users\Acer\Pictures\semaforo_sin_luces.jpg" Height="300" HorizontalAlignment="Left"></Image>
+                    <Ellipse Name="eRojo" Fill="Red" Margin="122,51,200,222" RenderTransformOrigin="0.243,-0.474" Visibility="Hidden"/>
+                    <Ellipse Name="eAmarillo" Fill="Yellow" Margin="122,136,200,137" RenderTransformOrigin="0.243,-0.474" Visibility="Hidden"/>
+                    <Ellipse Name="eVerde" Fill="Green" Margin="122,213,200,60" RenderTransformOrigin="0.243,-0.474" Visibility="Hidden"/>
+                    
+                </Grid>
+
+            </Grid>
+
+        </StackPanel>
+
+    </Grid>
+
+
+</Window>
