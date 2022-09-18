@@ -1,0 +1,85 @@
+17/09/2022 22:55:27	Este registro contiene información acerca de la operación de importación de esquema en el proyecto 'Database1' del equipo 'PORTATIL-JUAN' por el usuario 'Acer'.
+17/09/2022 22:55:28	Se inició la importación del esquema de la base de datos.
+17/09/2022 22:55:43	Recopilando credenciales de la base de datos
+17/09/2022 22:55:43	Recopilando opciones de base de datos
+17/09/2022 22:55:43	Recopilando la opción de configuración de ámbito de la base de datos genérica
+17/09/2022 22:55:43	Recopilando usuarios
+17/09/2022 22:55:43	Recopilando roles
+17/09/2022 22:55:43	Recopilando roles de aplicación
+17/09/2022 22:55:43	Recopilando pertenencias a roles
+17/09/2022 22:55:43	Recopilando grupos de archivos
+17/09/2022 22:55:43	Recopilando catálogos de texto completo
+17/09/2022 22:55:43	Recopilando ensamblados
+17/09/2022 22:55:43	Recopilando certificados
+17/09/2022 22:55:43	Recopilando claves asimétricas
+17/09/2022 22:55:43	Recopilando claves simétricas
+17/09/2022 22:55:43	Recopilando claves simétricas cifradas
+17/09/2022 22:55:43	Recopilando esquemas
+17/09/2022 22:55:43	Recopilando colecciones de esquemas XML
+17/09/2022 22:55:43	Recopilando tipos de datos definidos por el usuario
+17/09/2022 22:55:43	Recopilando tipos definidos por el usuario
+17/09/2022 22:55:43	Recopilando tipos de tabla
+17/09/2022 22:55:43	Recopilando claves únicas para tipos de tabla
+17/09/2022 22:55:43	Recopilando claves principales para tipos de tabla
+17/09/2022 22:55:44	Recopilando índices para tipos de tablas
+17/09/2022 22:55:44	Recopilando restricciones CHECK para tipos de tabla
+17/09/2022 22:55:44	Recopilando restricciones DEFAULT para tipos de tabla
+17/09/2022 22:55:44	Recopilando funciones de partición
+17/09/2022 22:55:44	Recopilando esquemas de partición
+17/09/2022 22:55:44	Recopilando funciones
+17/09/2022 22:55:44	Recopilando funciones cifradas
+17/09/2022 22:55:44	Recopilando agregados
+17/09/2022 22:55:44	Recopilando procedimientos
+17/09/2022 22:55:44	Recopilando procedimientos cifrados
+17/09/2022 22:55:44	Recopilando tablas
+17/09/2022 22:55:44	Recopilando claves principales
+17/09/2022 22:55:44	Recopilando restricciones UNIQUE
+17/09/2022 22:55:44	Recopilando claves externas
+17/09/2022 22:55:44	Recopilando restricciones DEFAULT
+17/09/2022 22:55:44	Recopilando restricciones CHECK
+17/09/2022 22:55:44	Recopilando vistas
+17/09/2022 22:55:44	Recopilando vistas cifradas
+17/09/2022 22:55:44	Recopilando índices
+17/09/2022 22:55:44	Recopilando estadísticas
+17/09/2022 22:55:44	Recopilando listas de palabras irrelevantes de índices de texto completo
+17/09/2022 22:55:44	Recopilando listas de propiedades de búsqueda
+17/09/2022 22:55:44	Recopilando propiedades de búsqueda
+17/09/2022 22:55:44	Recopilando índices de texto completo
+17/09/2022 22:55:44	Recopilando índices de almacenamiento de columnas
+17/09/2022 22:55:44	Recopilando índices espaciales
+17/09/2022 22:55:44	Recopilando índices XML
+17/09/2022 22:55:44	Recopilando índices XML selectivos
+17/09/2022 22:55:44	Recopilando desencadenadores cifrados
+17/09/2022 22:55:44	Recopilando desencadenadores
+17/09/2022 22:55:44	Recopilando DDL triggers cifrados y de CLR
+17/09/2022 22:55:44	Recopilando DDL triggers
+17/09/2022 22:55:44	Creación de la restricción perimetral en curso
+17/09/2022 22:55:44	Recopilando sinónimos
+17/09/2022 22:55:44	Recopilando valores predeterminados
+17/09/2022 22:55:44	Recopilando enlaces UDDT de restricción de datos
+17/09/2022 22:55:44	Recopilando reglas
+17/09/2022 22:55:44	Recopilando enlaces UDDT de restricción de datos
+17/09/2022 22:55:44	Recopilando tipos de mensaje
+17/09/2022 22:55:44	Recopilando colas
+17/09/2022 22:55:44	Recopilando contratos
+17/09/2022 22:55:44	Recopilando servicios
+17/09/2022 22:55:44	Recopilando notificaciones de eventos
+17/09/2022 22:55:44	Recopilando enlaces de servicio remoto
+17/09/2022 22:55:44	Recopilando prioridades de Broker
+17/09/2022 22:55:44	Recopilando firmas
+17/09/2022 22:55:44	Recopilando opciones de compresión de datos
+17/09/2022 22:55:44	Recopilando tipos de secuencia
+17/09/2022 22:55:44	Recopilando directivas de seguridad
+17/09/2022 22:55:44	Recopilar claves de cifrado de columna
+17/09/2022 22:55:44	Recopilando claves maestras de columna
+17/09/2022 22:55:44	Recopilando orígenes de datos externos
+17/09/2022 22:55:44	Recopilando formatos de archivo externos
+17/09/2022 22:55:44	Recopilando tablas externas
+17/09/2022 22:55:44	Recopilando propiedades extendidas
+17/09/2022 22:55:44	Recopilando ensamblados
+17/09/2022 22:55:44	Recopilando credenciales
+17/09/2022 22:55:44	Recopilando inicios de sesión
+17/09/2022 22:55:44	Recopilando auditorías de servidor
+17/09/2022 22:55:47	Finalizó la importación de la base de datos.
+17/09/2022 22:55:47	Se guardó un resumen de la importación en la siguiente ubicación: C:\Users\Acer\source\repos\GestionPedidos\Database1\Registros de importación de esquemas\Database1_20220917085527.log
+17/09/2022 22:55:47	Haga clic en Finalizar para continuar...
