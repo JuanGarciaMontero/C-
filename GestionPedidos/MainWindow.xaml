@@ -5,7 +5,9 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:GestionPedidos"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="450" Width="800"
+        Activated="Window_Activated">
+        
 
     <Grid>
 
@@ -16,8 +18,9 @@
         <ListBox Name="todosPedidos"  Margin="452,103,104,45"/>
         <Button Content="Borrar" HorizontalAlignment="Left" Margin="530,70,0,0" VerticalAlignment="Top" FontSize="18" FontWeight="Bold" RenderTransformOrigin="0.472,0.198" Width="80" Click="Button_Click"/>
         <Button Content="Insertar" HorizontalAlignment="Left" Margin="36,335,0,0" VerticalAlignment="Top" Click="Button_Click_1"/>
-        <Button Content="Borrar" HorizontalAlignment="Left" Margin="112,335,0,0" VerticalAlignment="Top" RenderTransformOrigin="-11.458,-2.553" Click="Button_Click_2"/>
+        <Button Content="Borrar" HorizontalAlignment="Left" Margin="90,335,0,0" VerticalAlignment="Top" RenderTransformOrigin="-11.458,-2.553" Click="Button_Click_2" Width="39"/>
         <TextBox Name="insertaCliente" HorizontalAlignment="Left" Margin="36,380,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="147" Height="24"/>
+        <Button Content="Actualizar" HorizontalAlignment="Left" Margin="143,335,0,0" VerticalAlignment="Top" IsDefault="True" Click="Button_Click_3"/>
 
     </Grid>
 </Window>

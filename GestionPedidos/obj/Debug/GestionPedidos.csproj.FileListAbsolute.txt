@@ -14,3 +14,5 @@ C:\Users\Acer\source\repos\GestionPedidos\obj\Debug\GestionPedidos.csproj.Genera
 C:\Users\Acer\source\repos\GestionPedidos\obj\Debug\GestionPedidos.csproj.CoreCompileInputs.cache
 C:\Users\Acer\source\repos\GestionPedidos\obj\Debug\GestionPedidos.exe
 C:\Users\Acer\source\repos\GestionPedidos\obj\Debug\GestionPedidos.pdb
+C:\Users\Acer\source\repos\GestionPedidos\obj\Debug\Actualiza.g.cs
+C:\Users\Acer\source\repos\GestionPedidos\obj\Debug\Actualiza.baml

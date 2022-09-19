@@ -251,5 +251,48 @@ namespace GestionPedidos
         {
             MuestraPedidos();
         }
+
+        private void Button_Click_3(object sender, RoutedEventArgs e)
+        {
+            Actualiza ventanaActualizar= new Actualiza((int)listaClientes.SelectedValue);
+
+            ventanaActualizar.Show();
+
+            try
+            {
+                string consulta = "SELECT nombre FROM Cliente where Id=@ClId";
+
+                SqlCommand misqlCommand = new SqlCommand(consulta, miConexionSql);
+
+                SqlDataAdapter miAdaptadorSql = new SqlDataAdapter(misqlCommand);
+
+                using (miAdaptadorSql)
+                {
+                    misqlCommand.Parameters.AddWithValue("@ClId", listaClientes.SelectedValue);
+
+                    DataTable clientesTabla = new DataTable();
+
+                    miAdaptadorSql.Fill(clientesTabla);
+
+                    ventanaActualizar.cuadroActualiza.Text = clientesTabla.Rows[0]["nombre"].ToString();
+
+                }
+            }
+            catch (Exception e2)
+            {
+                MessageBox.Show(e2.ToString());
+            }
+
+            //ventanaActualizar.ShowDialog();
+
+            //MuestraClientes();
+
+        }
+
+        private void Window_Activated(object sender, EventArgs e)
+        {
+            MuestraClientes();
+            
+        }
     }
 }

@@ -1,0 +1,15 @@
+C:\Users\Acer\source\repos\Trabajo_con_LINQ\bin\Debug\net6.0\Trabajo_con_LINQ.exe
+C:\Users\Acer\source\repos\Trabajo_con_LINQ\bin\Debug\net6.0\Trabajo_con_LINQ.deps.json
+C:\Users\Acer\source\repos\Trabajo_con_LINQ\bin\Debug\net6.0\Trabajo_con_LINQ.runtimeconfig.json
+C:\Users\Acer\source\repos\Trabajo_con_LINQ\bin\Debug\net6.0\Trabajo_con_LINQ.dll
+C:\Users\Acer\source\repos\Trabajo_con_LINQ\bin\Debug\net6.0\Trabajo_con_LINQ.pdb
+C:\Users\Acer\source\repos\Trabajo_con_LINQ\obj\Debug\net6.0\Trabajo_con_LINQ.csproj.AssemblyReference.cache
+C:\Users\Acer\source\repos\Trabajo_con_LINQ\obj\Debug\net6.0\Trabajo_con_LINQ.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Acer\source\repos\Trabajo_con_LINQ\obj\Debug\net6.0\Trabajo_con_LINQ.AssemblyInfoInputs.cache
+C:\Users\Acer\source\repos\Trabajo_con_LINQ\obj\Debug\net6.0\Trabajo_con_LINQ.AssemblyInfo.cs
+C:\Users\Acer\source\repos\Trabajo_con_LINQ\obj\Debug\net6.0\Trabajo_con_LINQ.csproj.CoreCompileInputs.cache
+C:\Users\Acer\source\repos\Trabajo_con_LINQ\obj\Debug\net6.0\Trabajo_con_LINQ.dll
+C:\Users\Acer\source\repos\Trabajo_con_LINQ\obj\Debug\net6.0\refint\Trabajo_con_LINQ.dll
+C:\Users\Acer\source\repos\Trabajo_con_LINQ\obj\Debug\net6.0\Trabajo_con_LINQ.pdb
+C:\Users\Acer\source\repos\Trabajo_con_LINQ\obj\Debug\net6.0\Trabajo_con_LINQ.genruntimeconfig.cache
+C:\Users\Acer\source\repos\Trabajo_con_LINQ\obj\Debug\net6.0\ref\Trabajo_con_LINQ.dll
