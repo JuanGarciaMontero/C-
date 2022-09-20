@@ -33,9 +33,26 @@ namespace Trabajo_con_LINQ
 
             ControlEmpresasEmpleados ce = new ControlEmpresasEmpleados();
 
-            ce.getCEO();
+            //ce.getCEO();
+            //ce.getEmpleadosOrdenados();
+            //ce.getEmpleadosPildoras();
 
+            Console.WriteLine("Introduce el Id de la empresa para mostrar los empleados.");
 
+            string entrada = Console.ReadLine();
+
+            try
+            {
+
+                int entradaId = Convert.ToInt32(entrada);
+
+                ce.getEmpleadosEmpresa(entradaId);
+
+            }
+            catch (Exception)
+            {
+                Console.WriteLine("Has introducido un Id Erróneo");
+            }
 
 
         }
@@ -53,7 +70,7 @@ namespace Trabajo_con_LINQ
 
             listaEmpresas.Add(new Empresa { Id = 1, Nombre = "Google"});
 
-            listaEmpresas.Add(new Empresa { Id = 2, Nombre = "´Píldoras Informáticas"});
+            listaEmpresas.Add(new Empresa { Id = 2, Nombre = "Píldoras Informáticas"});
 
             listaEmpleados.Add(new Empleado { Id = 1, Nombre = "Juan Díaz", Cargo = "CEO", EmpresaId = 2, Salario = 150000});
 
@@ -78,6 +95,44 @@ namespace Trabajo_con_LINQ
                 empleado1.getDatosEmpleado();
             }
 
+        }
+
+        public void getEmpleadosOrdenados()
+        {
+            IEnumerable<Empleado> empleados = from empleado in listaEmpleados orderby empleado.Nombre descending select empleado;
+
+            foreach (Empleado empleado1 in empleados)
+            {
+                empleado1.getDatosEmpleado();
+            }
+        }
+
+        public void getEmpleadosPildoras()
+        {
+            IEnumerable<Empleado> empleadosPildoras =
+                    from empleado in listaEmpleados join empresa in listaEmpresas
+                    on empleado.EmpresaId equals empresa.Id
+                    where empresa.Nombre == "Píldoras Informáticas" select empleado;
+
+            foreach (Empleado empleado1 in empleadosPildoras)
+            {
+                empleado1.getDatosEmpleado();
+            }
+        }
+
+        public void getEmpleadosEmpresa(int Id)
+        {
+            IEnumerable<Empleado> empleadosEmp =
+                    from empleado in listaEmpleados
+                    join empresa in listaEmpresas
+                    on empleado.EmpresaId equals empresa.Id
+                    where empresa.Id == Id
+                    select empleado;
+
+            foreach (Empleado empleado1 in empleadosEmp)
+            {
+                empleado1.getDatosEmpleado();
+            }
         }
 
 

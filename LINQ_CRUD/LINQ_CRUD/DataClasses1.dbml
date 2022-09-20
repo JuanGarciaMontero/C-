@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="Gestion_Pedidos" Class="DataClasses1DataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=PORTATIL-JUAN;Initial Catalog=Gestion_Pedidos;Persist Security Info=True;User ID=sa" SettingsObjectName="LINQ_CRUD.Properties.Settings" SettingsPropertyName="LinqCrudSql" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.Empresa" Member="Empresa">
+    <Type Name="Empresa">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Nombre" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Association Name="Empresa_Empleado" Member="Empleado" ThisKey="Id" OtherKey="EmpresaId" Type="Empleado" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Empleado" Member="Empleado">
+    <Type Name="Empleado">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Nombre" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Apellido" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="EmpresaId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Association Name="Empresa_Empleado" Member="Empresa" ThisKey="EmpresaId" OtherKey="Id" Type="Empresa" IsForeignKey="true" DeleteRule="CASCADE" DeleteOnNull="true" />
+    </Type>
+  </Table>
+</Database>

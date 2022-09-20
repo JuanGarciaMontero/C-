@@ -1,0 +1,16 @@
+C:\Users\Acer\source\repos\LINQ_CRUD\LINQ_CRUD\bin\Debug\LINQ_CRUD.exe.config
+C:\Users\Acer\source\repos\LINQ_CRUD\LINQ_CRUD\bin\Debug\LINQ_CRUD.exe
+C:\Users\Acer\source\repos\LINQ_CRUD\LINQ_CRUD\bin\Debug\LINQ_CRUD.pdb
+C:\Users\Acer\source\repos\LINQ_CRUD\LINQ_CRUD\obj\Debug\LINQ_CRUD.csproj.AssemblyReference.cache
+C:\Users\Acer\source\repos\LINQ_CRUD\LINQ_CRUD\obj\Debug\LINQ_CRUD.csproj.SuggestedBindingRedirects.cache
+C:\Users\Acer\source\repos\LINQ_CRUD\LINQ_CRUD\obj\Debug\MainWindow.g.cs
+C:\Users\Acer\source\repos\LINQ_CRUD\LINQ_CRUD\obj\Debug\App.g.cs
+C:\Users\Acer\source\repos\LINQ_CRUD\LINQ_CRUD\obj\Debug\LINQ_CRUD_MarkupCompile.cache
+C:\Users\Acer\source\repos\LINQ_CRUD\LINQ_CRUD\obj\Debug\LINQ_CRUD_MarkupCompile.lref
+C:\Users\Acer\source\repos\LINQ_CRUD\LINQ_CRUD\obj\Debug\MainWindow.baml
+C:\Users\Acer\source\repos\LINQ_CRUD\LINQ_CRUD\obj\Debug\LINQ_CRUD.g.resources
+C:\Users\Acer\source\repos\LINQ_CRUD\LINQ_CRUD\obj\Debug\LINQ_CRUD.Properties.Resources.resources
+C:\Users\Acer\source\repos\LINQ_CRUD\LINQ_CRUD\obj\Debug\LINQ_CRUD.csproj.GenerateResource.cache
+C:\Users\Acer\source\repos\LINQ_CRUD\LINQ_CRUD\obj\Debug\LINQ_CRUD.csproj.CoreCompileInputs.cache
+C:\Users\Acer\source\repos\LINQ_CRUD\LINQ_CRUD\obj\Debug\LINQ_CRUD.exe
+C:\Users\Acer\source\repos\LINQ_CRUD\LINQ_CRUD\obj\Debug\LINQ_CRUD.pdb
