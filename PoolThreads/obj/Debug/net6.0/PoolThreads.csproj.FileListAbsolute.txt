@@ -1,0 +1,15 @@
+C:\Users\Acer\source\repos\PoolThreads\bin\Debug\net6.0\PoolThreads.exe
+C:\Users\Acer\source\repos\PoolThreads\bin\Debug\net6.0\PoolThreads.deps.json
+C:\Users\Acer\source\repos\PoolThreads\bin\Debug\net6.0\PoolThreads.runtimeconfig.json
+C:\Users\Acer\source\repos\PoolThreads\bin\Debug\net6.0\PoolThreads.dll
+C:\Users\Acer\source\repos\PoolThreads\bin\Debug\net6.0\PoolThreads.pdb
+C:\Users\Acer\source\repos\PoolThreads\obj\Debug\net6.0\PoolThreads.csproj.AssemblyReference.cache
+C:\Users\Acer\source\repos\PoolThreads\obj\Debug\net6.0\PoolThreads.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Acer\source\repos\PoolThreads\obj\Debug\net6.0\PoolThreads.AssemblyInfoInputs.cache
+C:\Users\Acer\source\repos\PoolThreads\obj\Debug\net6.0\PoolThreads.AssemblyInfo.cs
+C:\Users\Acer\source\repos\PoolThreads\obj\Debug\net6.0\PoolThreads.csproj.CoreCompileInputs.cache
+C:\Users\Acer\source\repos\PoolThreads\obj\Debug\net6.0\PoolThreads.dll
+C:\Users\Acer\source\repos\PoolThreads\obj\Debug\net6.0\refint\PoolThreads.dll
+C:\Users\Acer\source\repos\PoolThreads\obj\Debug\net6.0\PoolThreads.pdb
+C:\Users\Acer\source\repos\PoolThreads\obj\Debug\net6.0\PoolThreads.genruntimeconfig.cache
+C:\Users\Acer\source\repos\PoolThreads\obj\Debug\net6.0\ref\PoolThreads.dll
